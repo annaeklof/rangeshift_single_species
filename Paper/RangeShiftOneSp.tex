@@ -1,0 +1,174 @@
+\documentclass[12pt,pdftex]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{natbib}
+\citestyle{elsart-harv}
+\usepackage{rotating}
+\usepackage{lineno} 
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Leave date blank
+\date{}
+
+\title{Secondary Extinctions in Food Webs: a Bayesian Network Approach}
+                                                                  
+\author{Anna Ekl\"{o}f$^{1*}$, Si Tang$^{1}$ \& Stefano Allesina$^{1,2}$\\
+  $^1$\small Department of Ecology \& Evolution, University of Chicago\\
+  $^2$\small Computation Institute, University of Chicago\\
+  $^*$ \small Corresponding author: aeklof@uchicago.edu
+}
+\begin{document}
+\linenumbers
+\maketitle
+\baselineskip 18pt
+
+%\subsubsection*{Corresponding author}
+%Anna Ekl\"{o}f\\
+%University of Chicago\\ 
+%epartment of Ecology and Evolution\\
+%1101 57th Street\\
+%Chicago, IL, 60637, USA\\
+
+%\noindent phone: +1 773 8340 502\\
+%fax: +1 773 702 9740\\
+%email: aeklof@uchicago.edu\\
+
+\noindent {\bf Running title:} Bayesian networks and extinctions
+
+\noindent {\bf Number of words:} 6840
+
+% Please keep the abstract at maximum 300 words
+\begin{abstract}
+max 300 words
+\end{abstract}
+
+\noindent {\bf Key words:} bayesian networks, biodiversity loss, cascading extinctions, dynamical model, food webs 
+
+\section*{Introduction}
+One of the most important factors for how species are distributed around the globe is their tolerance of climatic conditions \citep{Thomas2010}. However, ongoing climate change is currently changing location of the areas that are climatically suitable for species’ \citep{Loarie2009}, with the most general and profound trend being that current climatic regions are shifting their boundaries towards the poles \citep{Parmesan2003} . There is clear evidence that the changes in climate, indeed are inducing shifts in latitudinal distributions for wide variety of organisms \citep{Parmesan2003, Chen2011}.
+ 
+However, there are also several examples where species have not been able to track the changes in climatic conditions, but instead are struggling for survival in habitats that are increasingly climatically unsuitable \citep{Maclean2011}  facing the risk of eventually going extinct. Whether species are capable of successfully tracking the changing climate has far-reaching consequences for biodiversity \citep{Thuiller2005a}. Understanding of how species distributions and persistence are likely to be affected by climate change, in combination with other factors such as land-use, is critical to inform effective conservation strategies in a changing world \citep{Gillson2013a}. 
+For most ecosystems around the world habitat loss, degradation and fragmentation are primary causes of species declines \citep{Fahrig2003, JoernFischer2006 }. Climate change is predicted to increasingly interact with, and often intensify, the effects of these factors \citep{Doerr2011}. Ultimately, the survival of a population, facing a changing climate, depends on its ability to either adapt to the new conditions \citep{Hoffmann2011,Sentis2015} or successfully disperse and colonize new geographical areas \citep{Travis2013}.  
+Species' abilities to disperse depend on mainly two factors; the distance that can be travelled, and the risks associated with the dispersal event  \citep{Cowen2000a,Eklof2012b }. Both natural and human-modified landscapes can be viewed as areas scattered with suitable and unsuitable habitats combined in different densities and configurations. Since dispersal is a process that links discrete habitat patches together not only the amount of habitat is important for a successful dispersal event, but also the actual distribution of the habitat patches in the landscape \citep{Villard1999, Baguette2013}. In fragmented landscapes the amount of habitat and landscape connectivity are often linked to each other \citep{Villard2014} but the relationship is by no means a necessity \citep{Wang2014} as the same amount of habitat can be distributed in various ways and thereby give different degrees of structural connectivity in the landscape. The landscape configuration, the species dispersal ability, and quality of the new habitat jointly contribute to the realized connectivity (how structural connectivity is experienced by the species) and ultimately affect the survival in the new habitat \citep{Baguette2013, Borthagaray2014}. 
+For the dispersing individuals there is often a risk coupled to the dispersal events, due to for example matrix with lower quality between high-quality habitat patches \citep{Gaines1980} or landscape barriers limiting dispersal into suitable habitats \citep{Opdam2004}. When the landscape gets re-structured, e.g., becomes more fragmented, this risk is especially pronounced for species with certain characteristics, such as strong adaptation to the historic landscape configuration \citep{Brook2016} or low dispersal ability (REF). Also the risk is therefore dependent on the configuration of habitat patches in the landscape. Climate change may in turn cause both habitats and the matrix decrease in quality, for example, via habitat degradation and fragmentation \citep{Martin2016}, potentially giving catalyst effects between land-use and climate change \citep{Pielke2005}.
+Species abilities to track a changing climate is also dependent on how fast the change is progressing \citep{Schloss2012a}. There can be profound differences in speed of change between biomes, for example warming has progressed faster in high-altitude areas \citep{Stocker2013} . This again has clear connection to the species’ dispersal abilities – potentially species that are able to disperse at a fast pace should have better prerequisites to track a fast shift in climatic conditions compared to a species with slower dispersal rate \citep{Walther2002, Angert2011}, with implications for biodiversity and other features of community structure.
+Predicting biodiversity scenarios under climate change has so far to large extent relied on species distribution models, SDM, \citep{Guisan2000, Thomas2006a}, where  the statistical correlations between current species distribution and a set of environmental variables are used to do predictions of future distributions. However, the usefulness of these models have been discussed \citep{Thuiller2013} owing to limitations such as species dispersal often considered unlimited or non-existent \citep{Peterson2001, Thuiller2005a} and exclusion of population dynamics \citep{Zurell2009} .  Simulations of virtual landscapes/species can be highly informative but typically face several limitations. For example they typically focus on population presence/absence (REF), rather than measuring population growth and abundance. They also lack ecological realism (REF).
+In order to address these issues we here develop a modeling framework for species range shifts and there make three substantial improvements by i) explicitly include population dynamics in the model, ii) evaluate different types of landscapes, and iii) use data on dispersal kernels and speed of climate change for real species and landscapes. We aim to investigate the joint impact of species’ dispersal abilities, landscape configuration and speed of climatic shift on species abilities to colonize and survive in new climatically suitable areas – to successfully do a range shift. To this extent we use a set of artificially generated landscapes differing in their configuration of suitable habitat and simulate species dispersal using dispersal kernels of different characteristics. We explore the impact of these factors for climatic shifts moving at different speeds depending on predicted velocity of climate change. All parameter values are checked towards empirical data.
+
+
+\section*{Materials and Methods}
+\subsection*{Modelling Range shifts}
+
+We model how species' ability to track a directional shift in climatic conditions is affected by i) the spatial arrangement of suitable habitats in the landscape, ii) the characteristics of the species dispersal abilities and iii) the speed of the climatic shift. We explore the effect these factors have on the migrating population in terms of local and global density changes and patch occupancy. To as large extend as possible we use empirical data to justify the choice of parameter values in our model.
+Landscape generation
+We produce a set of artificial landscapes varying in their configuration of suitable habitat patches. The artificial landscapes are then compared to empirical landscapes to ensure realism (see below).  For producing the artificial landscapes we follow a recently developed methodology \citep{Lindstrom2011}. In each landscape 500 habitat patches are distributed. The landscapes are generated using a method based on spectral density producing neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches (n), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between dense and sparse areas is, i.e., is a measure of density dispersion: A high $\delta$ gives a big difference between sparse and dense areas.
+ In order to generate landscapes with a wide variety of habitat aggregation we initially used three different values of $\gamma$ and $\delta$: 1,3 and 5, and 0, 1 and 2 respectively.  This gives seven different landscape configurations (as landscapes with high  γ and low δ  is not possible). We produce 30 replicates of each landscape type. X replicates (number?? Jonatan) of each parameter combination are produced in order to include a wide variety of landscapes.However, only the results from the combinations [$\gamma$=0, $\delta$= 3] and [$\gamma$=2, $\delta$= 3] are presented here as those combinations represents landscapes with a clear difference in habitat aggregation. We hereafter refer to those combinations as homogenous and heterogeneous landscapes respectively representing two different degrees of aggregation.
+In order to evaluate how realistic the generated landscapes are we compare them to empirical data. The empirical data used here describes the distribution of suitable habitats after climate change for three different mammal species. We compare the aggregation of suitable habitat in the simulated and empirical landscapes (for details see SI) and find that they coincide. 
+Population dynamics
+In each habitat patch the population dynamics is described by a modified Ricker equation
+
+\begin{equation}
+N_(i,t+1)= N_(i,t)+ e^(r_(i,t) (1-〖(N_(i,t)/K_(i,t) )〗^c))	
+\end{equation}	
+
+where Ni,t is the population density in patch i at time t; ri,t is the intrinsic rate of increase in patch i at time t; Ki,t is the carrying capacity for patch i at time t; and c is a parameter that affect the population’s responsiveness, i.e., if the population shows over-compensatory or under-compensatory dynamics in response to $K$.  $K$  is set to 1000 and the parameter c to 0.1  meaning that the population shows an under-compensatory dynamics . The intrinsic growth rate r is defined by the number of births and deaths in a population and is here set to 1.1. In order to incorporate demographic stochasticity into the model we let ri,t vary between time steps and different habitat patches. We model the stochasticity by modifying the number of births in patch i at time t by using a Poisson probability function (expected value rb=1.85) ,  while the number of deaths (rd = 0.75) is held constant \citep{Melbourne2008}. We here chose to not put more variation on the $r$-value in order to limit parameter space, but preliminary analyses shows limited effects of realistic variations in the $r$-value. 
+
+Dispersal
+At each time step individuals move between patches and this dispersal process is described with a distance dependent model. The movement of individuals from patch i to patch j is defined by a dispersal kernel which density is given by
+
+\begin{equation}
+	p_ij (a,b)=  e^(-〖(d_ij/a)〗^b )/S  	
+\end{equation}
+where $dij$ is the distance between patch i and j; a and b are parameters determining the shape and width of the dispersal kernel respectively; and S is a normalizing constant. The dispersal kernel is a generalized normal distribution which is often used to model probabilities of movement distances \citep{Nadarajah2005}. However, the distances between populations that are used in a landscape do not fit a normal distribution. Therefore, the distribution function is normalized by the sum over all possible destinations \citep{Lindstrom2009}:
+
+\begin{equation}
+S= \sum_{j=1}^{n-1}e^{-(\frac{d_{ij}}{a})^b},         i\neq j 
+\end{equation}
+
+where n is the total number of patches. Thus the dispersal from a patch i to j becomes weighted  ; there is a higher probability for a species move to nearby patches versus distant patches. 
+The proportion of a population that disperses from patch i at time t is given by
+
+\begin{equation}
+	D_{ij}= p_{i}(a,b)\times \sigma 	
+\end{equation}
+
+where σ defines the proportion of the total population dispersing. The population density in patch i at time t+1 with regard to dispersal between patches is therefore 
+
+\begin{equation}
+	N_{i,t+1}=N_{i,t}  \times (1-\sum_{j=1}^{n-1}D_{i,j})  + \sum_{j=1}^{n-1}(N_{i,t} \times D_{j,i}) 		
+\end{equation}
+
+Here we set $\sigma$ to 0.5, b to 1 and a takes the values 0.002, 0.032, 0.064 and 2.048, as it is the parameter used to vary the specie's dispersal ability (for a visual description see Fig. 2). 
+As a basis for the model we use dispersal data for eight mammals found in Europe \citep{Whitmee2013}. The species’ natal dispersal distance was used to calculate the dispersal kernels for a landscape of size 50x50 km (see SI) . The dispersal data is the distance where the 99 $%$ percentile of dispersed individuals arepercentile of dispersed individuals is found. We start the calculations by normalizing the data, e.g., if 99 % dispersal for a species is 17.353 km and the landscape size 50x50 km then the normalized values for dispersal would be 17.353/50 = 0.34706 in a 1x1 landscape. Equation for Dispersal kernel p(distance) = e^-(distance/a) assuming b is 1. 
+Since the dispersal distance (d) here is the distance where 99 % of dispersers are found within, the integral up until this distance will be equal to the infinite integral multiplied by 0.99. This expression gives the following equation:
+\begin{equation}
+F(d) - F(0) =  (F(long) - F(0)) \times 0.99
+\end{equation}
+-a*e^-(d/a)+a = (-a*e^-(x/a)+a) * 0.99            (when x is large)
+Solving this expression numerically yields an a-value for the species and from that the dispersal kernel can be derived using Eq X.
+
+In the simulations we used a range of 15 dispersal kernels similar to the kernels calculated from empirical data in order to cover a wide range of possible dispersal kernels. T hHowever, for clarity we present the results when the se 15 kernels are sorted into four groups (Fig. 2) where the narrowest kernels belong to group 1 and the widest to group 4.   
+Simulation of the climatic shift
+In order to simulate a climatic shift we start by assuming that the species has its optimal climatic conditions at a certain point in the landscape. We also assume and that the species’ distribution is centered on that point. We then change the location position of the optimal conditions for the species in the landscape gradually and in a single direction.  This process is modeled by assigning a maximum carrying capacity to the species at the climatically optimal position in the landscape and then assuming that the carrying capacity declines with increased distance from that optimal position. This decline is modeled as a normal distribution. This process can be viewed as a sliding window of the suitable climatic conditions moving in the landscape over time . 
+Before the climatic shift is started the population dynamics are allowed to settle for 100 time steps. Then the climatic shift is simulated in three different speeds: the complete shift takes place over 20, 80 or 160 time steps respectively. These speeds corresponds to empirical estimated of climate velocities (for calculations see section “Parameterization using empirical data”) and is hereafter referred to as climate scenario A, B and C . 
+In order to incorporate some stochasticity, environmental noise, ε, is added on the carrying capacities of the patches. The environmental noise is modeled as white noise with a mean 1 and standard deviation of 0.05 \citep{Logdberg2012}. 
+Two replicated landscapes. i.e., landscapes with the same configuration of habitats, are positioned adjacent each other. Moving the position of the optimal carrying capacity in the landscape then simulates the climatic shift. This process can be viewed as a sliding window of the suitable climatic conditions moving in the landscape over time . We simulate this shift at three different velocities of climate changescenario A, B and C. 
+	
+Analysis of population changesresults
+We follow and record the changes in population densities in all habitat patches change during and after the climatic shift. The results are presented as the average density of the global population at the end of the simulation taken over the 30 landscape replicates. We additionally calculate the habitat occupancy in the end of each simulation, i.e., the fraction of habitat patches with surviving populations after the climatic shift has taken place and populations have stabilized. Also this is the average taken over the 30 landscape replicates.
+ There was considerable variation in population densities in the habitat among the different scenarios. I n order to disentangle the importance of the variables (dispersal kernel width, climate velocity and landscape configuration ) we generate regression trees using rpart package in  R  (Version 3.2.2; R Core Team 2015) and the package ``rpart'' with default settings. Regression trees are assessing whether a response variable is associated with variation in a number of explanatory variables; they can represent more complex interactions than multiple regression or ANOVA and are robust to nonlinear relationships \citep{Death2000, Brose2005a}(De’ath & Fabricius, 2000; Brose et al., 2005).  
+\subsection* Parameterization using empirical data
+Additionally we use empirical estimates of the velocity of climate change for the speed of climatic shift. We simulate this shift at three different velocities of climate change: 0.3125, 0.625 and 2.5 km/year, which is hereafter referred to as scenario A, B and C. This is within the ranges of observed in empirical data (Loarie et al., 2009). 
+
+\begin{equation}
+  P(\neg i | f) = \pi_i + (1-\pi_i) \frac{\mathcal
+    B(f;\alpha,\beta)}{\mathcal B(\alpha, \beta)}
+\end{equation}
+
+
+\section*{Results}
+
+\section*{Discussion}
+
+
+% Do NOT remove this, even if you are not including acknowledgments
+\section*{Acknowledgments}
+Amrei Binzer
+
+%\section*{References}
+% The bibtex filename
+\bibliographystyle{ecology_letters2}
+\bibliography{../../bibTexFiles/filesRangeShiftMS}
+ 
+\clearpage
+
+
+%\begin{figure}[!ht]
+%\begin{center}
+%%\includegraphics[width=4in]{figure_name.2.eps}
+%\end{center}
+%\caption{
+%{\bf Bold the first sentence.}  Rest of figure 2  caption.  Caption 
+%should be left justified, as specified by the options to the caption 
+%package.
+%}
+
+
+
+%\label{Figure_label}
+%\end{figure}
+%\clearpage
+
+
+\end{document}
+
