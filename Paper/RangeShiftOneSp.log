@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.20)  19 MAY 2016 09:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  19 MAY 2016 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,125 +264,232 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.07408pt too wide) in paragraph at lines 55--56
-\OT1/cmr/bx/n/12 Key words: \OT1/cmr/m/n/12 bayesian net-works, bio-di-ver-sity
- loss, cas-cad-ing ex-tinc-tions, dy-nam-i-cal model,
- []
-
-
-Package natbib Warning: Citation `Thomas2010' on page 1 undefined on input line
- 58.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-Package natbib Warning: Citation `Loarie2009' on page 1 undefined on input line
- 58.
-
-
-Package natbib Warning: Citation `Parmesan2003' on page 1 undefined on input li
-ne 58.
-
-
-Package natbib Warning: Citation `Parmesan2003' on page 1 undefined on input li
-ne 58.
-
-
-Package natbib Warning: Citation `Chen2011' on page 1 undefined on input line 5
-8.
-
-
-Package natbib Warning: Citation `Maclean2011' on page 1 undefined on input lin
-e 60.
-
-
-Package natbib Warning: Citation `Thuiller2005a' on page 1 undefined on input l
-ine 60.
-
-
-Package natbib Warning: Citation `Gillson2013a' on page 1 undefined on input li
-ne 60.
-
-
-Package natbib Warning: Citation `Fahrig2003' on page 1 undefined on input line
- 61.
-
-
-Package natbib Warning: Citation `JoernFischer2006 ' on page 1 undefined on inp
-ut line 61.
-
-
-Package natbib Warning: Citation `Doerr2011' on page 1 undefined on input line 
-61.
-
-
-Package natbib Warning: Citation `Hoffmann2011' on page 1 undefined on input li
-ne 61.
-
-
-Package natbib Warning: Citation `Sentis2015' on page 1 undefined on input line
- 61.
-
-
-Package natbib Warning: Citation `Travis2013' on page 1 undefined on input line
- 61.
-
-
-Package natbib Warning: Citation `Cowen2000a' on page 1 undefined on input line
- 62.
-
-
-Package natbib Warning: Citation `Eklof2012b ' on page 1 undefined on input lin
-e 62.
-
-
-Package natbib Warning: Citation `Villard1999' on page 1 undefined on input lin
-e 62.
-
-
-Package natbib Warning: Citation `Baguette2013' on page 1 undefined on input li
-ne 62.
-
-
-Package natbib Warning: Citation `Villard2014' on page 1 undefined on input lin
-e 62.
-
-
-Package natbib Warning: Citation `Wang2014' on page 1 undefined on input line 6
-2.
-
-
-Package natbib Warning: Citation `Baguette2013' on page 1 undefined on input li
-ne 62.
-
-
-Package natbib Warning: Citation `Borthagaray2014' on page 1 undefined on input
- line 62.
 
 
 Package natbib Warning: Citation `Gaines1980' on page 1 undefined on input line
  63.
 
 
-Package natbib Warning: Citation `Opdam2004' on page 1 undefined on input line 
-63.
+Package natbib Warning: Citation `Stocker2013' on page 1 undefined on input lin
+e 64.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+[1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+ [3]
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [4]
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no œ in font cmr12!
+Missing character: There is no É in font cmr12!
+ [5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no µ in font cmr12!
+ [6] [7]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [9]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 
 
-Package natbib Warning: Citation `Brook2016' on page 1 undefined on input line 
-63.
+Package natbib Warning: Citation `Stocker2013' on page 10 undefined on input li
+ne 166.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11] (./RangeShiftOneSp.bbl [12]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [13] [14] [15]) [16]
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
 
 
-Package natbib Warning: Citation `Martin2016' on page 1 undefined on input line
- 63.
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
 
 
-Package natbib Warning: Citation `Pielke2005' on page 1 undefined on input line
- 63.
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
 
 
-Package natbib Warning: Citation `Schloss2012a' on page 1 undefined on input li
-ne 64.
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no É in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--207
+
+ []
+
+<../Figures/PlotWithLegendsMini.pdf, id=67, 289.08pt x 289.08pt>
+File: ../Figures/PlotWithLegendsMini.pdf Graphic file (type pdf)
+
+<use ../Figures/PlotWithLegendsMini.pdf>
+Package pdftex.def Info: ../Figures/PlotWithLegendsMini.pdf used on input line 
+210.
+(pdftex.def)             Requested size: 433.62pt x 433.64098pt.
+ [17
+
+] [18 <../Figures/PlotWithLegendsMini.pdf>] <../Figures/Survivingreps_0_3.png, 
+id=79, 578.16pt x 252.945pt>
+File: ../Figures/Survivingreps_0_3.png Graphic file (type png)
+
+<use ../Figures/Survivingreps_0_3.png>
+Package pdftex.def Info: ../Figures/Survivingreps_0_3.png used on input line 22
+4.
+(pdftex.def)             Requested size: 505.89pt x 221.32632pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 224--225
+ [] 
+ []
+
+<../Figures/Survivingreps_2_3.png, id=80, 578.16pt x 252.945pt>
+File: ../Figures/Survivingreps_2_3.png Graphic file (type png)
+
+<use ../Figures/Survivingreps_2_3.png>
+Package pdftex.def Info: ../Figures/Survivingreps_2_3.png used on input line 23
+0.
+(pdftex.def)             Requested size: 505.89pt x 221.32632pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 230--231
+ [] 
+ []
+
+[19
+
+ <../Figures/Survivingreps_0_3.png> <../Figures/Survivingreps_2_3.png>]
+<../Figures/Densitiesallinone_0_3_D.pdf, id=87, 505.89pt x 505.89pt>
+File: ../Figures/Densitiesallinone_0_3_D.pdf Graphic file (type pdf)
+
+<use ../Figures/Densitiesallinone_0_3_D.pdf>
+Package pdftex.def Info: ../Figures/Densitiesallinone_0_3_D.pdf used on input l
+ine 237.
+(pdftex.def)             Requested size: 505.89pt x 505.89645pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 237--238
+ [] 
+ []
+
+[20
+
+ <../Figures/Densitiesallinone_0_3_D.pdf>]
+<../Figures/Densitiesallinone_2_3_D.pdf, id=96, 505.89pt x 505.89pt>
+File: ../Figures/Densitiesallinone_2_3_D.pdf Graphic file (type pdf)
+
+<use ../Figures/Densitiesallinone_2_3_D.pdf>
+Package pdftex.def Info: ../Figures/Densitiesallinone_2_3_D.pdf used on input l
+ine 244.
+(pdftex.def)             Requested size: 505.89pt x 505.89645pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 244--245
+ [] 
+ []
 
 
-Packag
+Package natbib Warning: There were undefined citations.
+
+[21
+
+ <../Figures/Densitiesallinone_2_3_D.pdf>] (./RangeShiftOneSp.aux) ) 
+Here is how much of TeX's memory you used:
+ 3298 strings out of 493315
+ 44696 string characters out of 6137904
+ 117902 words of memory out of 5000000
+ 6696 multiletter control sequences out of 15000+600000
+ 13658 words of font info for 52 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,8n,26p,1272b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on RangeShiftOneSp.pdf (21 pages, 499322 bytes).
+PDF statistics:
+ 151 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
