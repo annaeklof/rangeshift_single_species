@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -18,6 +18,20 @@ Baguette, Michel, Blanchet, Simon, Legrand, Delphine, Stevens, Virginie~M \&
 \newblock {Individual dispersal, landscape connectivity and ecological
   networks.}
 \newblock \emph{Biol. Rev. Camb. Philos. Soc.}, 88, 310--26.
+
+\bibitem[{Bonte \emph{et~al.}(2012)Bonte, {Van Dyck}, Bullock, Coulon, Delgado,
+  Gibbs, Lehouck, Matthysen, Mustin, Saastamoinen, Schtickzelle, Stevens,
+  Vandewoestijne, Baguette, Barton, Benton, Chaput-Bardy, Clobert, Dytham,
+  Hovestadt, Meier, Palmer, Turlure \& Travis}]{Bonte2012}
+Bonte, Dries, {Van Dyck}, Hans, Bullock, James~M., Coulon, Aur{\'{e}}lie,
+  Delgado, Maria, Gibbs, Melanie, Lehouck, Valerie, Matthysen, Erik, Mustin,
+  Karin, Saastamoinen, Marjo, Schtickzelle, Nicolas, Stevens, Virginie~M.,
+  Vandewoestijne, Sofie, Baguette, Michel, Barton, Kamil, Benton, Tim~G.,
+  Chaput-Bardy, Audrey, Clobert, Jean, Dytham, Calvin, Hovestadt, Thomas,
+  Meier, Christoph~M., Palmer, Steve C.~F., Turlure, Camille \& Travis, Justin
+  M.~J. (2012).
+\newblock {Costs of dispersal}.
+\newblock \emph{Biol. Rev.}, 87, 290--312.
 
 \bibitem[{Borthagaray \emph{et~al.}(2014)Borthagaray, Barreneche, Abades \&
   Arim}]{Borthagaray2014}
@@ -46,6 +60,12 @@ Chen, I-Ching, Hill, Jane~K, Ohlem{\"{u}}ller, Ralf, Roy, David~B \& Thomas,
 \newblock {Rapid range shifts of species associated with high levels of climate
   warming.}
 \newblock \emph{Science}, 333, 1024--6.
+
+\bibitem[{Clark \emph{et~al.}(2003)Clark, Lewis, McLachlan \&
+  HilleRisLambers}]{Clark2003}
+Clark, JS, Lewis, M, McLachlan, JS \& HilleRisLambers, J (2003).
+\newblock {Estimating population spread: what can we forecast and how well?}
+\newblock \emph{Ecology}.
 
 \bibitem[{Cowen \emph{et~al.}(2000)Cowen, Lwiza, Sponaugle, Paris \&
   Olson}]{Cowen2000a}
