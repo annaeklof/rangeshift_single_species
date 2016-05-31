@@ -3,47 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
 Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib.bib
-Warning--I didn't find a database entry for "Mi1980"
-Warning--I didn't find a database entry for "Stocker2013"
-You've used 46 entries,
+Warning--empty institution in Stocker2013
+You've used 53 entries,
             2860 wiz_defined-function locations,
-            1021 strings with 16818 characters,
-and the built_in function-call counts, 26932 in all, are:
-= -- 2453
-> -- 1820
-< -- 17
-+ -- 694
-- -- 648
-* -- 2649
-:= -- 5042
-add.period$ -- 137
-call.type$ -- 46
-change.case$ -- 446
-chr.to.int$ -- 46
-cite$ -- 46
-duplicate$ -- 935
-empty$ -- 1427
-format.name$ -- 800
-if$ -- 4890
+            1069 strings with 18726 characters,
+and the built_in function-call counts, 30707 in all, are:
+= -- 2815
+> -- 2034
+< -- 22
++ -- 776
+- -- 723
+* -- 2999
+:= -- 5742
+add.period$ -- 158
+call.type$ -- 53
+change.case$ -- 507
+chr.to.int$ -- 53
+cite$ -- 54
+duplicate$ -- 1074
+empty$ -- 1647
+format.name$ -- 902
+if$ -- 5589
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 45
-newline$ -- 236
-num.names$ -- 184
-pop$ -- 403
+missing$ -- 51
+newline$ -- 271
+num.names$ -- 212
+pop$ -- 458
 preamble$ -- 1
-purify$ -- 400
+purify$ -- 453
 quote$ -- 0
-skip$ -- 554
+skip$ -- 638
 stack$ -- 0
-substring$ -- 1575
-swap$ -- 202
+substring$ -- 1823
+swap$ -- 229
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 414
-warning$ -- 0
-while$ -- 224
+type$ -- 477
+warning$ -- 1
+while$ -- 257
 width$ -- 0
-write$ -- 596
-(There were 2 warnings)
+write$ -- 686
+(There was 1 warning)

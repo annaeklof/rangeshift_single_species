@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -10,6 +10,11 @@ Angert, Amy~L, Crozier, Lisa~G, Rissler, Leslie~J, Gilman, Sarah~E, Tewksbury,
   Josh~J \& Chunco, Amanda~J (2011).
 \newblock {Do species' traits predict recent shifts at expanding range edges?}
 \newblock \emph{Ecol. Lett.}, 14, 677--89.
+
+\bibitem[{Ara{\'{u}}jo \& Peterson(2012)}]{Araujo2012a}
+Ara{\'{u}}jo, Miguel~B. \& Peterson, A.~Townsend (2012).
+\newblock {Uses and misuses of bioclimatic envelope modeling}.
+\newblock \emph{Ecology}, 93, 1527--1539.
 
 \bibitem[{Baguette \emph{et~al.}(2013)Baguette, Blanchet, Legrand, Stevens \&
   Turlure}]{Baguette2013}
@@ -54,18 +59,25 @@ Brose, U, Berlow, EL \& Martinez, ND (2005).
 \newblock \emph{Ecol. Lett.}
 
 \bibitem[{Chen \emph{et~al.}(2011)Chen, Hill, Ohlem{\"{u}}ller, Roy \&
-  Thomas}]{Chen2011a}
-Chen, I-Ching, Hill, Jane~K, Ohlem{\"{u}}ller, Ralf, Roy, David~B \& Thomas,
-  Chris~D (2011).
-\newblock {Rapid range shifts of species associated with high levels of climate
-  warming.}
-\newblock \emph{Science}, 333, 1024--6.
+  Thomas}]{Chen2011}
+Chen, I.-Ching, Hill, Jane~K., Ohlem{\"{u}}ller, Ralf, Roy, David~B. \& Thomas,
+  Chris~D. (2011).
+\newblock {Rapid Range Shifts of Species Associated with High Levels of Climate
+  Warming}.
+\newblock \emph{Science (80-. ).}, 333, 1024--1026.
 
 \bibitem[{Clark \emph{et~al.}(2003)Clark, Lewis, McLachlan \&
   HilleRisLambers}]{Clark2003}
-Clark, JS, Lewis, M, McLachlan, JS \& HilleRisLambers, J (2003).
-\newblock {Estimating population spread: what can we forecast and how well?}
-\newblock \emph{Ecology}.
+Clark, James~S., Lewis, Mark, McLachlan, Jason~S. \& HilleRisLambers, Janneke
+  (2003).
+\newblock {ESTIMATING POPULATION SPREAD: WHAT CAN WE FORECAST AND HOW WELL?}
+\newblock \emph{Ecology}, 84, 1979--1988.
+
+\bibitem[{Clark \& Evans(1954)}]{Clark1954}
+Clark, Philip~J. \& Evans, Francis~C. (1954).
+\newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
+  in Populations}.
+\newblock \emph{Ecology}, 35, 445--453.
 
 \bibitem[{Cowen \emph{et~al.}(2000)Cowen, Lwiza, Sponaugle, Paris \&
   Olson}]{Cowen2000a}
@@ -76,8 +88,8 @@ Cowen, Robert~K., Lwiza, Kamazima M.~M., Sponaugle, Su, Paris, Claire~B. \&
 
 \bibitem[{De'ath \& Fabricius(2000)}]{Death2000}
 De'ath, Glenn \& Fabricius, Katharina~E. (2000).
-\newblock {CLASSIFICATION AND REGRESSION TREES: A POWERFUL YET SIMPLE TECHNIQUE
-  FOR ECOLOGICAL DATA ANALYSIS}.
+\newblock {Classification and regression trees: a powerful yet simple technique
+  for ecological data analysis}.
 \newblock \emph{Ecology}, 81, 3178--3192.
 
 \bibitem[{Doerr \emph{et~al.}(2011)Doerr, Barrett \& Doerr}]{Doerr2011}
@@ -85,6 +97,12 @@ Doerr, Veronica A.~J., Barrett, Tom \& Doerr, Erik~D. (2011).
 \newblock {Connectivity, dispersal behaviour and conservation under climate
   change: a response to Hodgson et al.}
 \newblock \emph{J. Appl. Ecol.}, 48, 143--147.
+
+\bibitem[{Ehrl{\'{e}}n \& Morris(2015)}]{Ehrlen2015}
+Ehrl{\'{e}}n, Johan \& Morris, William~F (2015).
+\newblock {Predicting changes in the distribution and abundance of species
+  under environmental change.}
+\newblock \emph{Ecol. Lett.}, 18, 303--14.
 
 \bibitem[{Ekl{\"{o}}f \emph{et~al.}(2012)Ekl{\"{o}}f, Kaneryd \&
   M{\"{u}}nger}]{Eklof2012b}
@@ -96,7 +114,12 @@ Ekl{\"{o}}f, Anna, Kaneryd, Linda \& M{\"{u}}nger, Peter (2012).
 \bibitem[{Fahrig(2003)}]{Fahrig2003}
 Fahrig, Lenore (2003).
 \newblock {Effects of Habitat Fragmentation on Biodiversity}.
-\newblock \emph{Annu. Rev. Ecol. Evol. Syst.}, 34, 487--515.
+\newblock \emph{Annu. Rev. Ecol. Syst.}, 34, 487--515.
+
+\bibitem[{Gaines \& McClenaghan(1980)}]{Gaines1980}
+Gaines, Micheal~S \& McClenaghan, Leroy~R (1980).
+\newblock {Dispersal in Small Mammals}.
+\newblock \emph{Annu. Rev. Ecol. Syst.}, 11, 163--196.
 
 \bibitem[{Gillson \emph{et~al.}(2013)Gillson, Dawson, Jack \&
   McGeoch}]{Gillson2013a}
@@ -224,6 +247,15 @@ Sentis, Arnaud, Morisson, Julie \& Boukal, David~S. (2015).
   enrichment on trophic interaction strengths and population dynamics}.
 \newblock \emph{Glob. Chang. Biol.}, 21, 3290--3298.
 
+\bibitem[{{Stocker, T. F., Qin, D., Plattner, G. K., Tignor, M., Allen, S. K.,
+  Boschung, J., ... {\&} Midgley}(2013)}]{Stocker2013}
+{Stocker, T. F., Qin, D., Plattner, G. K., Tignor, M., Allen, S. K., Boschung,
+  J., ... {\&} Midgley}, B. M.~(2013). (2013).
+\newblock {IPCC, 2013: climate change 2013: the physical science basis.
+  Contribution of working group I to the fifth assessment report of the
+  intergovernmental panel on climate change.}
+\newblock Tech. rep.
+
 \bibitem[{Sunday \emph{et~al.}(2015)Sunday, Pecl, Frusher, Hobday, Hill,
   Holbrook, Edgar, Stuart-Smith, Barrett, Wernberg, Watson, Smale, Fulton,
   Slawinski, Feng, Radford, Thompson \& Bates}]{Sunday2015}
@@ -287,13 +319,13 @@ Travis, Justin M.~J., Delgado, Maria, Bocedi, Greta, Baguette, Michel,
 
 \bibitem[{Villard \& Metzger(2014)}]{Villard2014}
 Villard, Marc-Andr{\'{e}} \& Metzger, Jean~Paul (2014).
-\newblock {Beyond the fragmentation debate: a conceptual model to predict when
-  habitat configuration really matters}.
+\newblock {REVIEW: Beyond the fragmentation debate: a conceptual model to
+  predict when habitat configuration really matters}.
 \newblock \emph{J. Appl. Ecol.}, 51, 309--318.
 
 \bibitem[{Villard \emph{et~al.}(1999)Villard, Trzcinski \&
   Merriam}]{Villard1999}
-Villard, Marc-Andr{\'{e}}, Trzcinski, M.~Kurtis \& Merriam, Gray (1999).
+Villard, Marc-Andre, Trzcinski, M.~Kurtis \& Merriam, Gray (1999).
 \newblock {Fragmentation Effects on Forest Birds: Relative Influence of
   Woodland Cover and Configuration on Landscape Occupancy}.
 \newblock \emph{Conserv. Biol.}, 13, 774--783.
@@ -317,6 +349,14 @@ Whitmee, Sarah \& Orme, C. David~L. (2013).
 \newblock {Predicting dispersal distance in mammals: a trait-based approach}.
 \newblock \emph{J. Anim. Ecol.}, 82, 211--221.
 
+\bibitem[{Wiens \emph{et~al.}(2009)Wiens, Stralberg, Jongsomjit, Howell \&
+  Snyder}]{Wiens2009}
+Wiens, John~A, Stralberg, Diana, Jongsomjit, Dennis, Howell, Christine~A \&
+  Snyder, Mark~A (2009).
+\newblock {Niches, models, and climate change: assessing the assumptions and
+  uncertainties.}
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106 Suppl, 19729--36.
+
 \bibitem[{Zurell \emph{et~al.}(2009)Zurell, Jeltsch, Dormann \&
   Schr{\"{o}}der}]{Zurell2009}
 Zurell, Damaris, Jeltsch, Florian, Dormann, Carsten~F. \& Schr{\"{o}}der, Boris
@@ -324,5 +364,15 @@ Zurell, Damaris, Jeltsch, Florian, Dormann, Carsten~F. \& Schr{\"{o}}der, Boris
 \newblock {Static species distribution models in dynamically changing systems:
   how good can predictions really be?}
 \newblock \emph{Ecography (Cop.).}, 32, 733--744.
+
+\bibitem[{Zurell \emph{et~al.}(2016)Zurell, Thuiller, Pagel, {S Cabral},
+  M{\"{u}}nkem{\"{u}}ller, Gravel, Dullinger, Normand, Schiffers, Moore \&
+  Zimmermann}]{Zurell2016}
+Zurell, Damaris, Thuiller, Wilfried, Pagel, J{\"{o}}rn, {S Cabral}, Juliano,
+  M{\"{u}}nkem{\"{u}}ller, Tamara, Gravel, Dominique, Dullinger, Stefan,
+  Normand, Signe, Schiffers, Katja~H, Moore, Kara~A \& Zimmermann, Niklaus~E
+  (2016).
+\newblock {Benchmarking novel approaches for modelling species range dynamics.}
+\newblock \emph{Glob. Chang. Biol.}
 
 \end{thebibliography}

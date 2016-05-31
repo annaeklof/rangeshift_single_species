@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  27 MAY 2016 13:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  31 MAY 2016 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,28 +303,17 @@ Missing character: There is no ô in font cmr12!
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `Stocker2013' on page 2 undefined on input lin
-e 69.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[2]
+ [2]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≥ in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ¥ in font cmr12!
- [3] [4]
+ [3]
 Missing character: There is no „ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ñ in font cmr12!
@@ -334,15 +323,16 @@ Missing character: There is no ó in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [4]
 Missing character: There is no „ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ñ in font cmr12!
 Missing character: There is no „ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ó in font cmr12!
- [5]
 Missing character: There is no œ in font cmr12!
 Missing character: There is no É in font cmr12!
+ [5]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -357,47 +347,34 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 Missing character: There is no Œ in font cmr12!
 Missing character: There is no µ in font cmr12!
- [6] [7]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [8] [9]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [10]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 
-
-Package natbib Warning: Citation `Stocker2013' on page 11 undefined on input li
-ne 173.
-
+[6] [7]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [9] [10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[11] (./RangeShiftOneSp.bbl [12]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11] (./RangeShiftOneSp.bbl [12]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no † in font cmr12!
- [13] [14] [15] [16]) [17]
+ [13] [14] [15] [16]
+[17]) [18]
 Missing character: There is no Œ in font cmr12!
 Missing character: There is no ¥ in font cmr12!
 Missing character: There is no Œ in font cmr12!
 Missing character: There is no ≥ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
@@ -408,135 +385,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no É in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no É in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--218
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<../Figures/PlotWithLegendsMini.pdf, id=70, 289.08pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no É in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--222
+
+ []
+
+<../Figures/PlotWithLegendsMini.pdf, id=73, 289.08pt x 289.08pt>
 File: ../Figures/PlotWithLegendsMini.pdf Graphic file (type pdf)
 
 <use ../Figures/PlotWithLegendsMini.pdf>
 Package pdftex.def Info: ../Figures/PlotWithLegendsMini.pdf used on input line 
-221.
+225.
 (pdftex.def)             Requested size: 433.62pt x 433.64098pt.
- [18
+ [19
 
-] [19 <../Figures/PlotWithLegendsMini.pdf>] <../Figures/v188_188_matrixpic.pdf,
- id=83, 867.24pt x 867.24pt>
+] [20 <../Figures/PlotWithLegendsMini.pdf>] <../Figures/v188_188_matrixpic.pdf,
+ id=86, 867.24pt x 867.24pt>
 File: ../Figures/v188_188_matrixpic.pdf Graphic file (type pdf)
 
 <use ../Figures/v188_188_matrixpic.pdf>
 Package pdftex.def Info: ../Figures/v188_188_matrixpic.pdf used on input line 2
-38.
+42.
 (pdftex.def)             Requested size: 170.71652pt x 170.70569pt.
 
-<../Figures/v188_188_pnorm.pdf, id=84, 867.24pt x 867.24pt>
+<../Figures/v188_188_pnorm.pdf, id=87, 867.24pt x 867.24pt>
 File: ../Figures/v188_188_pnorm.pdf Graphic file (type pdf)
 
 <use ../Figures/v188_188_pnorm.pdf>
-Package pdftex.def Info: ../Figures/v188_188_pnorm.pdf used on input line 244.
+Package pdftex.def Info: ../Figures/v188_188_pnorm.pdf used on input line 248.
 (pdftex.def)             Requested size: 192.05609pt x 192.05052pt.
 
-<../Figures/SummaryFigure.pdf, id=85, 1300.86pt x 722.7pt>
+<../Figures/SummaryFigure.pdf, id=88, 1300.86pt x 722.7pt>
 File: ../Figures/SummaryFigure.pdf Graphic file (type pdf)
 
 <use ../Figures/SummaryFigure.pdf>
-Package pdftex.def Info: ../Figures/SummaryFigure.pdf used on input line 252.
+Package pdftex.def Info: ../Figures/SummaryFigure.pdf used on input line 256.
 (pdftex.def)             Requested size: 362.77263pt x 201.53857pt.
 
-Overfull \hbox (135.15059pt too wide) in paragraph at lines 252--253
+Overfull \hbox (135.15059pt too wide) in paragraph at lines 256--257
 [][] 
  []
 
-[20 <../Figures/v188_188_matrixpic.pdf> <../Figures/v188_188_pnorm.pdf> <../Fig
+[21 <../Figures/v188_188_matrixpic.pdf> <../Figures/v188_188_pnorm.pdf> <../Fig
 ures/SummaryFigure.pdf>]
-<../Figures/Survivingreps_0_3.png, id=106, 578.16pt x 252.945pt>
+<../Figures/Survivingreps_0_3.png, id=109, 578.16pt x 252.945pt>
 File: ../Figures/Survivingreps_0_3.png Graphic file (type png)
 
 <use ../Figures/Survivingreps_0_3.png>
 Package pdftex.def Info: ../Figures/Survivingreps_0_3.png used on input line 26
-5.
+9.
 (pdftex.def)             Requested size: 505.89pt x 221.32632pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 265--266
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 269--270
  [] 
  []
 
-<../Figures/Survivingreps_2_3.png, id=107, 578.16pt x 252.945pt>
+<../Figures/Survivingreps_2_3.png, id=110, 578.16pt x 252.945pt>
 File: ../Figures/Survivingreps_2_3.png Graphic file (type png)
 
 <use ../Figures/Survivingreps_2_3.png>
 Package pdftex.def Info: ../Figures/Survivingreps_2_3.png used on input line 27
-1.
+5.
 (pdftex.def)             Requested size: 505.89pt x 221.32632pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 271--272
- [] 
- []
-
-[21
-
-
- <../Figures/Survivingreps_0_3.png> <../Figures/Survivingreps_2_3.png>]
-<../Figures/Densitiesallinone_0_3_D.pdf, id=113, 505.89pt x 505.89pt>
-File: ../Figures/Densitiesallinone_0_3_D.pdf Graphic file (type pdf)
-
-<use ../Figures/Densitiesallinone_0_3_D.pdf>
-Package pdftex.def Info: ../Figures/Densitiesallinone_0_3_D.pdf used on input l
-ine 278.
-(pdftex.def)             Requested size: 505.89pt x 505.89645pt.
-
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 278--279
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 275--276
  [] 
  []
 
 [22
 
- <../Figures/Densitiesallinone_0_3_D.pdf>]
-<../Figures/Densitiesallinone_2_3_D.pdf, id=122, 505.89pt x 505.89pt>
-File: ../Figures/Densitiesallinone_2_3_D.pdf Graphic file (type pdf)
 
-<use ../Figures/Densitiesallinone_2_3_D.pdf>
-Package pdftex.def Info: ../Figures/Densitiesallinone_2_3_D.pdf used on input l
-ine 285.
+ <../Figures/Survivingreps_0_3.png> <../Figures/Survivingreps_2_3.png>]
+<../Figures/Densitiesallinone_0_3_D.pdf, id=116, 505.89pt x 505.89pt>
+File: ../Figures/Densitiesallinone_0_3_D.pdf Graphic file (type pdf)
+
+<use ../Figures/Densitiesallinone_0_3_D.pdf>
+Package pdftex.def Info: ../Figures/Densitiesallinone_0_3_D.pdf used on input l
+ine 282.
 (pdftex.def)             Requested size: 505.89pt x 505.89645pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 285--286
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 282--283
  [] 
  []
 
 [23
 
+ <../Figures/Densitiesallinone_0_3_D.pdf>]
+<../Figures/Densitiesallinone_2_3_D.pdf, id=125, 505.89pt x 505.89pt>
+File: ../Figures/Densitiesallinone_2_3_D.pdf Graphic file (type pdf)
+
+<use ../Figures/Densitiesallinone_2_3_D.pdf>
+Package pdftex.def Info: ../Figures/Densitiesallinone_2_3_D.pdf used on input l
+ine 289.
+(pdftex.def)             Requested size: 505.89pt x 505.89645pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 289--290
+ [] 
+ []
+
+[24
+
  <../Figures/Densitiesallinone_2_3_D.pdf>]
-Overfull \hbox (174.94003pt too wide) in paragraph at lines 291--331
+Overfull \hbox (174.94003pt too wide) in paragraph at lines 295--335
 [][] 
  []
 
 
-Overfull \hbox (123.65356pt too wide) in paragraph at lines 335--357
+Overfull \hbox (123.65356pt too wide) in paragraph at lines 339--361
 [][] 
  []
 
-
-Package natbib Warning: There were undefined citations.
-
-[24] (./RangeShiftOneSp.aux)
+[25] (./RangeShiftOneSp.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4456 strings out of 493315
- 65837 string characters out of 6137904
- 135186 words of memory out of 5000000
- 7839 multiletter control sequences out of 15000+600000
+ 4473 strings out of 493315
+ 66157 string characters out of 6137904
+ 135655 words of memory out of 5000000
+ 7856 multiletter control sequences out of 15000+600000
  13658 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,9n,40p,1193b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -554,10 +538,10 @@ live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RangeShiftOneSp.pdf (24 pages, 520452 bytes).
+Output written on RangeShiftOneSp.pdf (25 pages, 521568 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 184 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
