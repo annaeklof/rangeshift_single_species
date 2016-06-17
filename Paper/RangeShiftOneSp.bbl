@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{52}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -79,13 +79,6 @@ Clark, Philip~J. \& Evans, Francis~C. (1954).
   in Populations}.
 \newblock \emph{Ecology}, 35, 445--453.
 
-\bibitem[{Cowen \emph{et~al.}(2000)Cowen, Lwiza, Sponaugle, Paris \&
-  Olson}]{Cowen2000a}
-Cowen, Robert~K., Lwiza, Kamazima M.~M., Sponaugle, Su, Paris, Claire~B. \&
-  Olson, Donald~B. (2000).
-\newblock {Connectivity of Marine Populations: Open or Closed?}
-\newblock \emph{Science (80-. ).}, 287, 857--859.
-
 \bibitem[{De'ath \& Fabricius(2000)}]{Death2000}
 De'ath, Glenn \& Fabricius, Katharina~E. (2000).
 \newblock {Classification and regression trees: a powerful yet simple technique
@@ -104,22 +97,10 @@ Ehrl{\'{e}}n, Johan \& Morris, William~F (2015).
   under environmental change.}
 \newblock \emph{Ecol. Lett.}, 18, 303--14.
 
-\bibitem[{Ekl{\"{o}}f \emph{et~al.}(2012)Ekl{\"{o}}f, Kaneryd \&
-  M{\"{u}}nger}]{Eklof2012b}
-Ekl{\"{o}}f, Anna, Kaneryd, Linda \& M{\"{u}}nger, Peter (2012).
-\newblock {Climate change in metacommunities: dispersal gives double-sided
-  effects on persistence.}
-\newblock \emph{Philos. Trans. R. Soc. Lond. B. Biol. Sci.}, 367, 2945--54.
-
 \bibitem[{Fahrig(2003)}]{Fahrig2003}
 Fahrig, Lenore (2003).
 \newblock {Effects of Habitat Fragmentation on Biodiversity}.
 \newblock \emph{Annu. Rev. Ecol. Syst.}, 34, 487--515.
-
-\bibitem[{Gaines \& McClenaghan(1980)}]{Gaines1980}
-Gaines, Micheal~S \& McClenaghan, Leroy~R (1980).
-\newblock {Dispersal in Small Mammals}.
-\newblock \emph{Annu. Rev. Ecol. Syst.}, 11, 163--196.
 
 \bibitem[{Gillson \emph{et~al.}(2013)Gillson, Dawson, Jack \&
   McGeoch}]{Gillson2013a}
@@ -150,6 +131,21 @@ Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
   continuum model for fauna research and conservation in human-modified
   landscapes. Oikos}.
 \newblock \emph{Oikos}, 112, 473 -- 480.
+
+\bibitem[{Lenoir \emph{et~al.}(2010)Lenoir, G{\'{e}}gout, Guisan, Vittoz,
+  Wohlgemuth, Zimmermann, Dullinger, Pauli, Willner \& Svenning}]{Lenoir2010}
+Lenoir, Jonathan, G{\'{e}}gout, Jean-Claude, Guisan, Antoine, Vittoz, Pascal,
+  Wohlgemuth, Thomas, Zimmermann, Niklaus~E., Dullinger, Stefan, Pauli, Harald,
+  Willner, Wolfgang \& Svenning, Jens-Christian (2010).
+\newblock {Going against the flow: potential mechanisms for unexpected
+  downslope range shifts in a warming climate}.
+\newblock \emph{Ecography (Cop.).}, 33, 295--303.
+
+\bibitem[{Lenoir \& Svenning(2015)}]{Lenoir2015}
+Lenoir, J. \& Svenning, J.~C. (2015).
+\newblock {Climate-related range shifts - a global multidimensional synthesis
+  and new research directions}.
+\newblock \emph{Ecography (Cop.).}, 38.
 
 \bibitem[{Lindstr{\"{o}}m \emph{et~al.}(2011)Lindstr{\"{o}}m, H{\aa}kansson \&
   Wennergren}]{Lindstrom2011}
@@ -207,12 +203,6 @@ Melles, S.~J., Fortin, M.-J., Lindsay, K. \& Badzinski, D. (2011).
 Nadarajah, Saralees (2005).
 \newblock {A generalized normal distribution}.
 \newblock \emph{J. Appl. Stat.}, 32, 685--694.
-
-\bibitem[{Opdam \& Wascher(2004)}]{Opdam2004}
-Opdam, Paul \& Wascher, Dirk (2004).
-\newblock {Climate change meets habitat fragmentation: linking landscape and
-  biogeographical scale levels in research and conservation}.
-\newblock \emph{Biol. Conserv.}, 117, 285--297.
 
 \bibitem[{Parmesan \& Yohe(2003)}]{Parmesan2003}
 Parmesan, Camille \& Yohe, Gary (2003).
@@ -316,6 +306,12 @@ Travis, Justin M.~J., Delgado, Maria, Bocedi, Greta, Baguette, Michel,
   Virginie~M. \& Bullock, James~M. (2013).
 \newblock {Dispersal and species' responses to climate change}.
 \newblock \emph{Oikos}, no--no.
+
+\bibitem[{Urban \emph{et~al.}(2012)Urban, Tewksbury \& Sheldon}]{Urban2012}
+Urban, Mark~C., Tewksbury, Josh~J. \& Sheldon, Kimberly~S. (2012).
+\newblock {On a collision course: competition and dispersal differences create
+  no-analogue communities and cause extinctions during climate change}.
+\newblock \emph{Proc. R. Soc. London B Biol. Sci.}, 279.
 
 \bibitem[{Villard \& Metzger(2014)}]{Villard2014}
 Villard, Marc-Andr{\'{e}} \& Metzger, Jean~Paul (2014).
