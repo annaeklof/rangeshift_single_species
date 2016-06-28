@@ -22,7 +22,7 @@
 
 \title{Conditions for successful range shifts}
                                                                   
-\author{Jonatan \r{A}revall$^{1}$,  Regan Early $^{2}$, Uno Wennergern$^{1}$ \& Anna Ekl\"{o}f$^{1*}$,\\
+\author{Jonatan \r{A}revall$^{1}$,  Regan Early$^{2}$, Uno Wennergern$^{1}$ \& Anna Ekl\"{o}f$^{1*}$,\\
   $^1$\small Department of Physics, Chemistry and Biology, Division of Theoretical Biology\\
   $^2$\small Centre for Ecology and Conservation, University of Exeter Penryn Campus, Cornwall, UK\\
   $^*$ \small Corresponding author: anna.eklof@liu.se\\
@@ -69,17 +69,16 @@ To reliably predict range dynamic in the face of climate change we need to under
 
 \section*{Materials and Methods}
 
-
-We model how species' ability to track a directional shift in climatic conditions is affected by i) the spatial arrangement of suitable habitats in the landscape, ii) the characteristics of the species dispersal abilities and iii) the speed of the climatic shift. We explore the effect these factors have on the migrating population in terms of patch occupancy and changes local and global density. To as large extend as possible we use empirical data to justify the choice of parameter values in our model.
+We model how species' ability to track a directional shift in climatic conditions is affected by i) spatial arrangement of suitable habitats in the landscape, ii) characteristics of the species dispersal abilities and iii) speed of the climatic shift. We explore the effect these factors have on the migrating population in terms of patch occupancy and changes local and global density. To as large extend as possible we use empirical data to justify the choice of parameter values in our model.
 
 \subsection*{Landscape generation}
-We produce a set of artificial landscapes varying in their configuration of suitable habitat patches. The artificial landscapes are then compared to empirical landscapes to ensure realism (see below).  For producing the artificial landscapes we follow a recently developed methodology \citep{Lindstrom2011}, where the landscapes are generated using a method based on spectral density producing neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches (n), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between dense and sparse areas is, i.e., is a measure of density dispersion: A high $\delta$ gives a big difference between sparse and dense areas.
+We start by producing a set of artificial landscapes varying in their configuration of suitable habitat patches. We follow a recently developed methodology \citep{Lindstrom2011}, where the landscapes are generated using a method based on spectral density to produce neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches (n), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between dense and sparse areas is, i.e., is a measure of density dispersion: A high $\delta$ gives a big difference between sparse and dense areas. for a detailed description of the method see \cite{Lindstrom2011}.
 
 %We here want to generate landscapes that varies in habitat aggregation.
 % we initially used three different values of $\gamma$ and $\delta$: 1,3 and 5, and 0, 1 and 2 respectively.  This gives in total seven different landscape configurations (as landscapes with high  γ and low δ  is not possible). We produce 30 replicates of each landscape type. 
-Here we use the combinations [$\gamma$=0, $\delta$= 3] and [$\gamma$=2, $\delta$= 3] as those combinations represent landscapes with a clear difference in habitat aggregation. We hereafter refer to those combinations as homogeneous and heterogeneous landscapes respectively. The number of habitat distributed in each landscape is 500.
+Here we vary $\gamma$ but keep $\delta$ constant. The combinations used are [$\gamma$=0, $\delta$= 3] and [$\gamma$=2, $\delta$= 3] as those represent landscapes with a clear difference in habitat aggregation, see Fig. 1 for an example landscapes . We hereafter refer to those combinations as homogeneous and heterogeneous landscapes respectively. The number of habitat distributed in each landscape is 500.
 
-In order to evaluate the ecological relevance of the generated landscapes are we compare them to empirical data. The empirical data used here describes the distribution of suitable habitats after climate change for three different mammal species. We compare the aggregation of suitable habitat in the simulated and empirical landscapes by measuring three characteristics: Clark and Evans aggregation index \citep{Clark1954}, ADD MORE HERE!  (for details see SI) We find that the measurements coincide and that the distribution of habitats in our generated landscapes are well represented in the empirical data. 
+In order to evaluate the ecological relevance of the generated landscapes are we compare them to empirical data. The empirical data used here describes the distribution of suitable habitats after climate change for three different European mammal species. The original data is XXX  We compare the aggregation of suitable habitat in the simulated and empirical landscapes using three characteristics: Clark and Evans aggregation index \citep{Clark1954}, ADD MORE HERE!  (for details see SI) We find that the measurements coincide and that the distribution of habitats in our generated landscapes are well represented in the empirical data (Fig. 2)XX. 
 
 \subsection*{Population dynamics}
 In each habitat patch the population dynamics is described by a modified Ricker equation
@@ -96,13 +95,13 @@ At each time step individuals move between patches and this dispersal process is
 \begin{equation}
 	p_{i,j}(a,b)=  \frac{e^-(\frac{d_{ij}}{a})^b}{S}  	
 \end{equation}
-where $dij$ is the distance between patch $i$ and $j$; $a$ and $b$ are parameters determining the shape and width of the dispersal kernel respectively; and $S$ is a normalizing constant. The dispersal kernel is a generalized normal distribution which is often used to model probabilities of movement distances \citep{Nadarajah2005}. However, the distances between populations that are used in a landscape do not fit a normal distribution. Therefore, the distribution function is normalized by the sum over all possible destinations \citep{Lindstrom2009}:
+where $d_{ij}$ is the distance between patch $i$ and $j$; $a$ and $b$ are parameters determining the shape and width of the dispersal kernel; and $S$ is a normalizing constant. The dispersal kernel is a generalized normal distribution which is often used to model probabilities of movement distances \citep{Nadarajah2005}. However, the distances between populations that are used in a landscape do not always fit a normal distribution. Therefore, the distribution function is normalized by the sum over all possible destinations \citep{Lindstrom2009}:
 
 \begin{equation}
 S= \sum_{j=1}^{n-1}e^{-(\frac{d_{ij}}{a})^b},         i\neq j 
 \end{equation}
 
-where $n$ is the total number of patches. Thus the dispersal from a patch $i$ to $j$ becomes weighted; there is a higher probability for a species move to nearby patches versus distant patches. 
+where $n$ is the total number of patches. Thus the dispersal from a patch $i$ to $j$ becomes weighted; there is a higher probability for a species to move to nearby patches versus distant patches. 
 The proportion of a population that disperses from patch $i$ at time $t$ is given by
 
 \begin{equation}
@@ -115,30 +114,28 @@ where $\sigma$ defines the proportion of the total population dispersing. The po
 	N_{i,t+1}=N_{i,t}  \times (1-\sum_{j=1}^{n-1}D_{i,j})  + \sum_{j=1}^{n-1}(N_{i,t} \times D_{j,i}) 		
 \end{equation}
 
-Here we set $\sigma$ to 0.5, b to 1 and a takes the values 0.002, 0.032, 0.064 and 2.048, as it is the parameter used to vary the specie's dispersal ability (for a visual description see Fig. 2). 
+Here we set $\sigma$ to 0.5, $b$ to 1 and $a$ takes the values 0.002, 0.032, 0.064 and 2.048, as it is the parameter used to vary the specie's dispersal ability (for a visual description see Fig. 2). 
 
-As a basis for the model we use dispersal data for eight mammals found in Europe \citep{Whitmee2013}. The species’ natal dispersal distance was used to calculate the dispersal kernels for a landscape of size 50x50 km (see SI). In the simulations we then used a range of 15 dispersal kernels similar to the kernels calculated from empirical data in order to cover a wide range of possible dispersal kernels. However, for clarity we present the results with the 15 kernels sorted into four groups (Fig. 2) where the narrowest kernels belong to group 1 and the widest to group 4.   
-
+As a basis for the model we use dispersal data for eight mammals found in Europe \citep{Whitmee2013}. The species’ natal dispersal distances was used to calculate the dispersal kernels (for details see SI). In the simulations we then used a range of 15 dispersal kernels similar to the kernels calculated from empirical data in order to cover a wide range of possible dispersal kernels. However, for clarity we present the results with the 15 kernels sorted into four groups (Fig. 2) where the narrowest kernels belong to group 1 and the widest to group 4. Example of mammals in the respective group are: group 1 -- grey-sided vole (\textit{Myodes rufocanus}) and Siberian flying squirrel (\textit{Pteromys volans}), group 2 -- European hare (\textit{Lepus europaeus}) and chamois (\textit{Rupicapra rupicapra}), group 3-- Pyrenean chamois (\textit{Rupicapra pyrenaica}) and elk (\textit{Alces alces}) , and group 4 -- brown bear (\textit{Ursus arctos}) and wolverine (\textit{Gulo gulu}).  
+  
 \subsection*{Simulation of the climatic shift} 
-To simulate a climatic shift we start by assuming that the species has its optimal climatic conditions at a certain point in the landscape. We also assume and that the species’ distribution is centered on that point. We do this by assigning the maximum carrying capacity of the species to the climatically optimal position in the landscape and we then let the carrying capacity decline with increased distance from that position. The decline is modeled as a normal distribution. In order to incorporate some stochasticity, environmental noise, $\varepsilon$, is added on the carrying capacities of the patches, modeled as white noise with mean 1 and standard deviation 0.05 \citep{Logdberg2012}. 
+To simulate a climatic shift we start by assuming that the species has its optimal climatic conditions at a certain point in the landscape. We also assume and that the species’ distribution is centered on that point. We do this by assigning the maximum carrying capacity of the species to the climatically optimal position in the landscape and let the carrying capacity decline with increased distance from that position. The decline is modeled as a normal distribution. In order to incorporate some stochasticity, environmental noise, $\varepsilon$, is added on the carrying capacities of the patches, modeled as white noise with mean 1 and standard deviation 0.05 \citep{Logdberg2012}. 
 
-Two replicated landscapes. i.e., landscapes with the desired configuration of habitats, are positioned adjacent each other and then the simulation of the climatic shift starts    This process can be viewed as a sliding window of the suitable climatic conditions moving in the landscape over time. 
+Two replicated landscapes with the desired configuration of habitats, are positioned adjacent each other. The population dynamics are allowed to settle for the initial 100 time steps and then the simulation of the climatic shift starts. This process can be viewed as a sliding window of the suitable climatic conditions moving in the landscape over time. The climatic shift is simulated at three different speeds: the complete shift takes place over 20, 80 or 160 time steps and we refer to them as low, medium and slow respectively. The simulated speeds of climatic shift corresponds to 0.3125, 0.625 and 2.5 km/year respectively (in a 50x50km landscape). These values are within the range of observed in empirical data \citep{Loarie2009}.  Finally, after the climatic shift has stopped the populations are allowed to settle for 100 time steps before the simulation is halted.
 
-Before the climatic shift starts the population dynamics are allowed to settle for the initial 100 time steps. Then the climatic shift is simulated at three different speeds: the complete shift takes place over 160, 80 or 20 time steps respectively. And finally, after the climatic shift has stopped the populations are allowed to settle for 100 time steps before the simulation is ended. The simulated speeds of climatic shift corresponds to 0.3125, 0.625 and 2.5 km/year respectively (in a 50x50km landscape). These values are within the range of observed in empirical data \citep{Loarie2009}. The three speeds are hereafter referred to as scenario A, B and C. CHECK IF  C REALLY IS THE FASTEST?
-
-The simulations are preformed in MATLAB (R2014b, The MathWorks, Natick, MA, USA). For each combination of speed of climatic shift (A, B, C), species dispersal kernel (1, 2, 3, 4) and habitat aggregation (homogeneous, heterogeneous) 30 replicates are produced. The variation between the replicates is the actual distribution of habitat patches and noise added to species growth rates $r$ and patches carrying capacities $K$. This gives 720 simulations in total.
+The simulations were preformed in MATLAB (R2014b, The MathWorks, Natick, MA, USA). For each combination of speed of climatic shift (low, medium and high), species dispersal abilities (dispersal group 1, 2, 3 and 4) and habitat aggregation (homogeneous, heterogeneous) 30 replicates are produced. The variation between the replicates is the actual distribution of habitat patches and noise added to species growth rates $r$ and patches carrying capacities $K$. This gives 720 simulations in total.
 
 \subsection*{Analysis of population change}
 We follow and record the changes in population densities in all habitat patches before, during and after the climatic shift. The results are presented as the average density of the global population at the end of the simulation taken over the 30 landscape replicates. We additionally calculate the habitat occupancy in the end of each simulation, i.e., the fraction of habitat patches with surviving populations after the climatic shift has taken place and populations have stabilized. Also this is the average taken over the 30 landscape replicates.
  
 In order to disentangle the relative importance of the variables (dispersal kernel width, climate velocity and landscape configuration) we generate regression trees. Regression trees are assessing whether a response variable is associated with variation in a number of explanatory variables; they can represent more complex interactions than multiple regression or ANOVA and are robust to nonlinear relationships \citep{Death2000, Brose2005a}.  
-For these analyses we use the {\em rpart} package in  \textsf{R} (Version 3.2.2; R Core Team 2015). 
+For these analyses we use the {\em rpart} package in \textsf{R} (Version 3.2.2; R Core Team 2015). 
 
 \section*{Results}
-All three factors - habitat configuration, species’ dispersal ability and speed of climatic shift - have a clear effect on the survival success of local populations following a climatic shift. In landscapes with a homogeneous distribution of habitat patches there is an abrupt shift at an intermediate level of dispersal ability; above this threshold a high proportion of local populations survive, and below it the entire population goes extinct (Figure 3a). The same trend is also present in more heterogeneous landscapes although the transition is smoother with more intermediate levels of survival (Figure 3b). In both cases the shift becomes less abrupt when the speed of climatic shifts is slower (from left to right in Figure 3a and b). 
+All three factors - habitat configuration, species’ dispersal ability and speed of climatic shift - have a clear effect on the survival success of local populations following a climatic shift. In landscapes with a homogeneous distribution of habitat patches there is an abrupt shift at an intermediate level of dispersal ability; above this threshold a high proportion of local populations survive, and below it the entire population goes extinct (Fig. 3a). The same trend is also present in more heterogeneous landscapes although the transition is smoother with more intermediate levels of survival (Figure 3b). In both cases the shift becomes less abrupt when the speed of climatic shifts is slower (from left to right in Fig. 3a and b). 
 
-The number of local populations persisting is on average highest for intermediate and high levels of dispersal ability (Fig. 3), but the densities of the surviving populations decrease when the dispersal ability goes from intermediate to high (Fig. 4 \& 5). Taking a closer look at how the densities of the surviving populations change over time as the climatic shift progress, we see that there is a large difference in the variability in densities in homogeneous (Fig. 4) but especially in heterogeneous landscapes (Fig. 5). 
-When the climatic shift progress faster, population densities decease at a faster pace (red areas in Fig. 4 \& 5). After the shift is completed species with a sufficiently high dispersal ability can reverse this density decline and recover, whereas species with the lowest dispersal ability go extinct already during the shift in most simulations. But when species do survive the recovery do not reach the same levels as before the shift in all scenarios except for species of dispersal group 2 (Fig. 5). ADD  REFS TO a, b, c.
+The number of local populations persisting (number of occupied patches) is on average highest when species have intermediate and high levels of dispersal (Fig. 3), but the densities of the surviving populations decrease when the dispersal ability goes from intermediate to high (Fig. 4 \& 5). Looking at how the densities of the surviving populations change over time as the climatic shift progress, we see that there is a large difference in the variability in densities in homogeneous (Fig. 4) but especially in heterogeneous landscapes (Fig. 5). 
+When the climatic shift progress faster, population densities decease at a faster pace (red areas in Fig. 4 \& 5). After the shift is completed species with a sufficiently high dispersal ability can reverse this density decline and recover, whereas species with the lowest dispersal ability go extinct, in most of the simulations already during the shift. Even when species do survive the recovery does not reach the same levels as before the shift in all scenarios except for species of dispersal group 2 (Fig. 5). ADD  REFS TO a, b, c.
 
 MOVE THIS TO THE DISCUSSION? 
 The high variation in population densities between the replicates in heterogeneous landscapes urged a closer examination of the actual distribution of habitat. When the habitat patches are distributed in a more aggregated manner this means that there are large areas where no (or very few) habitats are placed and reaching new habitats thereby demand long dispersal. We therefore divided the heterogeneous landscapes in three classes based on the fraction of habitat positioned in middle third of the landscape: A - 0--23\%, B) 23--43\%  and C) 43--100\%  respectively. 
@@ -185,13 +182,19 @@ Add something on that it is not only unidirectional shifts happening \citep{Leno
 
 Studies on multi-species competition communities have shown the importance of species dispersal for community survival, in particular species interactions (competition) created further lags in tracking of the climate \citep{Urban2012}
 
+While the speed and amplitude of climate change is something we cannot change in the short-term perspective the configuration of the landscape in many cases is. We need to think of not only the amount of habitat but also the actual positioning of suitable areas. In addition, species varying dispersal capacities may force ecological communities to change their structural properties and species interactions, positive as well as negative, to break and form. These uncertainties stress the importance of thinking wisely and take the low-risk alternative when it comes to land use.  
+
 \section*{Acknowledgments}
 Amrei Binzer
 
 %\section*{References}
 % The bibtex filename
 \bibliographystyle{ecology_letters2}
-\bibliography{../../../../bibtexFiles/RangeShiftMS.bib}
+% at office
+%\bibliography{../../../../bibtexFiles/RangeShiftMS.bib}
+% at laptop
+\bibliography{../../../bibtexFiles/RangeShiftMS.bib}
+
  
 \clearpage
 \section*{Figure legends}
@@ -291,42 +294,42 @@ Amrei Binzer
 \begin{table}
 \begin{tabular}{lllll}
 \hline
-{\bf Split}						&{\bf Factor} 						&{\bf Number obs.} 						&{\bf Mean} 	&{\bf Mean number occupied patches} 	\\
+{\bf Split}						&{\bf Factor} 						&{\bf Number obs.} 					 	&{\bf Mean \# occ. patches} 	\\	%&{\bf Mean}
 \hline
 \hline
-\hspace{0.00cm}	0) 			&Root 	(all data)					&720 										&3.848658e+07 	&398.5\\ 
+\hspace{0.00cm}	0) 			&Root 	(all data)					&720 											&398.5\\ 			%&3.848658e+07 
 
-\hspace{0.4cm}	1) 			&DispGroups)=1 					&180 										&1.769940e+06  	&31.84444000  \\
+\hspace{0.4cm}	1) 			&DispGroups)=1 					&180 										 	&31.84444000  \\		%&1.769940e+06 
 
-\hspace{0.8cm}  2) 			&LandscapeType=2,6A,6B 		&152 										&8.201718e+05  	&15.78289000  \\
+\hspace{0.8cm}  2) 				&LandscapeType=2,6A,6B 			&152 										 	&15.78289000  \\		%&8.201718e+05 
 
-\hspace{1.6cm} 4) 			&LandscapeType=2 				&90 										&1.653822e+03   	&1.15555600 *\\
+\hspace{1.6cm} 4) 				&LandscapeType=2 				&90 												&1.15555600 *\\		%&1.653822e+03   
 
-\hspace{1.6cm} 4) 			&LandscapeType=6A,6B 		&62 										&7.713090e+05  	&37.01613000  \\
+\hspace{1.6cm} 4) 				&LandscapeType=6A,6B 				&62 										  		&37.01613000  \\		%&7.713090e+05
 
-\hspace{3.2cm} 8) 			&Simlength $<$ 120 				&39 										&9.173836e+04  	&12.12821000 *\\
+\hspace{3.2cm} 8) 				&Simlength $<$ 120 				&39 										  		&12.12821000 *\\		%&9.173836e+04
 
-\hspace{3.2cm} 8) 			&Simlength $\leq$ 120 			&23 										&6.144519e+05  	&79.21739000 *\\
-
-\hspace{0.8cm} 2) 			&LandscapeType=6C 			&28 										&6.976910e+05 	&119.03570000  \\
-
-\hspace{2cm} 5) 				&Simlength$<$ 50 				&14 										&9.285714e-01   	&0.07142857 *\\
-
-\hspace{2cm} 5) 				&Simlength$\geq$50 				&14 										&3.014200e+05 	&238.00000000 *\\
-
-\hspace{0.4cm} 1) 			&DispGroups=2,3,4 				&540 										&4.455109e+06 	&520.69440000  \\
-
-\hspace{1.2cm} 3) 			&DispGroups=2 					&180 										&2.638355e+06 	&464.52780000  \\
-
-\hspace{2.4cm} 6) 			&LandscapeType=6A,6B 		&64 										&2.250477e+06 	&410.29690000 *\\
-
-\hspace{2.4cm} 6) 			&LandscapeType=2,6C 			&116 										&9.580669e+04 	&494.44830000 *\\
-
-\hspace{1.2cm} 3) 			&DispGroups=3,4 				&360 										&9.649862e+05 	&548.77780000  \\
+\hspace{3.2cm} 8) 				&Simlength $\geq$120 				&23 										  		&79.21739000 *\\		%&6.144519e+05
 	
-\hspace{2.8cm} 7) 			&DispGroups=3 					&180 										&1.830598e+05 	&531.96670000 *\\
+\hspace{0.8cm} 2) 				&LandscapeType=6C 				&28 										 		&119.03570000  \\		%&6.976910e+05
 
-\hspace{2.8cm} 7)			&DispGroups=4 					&180										&6.801856e+05 	&565.58890000 *\\
+\hspace{2cm} 5) 				&Simlength$<$ 50 					&14 										  		&0.07142857 *\\		%&9.285714e-01 
+
+\hspace{2cm} 5) 				&Simlength$\geq$50 				&14 									 			&238.00000000 *\\		%&3.014200e+05
+
+\hspace{0.4cm} 1) 				&DispGroups=2,3,4 				&540 										 	&520.69440000  \\		%&4.455109e+06
+
+\hspace{1.2cm} 3) 				&DispGroups=2 					&180 											&464.52780000  \\		%&2.638355e+06 
+
+\hspace{2.4cm} 6) 				&LandscapeType=6A,6B 				&64 										 		&410.29690000 *\\		%&2.250477e+06
+
+\hspace{2.4cm} 6) 				&LandscapeType=2,6C 				&116 									 		&494.44830000 *\\		%&9.580669e+04
+
+\hspace{1.2cm} 3) 				&DispGroups=3,4 					&360 											&548.77780000  \\		%&9.649862e+05 
+	
+\hspace{2.8cm} 7) 				&DispGroups=3 					&180 										 	&531.96670000 *\\		%&1.830598e+05
+
+\hspace{2.8cm} 7)				&DispGroups=4 					&180											&565.58890000 *\\		%&6.801856e+05 
 \hline
 \end{tabular}
 \caption{Regression tree explaining the number of patches occupied at the end of the simulation. Entities with * indicate terminal branches.}
@@ -335,24 +338,24 @@ Amrei Binzer
 \begin{table}
 \begin{tabular}{lllll}
 \hline
-{\bf Split}										&{\bf Factor} 						&{\bf Number obs.} 			&{\bf Mean} 		&{\bf Mean population density} 	\\
+{\bf Split}										&{\bf Factor} 						&{\bf Number obs.} 			&{\bf Mean pop. density} 	\\ %&{\bf Mean} 		
 \hline
 \hline
-\hspace{0.00cm}	0)							&Root 	(all data)					&720 							&2.281378e+12  	&45056.170 \\ 
-\hspace{0.4cm}   1) 							&DispGroups=1,4 				&360 							&3.660363e+11  	&19085.850\\ 
- \hspace{0.8cm}    2) 							&DispGroups=1 					&180 							&5.420598e+10   	&3616.487 *\\
-   \hspace{0.8cm}  2) 							&DispGroups=4 					&180 							&2.256819e+11  	&34555.210  \\
-  \hspace{1.6cm}    4) 						&LandscapeType=2,6B,6C 		&147 							&5.614345e+10  	&26973.330 *\\
-      \hspace{1.6cm}4) 						&LandscapeType=6A 			&33 							&1.234460e+11  	&68329.030  \\
-     \hspace{2.4cm}   6) 						&Simlength$<$ 120 				&20 							&4.332136e+10  	&43689.350 *\\
-        \hspace{2.4cm}6) 						&Simlength$\geq$120 			&13 							&4.930196e+10 	&106236.200 *\\
-\hspace{0.4cm}   1) 							&DispGroups=2,3 				&360 							&1.429732e+12  	&71026.500  \\
- \hspace{1.2cm}    3) 							&Simlength$<$ 50 				&120 							&2.724214e+10  	&28767.070 *\\
-   \hspace{1.2cm}  3) 							&Simlength$\geq$50 				&240 							&1.081035e+12  	&92156.210  \\
-     \hspace{2.0cm} 5) 						&DispGroups=3 					&120 							&3.352959e+11  	&67534.090  \\
-   \hspace{2.8cm}     7)						&LandscapeType=2,6C 			&73 							&2.080666e+10  	&55537.120 *\\
-       \hspace{2.8cm} 7)						&LandscapeType=6A,6B 		&47 							&2.876636e+11 	&86167.690 *\\
-     \hspace{2.0cm} 5) 						&DispGroups=2 					&120 							&6.002396e+11 	&116778.300 *\\
+\hspace{0.00cm}	0)						&Root 	(all data)				&720 							 	&45056.170 \\ 	%&2.281378e+12 
+\hspace{0.4cm}   1) 							&DispGroups=1,4 				&360 							  	&19085.850\\ 	%&3.660363e+11
+ \hspace{0.8cm}    2) 						&DispGroups=1 				&180 					   			&3616.487 *\\		%&5.420598e+10
+   \hspace{0.8cm}  2) 						&DispGroups=4 				&180 							 	&34555.210  \\	%&2.256819e+11 
+  \hspace{1.6cm}    4) 						&LandscapeType=2,6B,6C 		&147 							 	&26973.330 *\\	%&5.614345e+10 
+   \hspace{1.6cm}	4) 						&LandscapeType=6A 			&33 								 	&68329.030  \\	%&1.234460e+11 
+     \hspace{2.4cm}   6) 						&Simlength$<$ 120 			&20 								  	&43689.350 *\\	%&4.332136e+10
+        \hspace{2.4cm}	6) 						&Simlength$\geq$120 			&13 								 	&106236.200 *\\	%&4.930196e+10
+\hspace{0.4cm}   1) 							&DispGroups=2,3 				&360 							  	&71026.500  \\	%&1.429732e+12
+ \hspace{1.2cm}    3) 						&Simlength$<$ 50 				&120 							  	&28767.070 *\\	%&2.724214e+10
+   \hspace{1.2cm}  3) 						&Simlength$\geq$50 			&240 							  	&92156.210  \\	%&1.081035e+12
+     \hspace{2.0cm} 5) 						&DispGroups=3 				&120 							  	&67534.090  \\	%&3.352959e+11
+   \hspace{2.8cm}     7)						&LandscapeType=2,6C 			&73 								  	&55537.120 *\\	%&2.080666e+10
+       \hspace{2.8cm} 7)						&LandscapeType=6A,6B 			&47 								 	&86167.690 *\\	%&2.876636e+11
+     \hspace{2.0cm} 5) 						&DispGroups=2 				&120 							 	&116778.300 *\\	%&6.002396e+11
 \hline
 \end{tabular}
 \caption{Regression tree explaining the global population density at the end of the simulation. Entities with * indicate terminal branches. }

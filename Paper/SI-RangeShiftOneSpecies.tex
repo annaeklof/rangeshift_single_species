@@ -32,6 +32,8 @@
 \maketitle
 \baselineskip 18pt
 
+\section*{Empirical data for dispersal}
+As a basis for the model we use dispersal data for eight mammals found in Europe \citep{Whitmee2013}. The species’ natal dispersal distances was used to calculate the dispersal kernels for a landscape of size 50x50 km
 
 \section*{Calculating dispersal kernels for empirical data}
 As a basis for the model we use dispersal data for eight mammals found in Europe \citep{Whitmee2013}. The dispersal kernel shows the probability distribution of the distance traveled by any individual. The species’ natal dispersal distance was used to calculate the dispersal kernels for the eight mammal species for a landscape of size 50x50 km. The dispersal data used  is the distance where the 99\% percentile of dispersed individuals is found. We start the calculations by normalizing the data, e.g., if 99\% dispersal for a species is 17.353 km and the landscape size 50x50 km then the normalized values for dispersal is 17.353/50 = 0.34706 in a 1x1 landscape. Equation for the dispersal kernel is 
@@ -52,5 +54,9 @@ F(d) - F(0) =  (F(long) - F(0)) \times 0.99
 \end{equation}
  when x is large. Solving this expression numerically yields an $a$-value for the species and from that the dispersal kernel can be derived using Eq X.
  
+%\section*{References}
+% The bibtex filename
+\bibliographystyle{ecology_letters2}
+\bibliography{../../../../bibtexFiles/RangeShiftMS.bib}
  
  \end{document}

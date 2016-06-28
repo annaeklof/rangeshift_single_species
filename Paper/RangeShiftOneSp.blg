@@ -2,11 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
-Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib.bib
+Database file #1: ../../../bibtexFiles/RangeShiftMS.bib.bib
 Warning--empty institution in Stocker2013
 You've used 52 entries,
             2860 wiz_defined-function locations,
-            1058 strings with 18646 characters,
+            1058 strings with 18643 characters,
 and the built_in function-call counts, 30284 in all, are:
 = -- 2753
 > -- 2056
