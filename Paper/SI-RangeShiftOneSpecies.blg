@@ -2,52 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: SI-RangeShiftOneSpecies.aux
 The style file: ecology_letters2.bst
-I couldn't open database file ../../../../bibtexFiles/RangeShiftMS.bib.bib
----line 5 of file SI-RangeShiftOneSpecies.aux
- : \bibdata{../../../../bibtexFiles/RangeShiftMS.bib
- :                                                  }
-I'm skipping whatever remains of this command
-I found no database files---while reading file SI-RangeShiftOneSpecies.aux
-Warning--I didn't find a database entry for "Whitmee2013"
-You've used 0 entries,
+Database file #1: ../../../bibtexFiles/RangeShiftMS.bib.bib
+You've used 1 entry,
             2860 wiz_defined-function locations,
-            639 strings with 4951 characters,
-and the built_in function-call counts, 29 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            646 strings with 5087 characters,
+and the built_in function-call counts, 504 in all, are:
+= -- 50
+> -- 18
+< -- 1
++ -- 7
+- -- 6
+* -- 43
+:= -- 94
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 7
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 20
+empty$ -- 32
+format.name$ -- 11
+if$ -- 91
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 1
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 6
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 6
 quote$ -- 0
-skip$ -- 1
+skip$ -- 13
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 36
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 9
 warning$ -- 0
-while$ -- 0
+while$ -- 5
 width$ -- 0
-write$ -- 6
-(There were 2 error messages)
+write$ -- 19

@@ -1,10 +1,10 @@
 % SI-RangeShiftOneSpecies.top
 \unprotect
 \def\MPOSTformatswitch{-progname=metafun -mem=}
-\setupsystem[\c!n=2,\c!m=2]
+\setupsystem[\c!n=1,\c!m=1]
 \setupsystem[\c!method=2]
 \setupsystem[\c!type=macosx]
-\setupsystem[\c!random=149]
+\setupsystem[\c!random=1377]
 \setupsystem[inputfile=SI-RangeShiftOneSpecies.tex]
 \startsetups *runtime:options
 \setupoutput[xetex]
