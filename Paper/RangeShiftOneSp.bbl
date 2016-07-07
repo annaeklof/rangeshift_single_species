@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -131,6 +131,12 @@ Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
   continuum model for fauna research and conservation in human-modified
   landscapes. Oikos}.
 \newblock \emph{Oikos}, 112, 473 -- 480.
+
+\bibitem[{Kokko \& L{\'{o}}pez-Sepulcre(2006)}]{Kokko2006}
+Kokko, Hanna \& L{\'{o}}pez-Sepulcre, Andr{\'{e}}s (2006).
+\newblock {From individual dispersal to species ranges: perspectives for a
+  changing world.}
+\newblock \emph{Science}, 313, 789--91.
 
 \bibitem[{Lenoir \emph{et~al.}(2010)Lenoir, G{\'{e}}gout, Guisan, Vittoz,
   Wohlgemuth, Zimmermann, Dullinger, Pauli, Willner \& Svenning}]{Lenoir2010}

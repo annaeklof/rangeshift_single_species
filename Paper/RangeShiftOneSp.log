@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.20)  30 JUN 2016 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.20)  6 JUL 2016 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,12 +350,12 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [12]
-Overfull \hbox (3.13171pt too wide) in paragraph at lines 181--182
+Overfull \hbox (3.13171pt too wide) in paragraph at lines 183--184
 []\OT1/cmr/m/n/12 Studies on multi-species com-pe-ti-tion com-mu-ni-ties have s
 hown the im-por-tance of species
  []
 
-(./RangeShiftOneSp.bbl [13] [14]
+[13] (./RangeShiftOneSp.bbl [14]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
  [15] [16] [17] [18]) [19]
@@ -363,11 +363,6 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ´ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ³ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
@@ -383,6 +378,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ƒ in font cmr12!
@@ -390,7 +390,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--222
+Underfull \hbox (badness 10000) in paragraph at lines 212--224
 
  []
 
@@ -399,7 +399,7 @@ File: ../Figures/PlotWithLegendsMini.pdf Graphic file (type pdf)
 
 <use ../Figures/PlotWithLegendsMini.pdf>
 Package pdftex.def Info: ../Figures/PlotWithLegendsMini.pdf used on input line 
-225.
+227.
 (pdftex.def)             Requested size: 433.62pt x 433.64098pt.
  [20
 
@@ -409,24 +409,24 @@ File: ../Figures/v188_188_matrixpic.pdf Graphic file (type pdf)
 
 <use ../Figures/v188_188_matrixpic.pdf>
 Package pdftex.def Info: ../Figures/v188_188_matrixpic.pdf used on input line 2
-42.
+44.
 (pdftex.def)             Requested size: 170.71652pt x 170.70569pt.
 
 <../Figures/v188_188_pnorm.pdf, id=91, 867.24pt x 867.24pt>
 File: ../Figures/v188_188_pnorm.pdf Graphic file (type pdf)
 
 <use ../Figures/v188_188_pnorm.pdf>
-Package pdftex.def Info: ../Figures/v188_188_pnorm.pdf used on input line 248.
+Package pdftex.def Info: ../Figures/v188_188_pnorm.pdf used on input line 250.
 (pdftex.def)             Requested size: 192.05609pt x 192.05052pt.
 
 <../Figures/SummaryFigure.pdf, id=92, 1300.86pt x 722.7pt>
 File: ../Figures/SummaryFigure.pdf Graphic file (type pdf)
 
 <use ../Figures/SummaryFigure.pdf>
-Package pdftex.def Info: ../Figures/SummaryFigure.pdf used on input line 256.
+Package pdftex.def Info: ../Figures/SummaryFigure.pdf used on input line 258.
 (pdftex.def)             Requested size: 362.77263pt x 201.53857pt.
 
-Overfull \hbox (135.15059pt too wide) in paragraph at lines 256--257
+Overfull \hbox (135.15059pt too wide) in paragraph at lines 258--259
 [][] 
  []
 
@@ -436,11 +436,11 @@ ures/SummaryFigure.pdf>]
 File: ../Figures/Survivingreps_0_3.png Graphic file (type png)
 
 <use ../Figures/Survivingreps_0_3.png>
-Package pdftex.def Info: ../Figures/Survivingreps_0_3.png used on input line 26
-9.
+Package pdftex.def Info: ../Figures/Survivingreps_0_3.png used on input line 27
+1.
 (pdftex.def)             Requested size: 505.89pt x 221.32632pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 269--270
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 271--272
  [] 
  []
 
@@ -449,10 +449,10 @@ File: ../Figures/Survivingreps_2_3.png Graphic file (type png)
 
 <use ../Figures/Survivingreps_2_3.png>
 Package pdftex.def Info: ../Figures/Survivingreps_2_3.png used on input line 27
-5.
+7.
 (pdftex.def)             Requested size: 505.89pt x 221.32632pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 275--276
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 277--278
  [] 
  []
 
@@ -465,10 +465,10 @@ File: ../Figures/Densitiesallinone_0_3_D.pdf Graphic file (type pdf)
 
 <use ../Figures/Densitiesallinone_0_3_D.pdf>
 Package pdftex.def Info: ../Figures/Densitiesallinone_0_3_D.pdf used on input l
-ine 282.
+ine 284.
 (pdftex.def)             Requested size: 505.89pt x 505.56595pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 282--283
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 284--285
  [] 
  []
 
@@ -480,22 +480,22 @@ File: ../Figures/Densitiesallinone_2_3_D.pdf Graphic file (type pdf)
 
 <use ../Figures/Densitiesallinone_2_3_D.pdf>
 Package pdftex.def Info: ../Figures/Densitiesallinone_2_3_D.pdf used on input l
-ine 289.
+ine 291.
 (pdftex.def)             Requested size: 505.89pt x 505.89645pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 289--290
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 291--292
  [] 
  []
 
 [25
 
  <../Figures/Densitiesallinone_2_3_D.pdf>]
-Overfull \hbox (31.48242pt too wide) in paragraph at lines 295--335
+Overfull \hbox (31.48242pt too wide) in paragraph at lines 297--337
 [][] 
  []
 
 
-Overfull \hbox (5.34178pt too wide) in paragraph at lines 339--361
+Overfull \hbox (5.34178pt too wide) in paragraph at lines 341--363
 [][] 
  []
 
@@ -505,13 +505,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4472 strings out of 493315
- 66124 string characters out of 6137904
- 131664 words of memory out of 5000000
- 7854 multiletter control sequences out of 15000+600000
+ 4475 strings out of 493315
+ 66175 string characters out of 6137904
+ 131711 words of memory out of 5000000
+ 7857 multiletter control sequences out of 15000+600000
  13965 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,9n,40p,1876b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,1905b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -527,7 +527,7 @@ ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RangeShiftOneSp.pdf (26 pages, 603197 bytes).
+Output written on RangeShiftOneSp.pdf (26 pages, 604081 bytes).
 PDF statistics:
  489 PDF objects out of 1000 (max. 8388607)
  328 compressed objects within 4 object streams
