@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
-Database file #1: ../../../bibtexFiles/RangeShiftMS.bib.bib
+Database file #1: RangeShiftMS.bib.bib
 Warning--empty institution in Stocker2013
-You've used 56 entries,
+You've used 53 entries,
             2860 wiz_defined-function locations,
-            1091 strings with 19486 characters,
-and the built_in function-call counts, 31928 in all, are:
-= -- 2920
-> -- 2104
+            1070 strings with 18588 characters,
+and the built_in function-call counts, 30082 in all, are:
+= -- 2760
+> -- 1962
 < -- 25
-+ -- 803
-- -- 747
-* -- 3088
-:= -- 5991
-add.period$ -- 167
-call.type$ -- 56
-change.case$ -- 529
-chr.to.int$ -- 56
-cite$ -- 57
-duplicate$ -- 1128
-empty$ -- 1727
-format.name$ -- 929
-if$ -- 5818
++ -- 749
+- -- 696
+* -- 2898
+:= -- 5641
+add.period$ -- 158
+call.type$ -- 53
+change.case$ -- 497
+chr.to.int$ -- 53
+cite$ -- 54
+duplicate$ -- 1066
+empty$ -- 1638
+format.name$ -- 869
+if$ -- 5488
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 55
-newline$ -- 286
-num.names$ -- 224
-pop$ -- 480
+missing$ -- 52
+newline$ -- 271
+num.names$ -- 212
+pop$ -- 451
 preamble$ -- 1
-purify$ -- 473
+purify$ -- 444
 quote$ -- 0
-skip$ -- 679
+skip$ -- 642
 stack$ -- 0
-substring$ -- 1856
-swap$ -- 235
+substring$ -- 1767
+swap$ -- 220
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 501
+type$ -- 474
 warning$ -- 1
-while$ -- 266
+while$ -- 253
 width$ -- 0
-write$ -- 724
+write$ -- 685
 (There was 1 warning)

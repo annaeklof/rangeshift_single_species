@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -72,13 +72,6 @@ Chen, I.-Ching, Hill, Jane~K., Ohlem{\"{u}}ller, Ralf, Roy, David~B. \& Thomas,
   Warming}.
 \newblock \emph{Science (80-. ).}, 333, 1024--1026.
 
-\bibitem[{Clark \emph{et~al.}(2003)Clark, Lewis, McLachlan \&
-  HilleRisLambers}]{Clark2003}
-Clark, James~S., Lewis, Mark, McLachlan, Jason~S. \& HilleRisLambers, Janneke
-  (2003).
-\newblock {ESTIMATING POPULATION SPREAD: WHAT CAN WE FORECAST AND HOW WELL?}
-\newblock \emph{Ecology}, 84, 1979--1988.
-
 \bibitem[{Clark \& Evans(1954)}]{Clark1954}
 Clark, Philip~J. \& Evans, Francis~C. (1954).
 \newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
@@ -149,15 +142,6 @@ Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
   continuum model for fauna research and conservation in human-modified
   landscapes. Oikos}.
 \newblock \emph{Oikos}, 112, 473 -- 480.
-
-\bibitem[{Lenoir \emph{et~al.}(2010)Lenoir, G{\'{e}}gout, Guisan, Vittoz,
-  Wohlgemuth, Zimmermann, Dullinger, Pauli, Willner \& Svenning}]{Lenoir2010}
-Lenoir, Jonathan, G{\'{e}}gout, Jean-Claude, Guisan, Antoine, Vittoz, Pascal,
-  Wohlgemuth, Thomas, Zimmermann, Niklaus~E., Dullinger, Stefan, Pauli, Harald,
-  Willner, Wolfgang \& Svenning, Jens-Christian (2010).
-\newblock {Going against the flow: potential mechanisms for unexpected
-  downslope range shifts in a warming climate}.
-\newblock \emph{Ecography (Cop.).}, 33, 295--303.
 
 \bibitem[{Lenoir \& Svenning(2015)}]{Lenoir2015}
 Lenoir, J. \& Svenning, J.~C. (2015).
@@ -330,12 +314,6 @@ Travis, Justin M.~J., Delgado, Maria, Bocedi, Greta, Baguette, Michel,
   Virginie~M. \& Bullock, James~M. (2013).
 \newblock {Dispersal and species' responses to climate change}.
 \newblock \emph{Oikos}, no--no.
-
-\bibitem[{Urban \emph{et~al.}(2012)Urban, Tewksbury \& Sheldon}]{Urban2012}
-Urban, Mark~C., Tewksbury, Josh~J. \& Sheldon, Kimberly~S. (2012).
-\newblock {On a collision course: competition and dispersal differences create
-  no-analogue communities and cause extinctions during climate change}.
-\newblock \emph{Proc. R. Soc. London B Biol. Sci.}, 279.
 
 \bibitem[{Villard \& Metzger(2014)}]{Villard2014}
 Villard, Marc-Andr{\'{e}} \& Metzger, Jean~Paul (2014).
