@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: RangeShiftOneSp.aux
+The style file: ecology_letters2.bst
+Database file #1: RangeShiftMS.bib.bib
+Warning--I didn't find a database entry for "Taylor1993"
+Warning--I didn't find a database entry for "Benedict2006"
+Warning--empty institution in Stocker2013
+You've used 52 entries,
+            2860 wiz_defined-function locations,
+            1069 strings with 18453 characters,
+and the built_in function-call counts, 29611 in all, are:
+= -- 2711
+> -- 1944
+< -- 24
++ -- 742
+- -- 690
+* -- 2858
+:= -- 5556
+add.period$ -- 155
+call.type$ -- 52
+change.case$ -- 490
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 1046
+empty$ -- 1607
+format.name$ -- 858
+if$ -- 5399
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 51
+newline$ -- 266
+num.names$ -- 208
+pop$ -- 443
+preamble$ -- 1
+purify$ -- 438
+quote$ -- 0
+skip$ -- 631
+stack$ -- 0
+substring$ -- 1731
+swap$ -- 216
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 465
+warning$ -- 1
+while$ -- 248
+width$ -- 0
+write$ -- 673
+(There were 3 warnings)
