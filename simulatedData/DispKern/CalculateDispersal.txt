@@ -1,0 +1,18 @@
+Example:
+
+We calculate the dispersal kernel for each species from dispersal data. The dispersal data is distance where the 99 % percentile of 
+dispersed individuals are found.
+
+We begin with normalizing the data. If 99 % dispersal for a species is 17.353 km and 
+landscape size 50x50 then normalized values for dispersal would be d = 17.353/50 = 0.34706 in a 1x1 landscape.
+
+Equation for Dispersal kernel p(distance) = e^-(distance/a) if shape parameter b=1 
+
+Since the dispersal distance (d) here is the distance where 99 % of dispersers are found within, 
+the integral up until this distance will be equal to the infinite integral 
+multiplied with 0.99. This expression gives the following equation:
+
+F(d) - F(0) =  (F(long_distance) - F(0)) * 0.99
+-a*e^-(d/a)+a = (-a*e^-(x/a)+a) * 0.99            (where x is large)
+
+Solving this expression numerically yields an a-value for the species from the dispersal data and from that the dispersal kernel kan be derived using Eq.  
