@@ -3,48 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
 Database file #1: RangeShiftMS.bib.bib
-Warning--I didn't find a database entry for "Taylor1993"
-Warning--I didn't find a database entry for "Benedict2006"
 Warning--empty institution in Stocker2013
-You've used 52 entries,
+You've used 54 entries,
             2860 wiz_defined-function locations,
-            1069 strings with 18453 characters,
-and the built_in function-call counts, 29611 in all, are:
-= -- 2711
-> -- 1944
+            1078 strings with 18751 characters,
+and the built_in function-call counts, 30842 in all, are:
+= -- 2810
+> -- 2044
 < -- 24
-+ -- 742
-- -- 690
-* -- 2858
-:= -- 5556
-add.period$ -- 155
-call.type$ -- 52
-change.case$ -- 490
-chr.to.int$ -- 52
-cite$ -- 53
-duplicate$ -- 1046
-empty$ -- 1607
-format.name$ -- 858
-if$ -- 5399
++ -- 780
+- -- 726
+* -- 2987
+:= -- 5786
+add.period$ -- 161
+call.type$ -- 54
+change.case$ -- 511
+chr.to.int$ -- 54
+cite$ -- 55
+duplicate$ -- 1092
+empty$ -- 1672
+format.name$ -- 904
+if$ -- 5624
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 51
-newline$ -- 266
-num.names$ -- 208
-pop$ -- 443
+missing$ -- 54
+newline$ -- 276
+num.names$ -- 216
+pop$ -- 473
 preamble$ -- 1
-purify$ -- 438
+purify$ -- 458
 quote$ -- 0
-skip$ -- 631
+skip$ -- 654
 stack$ -- 0
-substring$ -- 1731
-swap$ -- 216
+substring$ -- 1762
+swap$ -- 228
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 465
+type$ -- 480
 warning$ -- 1
-while$ -- 248
+while$ -- 255
 width$ -- 0
-write$ -- 673
-(There were 3 warnings)
+write$ -- 698
+(There was 1 warning)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{54}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -23,6 +23,11 @@ Baguette, Michel, Blanchet, Simon, Legrand, Delphine, Stevens, Virginie~M \&
 \newblock {Individual dispersal, landscape connectivity and ecological
   networks.}
 \newblock \emph{Biol. Rev. Camb. Philos. Soc.}, 88, 310--26.
+
+\bibitem[{Benedict \& McMahon(2006)}]{Benedict2006}
+Benedict, Mark~A. \& McMahon, Edward~T. (2006).
+\newblock \emph{{Green Infrastructure: Linking Landscapes and Communities}}.
+\newblock Island Press, Washington D.C.
 
 \bibitem[{Bonte \emph{et~al.}(2012)Bonte, {Van Dyck}, Bullock, Coulon, Delgado,
   Gibbs, Lehouck, Matthysen, Mustin, Saastamoinen, Schtickzelle, Stevens,
@@ -239,10 +244,10 @@ Sentis, Arnaud, Morisson, Julie \& Boukal, David~S. (2015).
   enrichment on trophic interaction strengths and population dynamics}.
 \newblock \emph{Glob. Chang. Biol.}, 21, 3290--3298.
 
-\bibitem[{{Stocker, T. F., Qin, D., Plattner, G. K., Tignor, M., Allen, S. K.,
-  Boschung, J., ... {\&} Midgley}(2013)}]{Stocker2013}
-{Stocker, T. F., Qin, D., Plattner, G. K., Tignor, M., Allen, S. K., Boschung,
-  J., ... {\&} Midgley}, B. M.~(2013). (2013).
+\bibitem[{Stocker \emph{et~al.}(2013)Stocker, Qin, Plattner, Tignor, Allen,
+  Boschung \& Midgley}]{Stocker2013}
+Stocker, T.~F, Qin, D, Plattner, G.~K, Tignor, M., Allen, S.~K, Boschung, J \&
+  Midgley, B. M.~(2013). (2013).
 \newblock {IPCC, 2013: climate change 2013: the physical science basis.
   Contribution of working group I to the fifth assessment report of the
   intergovernmental panel on climate change.}
@@ -259,6 +264,12 @@ Sunday, Jennifer~M, Pecl, Gretta~T, Frusher, Stewart, Hobday, Alistair~J, Hill,
 \newblock {Species traits and climate velocity explain geographic range shifts
   in an ocean-warming hotspot.}
 \newblock \emph{Ecol. Lett.}, 18, 944--53.
+
+\bibitem[{Taylor \emph{et~al.}(1993)Taylor, Fahrig, Henein \&
+  Merriam}]{Taylor1993}
+Taylor, Philip~D., Fahrig, Lenore, Henein, Kringen \& Merriam, Gray (1993).
+\newblock {Connectivity Is a Vital Element of Landscape Structure}.
+\newblock \emph{Oikos}, 68, 571.
 
 \bibitem[{Thomas(2010)}]{Thomas2010}
 Thomas, Chris~D. (2010).
