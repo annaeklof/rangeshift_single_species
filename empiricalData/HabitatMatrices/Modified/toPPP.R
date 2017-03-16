@@ -5,7 +5,7 @@ require(spatstat)
 # loop over all result files
 analyze.files <- function(sp){
 
-  cells <- list.files(paste("~/Dropbox/JONATAN_MS/data_for_anna/HabitatMatrices/Modified/",sp, sep=""))
+  cells <- list.files(paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/",sp, sep=""))
   Res <- matrix(NA, length(cells), 6)
   colnames(Res) <- c("cell", "cover","mean_pairdist", "sd_pairdist", "mean_nndist", "sd_nndist")
   
@@ -20,7 +20,7 @@ analyze.files <- function(sp){
     Res[i,2] <- sum(mat)
   
     # plot as a grid (matrix)
-    pdfname <- (paste("/Users/annek/Dropbox/jonatan_ms/data_for_anna/HabitatMatrices/Modified/Figures/",cells[i],"_matrixpic.pdf", sep=""))
+    pdfname <- (paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/Figures/",cells[i],"_matrixpic.pdf", sep=""))
     pdf(file=pdfname)
     image(as.matrix(mat), col=c("white", "forestgreen"))
     dev.off()
@@ -36,14 +36,14 @@ analyze.files <- function(sp){
     # make to point pattern
     p_norm<-ppp(p[,1], p[,2])
    
-    pdfname <- (paste("/Users/annek/Dropbox/jonatan_ms/data_for_anna/HabitatMatrices/Modified/Figures/",cells[i],"_pnorm.pdf", sep=""))
+    pdfname <- (paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/Figures/",cells[i],"_pnorm.pdf", sep=""))
     pdf(file=pdfname)
     plot(p_norm)
     dev.off()
     
     density(p_norm)
     Kc <- Kest(p_norm)
-    pdfname <- (paste("/Users/annek/Dropbox/jonatan_ms/data_for_anna/HabitatMatrices/Modified/Figures/",cells[i],"_Kc.pdf", sep=""))
+    pdfname <- (paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/Figures/",cells[i],"_Kc.pdf", sep=""))
     pdf(file=pdfname)
     plot(Kc)
     dev.off()
@@ -60,11 +60,11 @@ analyze.files <- function(sp){
 }
 
 
-species <- c("v83") #,"v67", "v188")
+species <- c("v147") #,"v67", "v188")
 for(sp in species){
-setwd(paste("~/Dropbox/JONATAN_MS/data_for_anna/HabitatMatrices/Modified/",sp, sep=""))
+setwd(paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/",sp, sep=""))
 Result <- analyze.files(sp)
-filename <- paste("/Users/annek/Dropbox/jonatan_ms/data_for_anna/HabitatMatrices/Modified/Figures/SummaryStats_",sp,".csv", sep="")
+filename <- paste("/Users/annek/Projects/bitbuck/RangShiftSingelSp/rangeshiftsinglesp/empiricalData/HabitatMatrices/Modified/Figures/SummaryStats_",sp,".csv", sep="")
 write.table(Result, filename, sep=",", row.names=FALSE, col.names=TRUE)
 }
 

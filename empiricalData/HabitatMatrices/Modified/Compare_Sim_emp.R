@@ -21,7 +21,7 @@ remove <- c(lower, upper)
 tab_emp<-tab_emp[-remove,]
 
 #setwd("~/Dropbox/JONATAN_MS/TillAnna/ResultsExample/res")
-tab_sim <- read.table("../SummaryFigures/SummarySimulatedLandscapes.csv", sep=",", header=TRUE)
+tab_sim <- read.table("SummaryFigures/SummarySimulatedLandscapes.csv", sep=",", header=TRUE)
 
 setwd("~/Dropbox/JONATAN_MS/data_for_anna/HabitatMatrices/Modified/SummaryFigures/")
 # compare the mean pairwise distance
