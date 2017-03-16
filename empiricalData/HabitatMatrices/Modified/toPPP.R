@@ -14,9 +14,13 @@ analyze.files <- function(sp){
     # initiate empty data frame for saving results
     Res[i,1] <- cells[i]
     print(cells[i])
-    mat <- read.table(cells[i])
+    mat <- read.table(cells[i], sep= " ")
+    mat_dims <- mat[1:2,2]
+    mat <- mat[-c(1:6),]
+    mat <- as.numeric(as.matrix(mat))
 
-    mat[mat==-9999]<-0
+    mat[mat<0]<-0
+    mat <- matrix(mat, mat_dims[2],mat_dims[1])
     Res[i,2] <- sum(mat)
   
     # plot as a grid (matrix)
