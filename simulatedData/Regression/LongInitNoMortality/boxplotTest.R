@@ -128,7 +128,7 @@ for(i in 1:length(landscape)){
     for(y in 1:length(speed)){
      # print(y)
     part <- data[data$LandscapeType==landscape[i] & data$Simlength==speed[y] & data$aValue==dispersal[j],]
-    part$fraction <- part$PopulationAtShiftEnd/part$PopulationAtShiftStart
+    part$fraction <- part$PopulationAtSimEnd/part$PopulationAtShiftStart
     print(part$fraction)
     change <- which(part$fraction>2)
     if(length(change)>0){
