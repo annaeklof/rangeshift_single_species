@@ -1,6 +1,5 @@
 # code for overview figure
 
-
 require(ggplot2)
 require(corrplot)
 
@@ -129,7 +128,7 @@ for(i in 1:length(landscape)){
     for(y in 1:length(speed)){
      # print(y)
     part <- data[data$LandscapeType==landscape[i] & data$Simlength==speed[y] & data$aValue==dispersal[j],]
-    part$fraction <- part$PopulationAtSimEnd/part$PopulationAtShiftStart
+    part$fraction <- part$PopulationAtShiftEnd/part$PopulationAtShiftStart
     print(part$fraction)
     change <- which(part$fraction>2)
     if(length(change)>0){
@@ -204,9 +203,9 @@ heatmap(ResultAll)
 dev.off()
 
 # correlation plot
-col4 <- colorRampPalette(c("darkred", "red","forestgreen"))
-pdf("corrplot_current.pdf")
-adjRes <- ResultAll_median#/(1000)#mean(ResultAll)
+col4 <- colorRampPalette(c("darkred", "red","lightblue", "darkblue"))
+pdf("corrplot_simEnd.pdf")
+adjRes <- ResultAll_median#mean(ResultAll)
 corrplot(adjRes, is.corr=FALSE, tl.col="black", col=col4(20), cl.lim=c(0,2))
 #corrplot(adjRes, is.corr=FALSE, tl.col="black", method="color", tl.pos="n", cl.lim=c(0,3), col=colorRampPalette(c("blue","white","red"))(5))
 dev.off()

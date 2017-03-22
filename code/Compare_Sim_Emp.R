@@ -4,6 +4,7 @@
 tab_67<- read.table("../empiricalData/HabitatMatrices/Modified/SummaryStatsEmpiricalLandscapes_v67.csv", header=TRUE, sep=",")
 tab_83<- read.table("../empiricalData/HabitatMatrices/Modified/SummaryStatsEmpiricalLandscapes_v83.csv", header=TRUE, sep=",")
 tab_188<- read.table("../empiricalData/HabitatMatrices/Modified/SummaryStatsEmpiricalLandscapes_v188.csv", header=TRUE, sep=",")
+tab_147<- read.table("../empiricalData/HabitatMatrices/Modified/SummaryStatsEmpiricalLandscapes_v147.csv", header=TRUE, sep=",")
 
 species <-rep("sp67",dim(tab_67)[1])
 tab_67 <-cbind(tab_67, species)
@@ -11,14 +12,18 @@ species <-rep("sp83",dim(tab_83)[1])
 tab_83 <-cbind(tab_83, species)
 species <-rep("sp188",dim(tab_188)[1])
 tab_188 <-cbind(tab_188, species)
+species <-rep("sp147",dim(tab_147)[1])
+tab_147 <-cbind(tab_147, species)
 
-tab_emp <- rbind(tab_67, tab_83, tab_188)
+tab_emp <- rbind(tab_67, tab_83, tab_188, tab_147)
+
 
 # If one wants to remove those landcapes with very high and very low number of patches
 lower <- which(tab_emp$cover<20)
 upper <- which(tab_emp$cover>600)
 remove <- c(lower, upper)
 tab_emp<-tab_emp[-remove,]
+print(tab_emp)
 
 tab_sim <- read.table("../simulatedData/SummarySimulatedLandscapes.csv", sep=",", header=TRUE)
 
