@@ -54,9 +54,9 @@ max 300 words
 \noindent {\bf Key words:} 
 climate change, range shift, landscape configuration, point pattern
 \section*{Abstract} [263 words]
-Ongoing climate change is currently modifying the geographical location of areas that are climatically suitable for species’. Understanding a species ability to successfully shift its geographical range would allow us to assess extinction risks and predicting future community compositions. Here we model how a species' ability to track a directional shift in climatic conditions is affected by: i) species dispersal abilities; ii) speed of climatic shift; and iii) spatial arrangement of the habitat. Our modeling framework includes within- and between patch population dynamics and uses ecologically realistic habitat distributions and dispersal scenarios, and, as such, is an improvement of classical range shift models. We compare the theoretical landscapes to real landscapes into which three European mammal species may range-shift under climate change.
+Ongoing climate change is currently modifying the geographical location of areas that are climatically suitable for species’. Understanding a species ability to successfully shift its geographical range would allow us to assess extinction risks and predicting future community compositions. Here we model how a species' ability to track a directional shift in climatic conditions is affected by: i) species dispersal abilities; ii) speed of climatic shift; and iii) spatial arrangement of the habitat. Our modeling framework includes within- and between patch population dynamics and uses ecologically realistic habitat distributions and dispersal scenarios, and, as such, is an improvement of classical range shift models. We compare the theoretical landscapes to real landscapes into which four European mammal species may range-shift under climate change.
 
-In landscapes with a homogeneous distribution of habitats, all but the least dispersive theoretical species, and least dispersive European mammals, will be able to range shift. However, species with long distance dispersal ability will have lower population densities after range shift. In heterogeneous landscapes, species’ ability to range shift is far more variable, and heavily dependent on the habitat configuration. The theoretical landscapes we generate capture most of the variation in landscapes experienced by the four European mammals we study, but a few real landscapes show substantially more or less aggregation. Our analyses points out the importance of taking the interplay of a species dispersal and the landscape configuration into account when estimating future climate impact on species. These results link ecologically important attributes of both species and their landscapes to outcomes of species range shift, and thereby long-term persistence of ecological communities. 
+In landscapes with a homogeneous distribution of habitats, all but the least dispersive theoretical species, and least dispersive European mammals, will be able to range shift. However, species with wide dispersal kernels will have lower population densities after range shift. In heterogeneous landscapes, species’ ability to range shift is far more variable, and heavily dependent on the habitat configuration. The theoretical landscapes we generate capture most of the variation in landscapes experienced by the four European mammals we study, but a few of the empirical landscapes show substantially more or less aggregation. Our analyses points out the importance of taking the interplay of a species dispersal and the landscape configuration into account when estimating future climate impact on species. These results link ecologically important attributes of both species and their landscapes to outcomes of species range shift, and thereby long-term persistence of ecological communities. 
 
 
 \clearpage
@@ -82,7 +82,7 @@ where we include two improvements – to include carrying capacity and populatio
 We model how species' ability to track a directional shift in climatic conditions is affected by i) spatial arrangement of suitable habitats in the landscape, ii) characteristics of the species dispersal abilities and iii) speed of the climatic shift. We explore the effect these factors have on the migrating population in terms of patch occupancy and changes local and global density. To as large extent as possible we use empirical data to justify the choice of parameter values in our model.
 
 \subsection*{Landscape generation}
-We start by producing a set of artificial landscapes varying in their configuration of suitable habitat patches.We specifically want to analyze landscapes with a clear difference in habitat aggregation. To this extent we follow a recently developed methodology \citep{Lindstrom2011}, where the landscapes are generated using a method based on spectral density to produce neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches ($n$ß), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between dense and sparse areas is, i.e., is a measure of density dispersion. For a detailed description of the method see \cite{Lindstrom2011}.
+We start by producing a set of artificial landscapes varying in their configuration of suitable habitat patches.We specifically want to analyze landscapes with a clear difference in habitat aggregation. To this extent we follow a recently developed methodology \citep{Lindstrom2011}, where the landscapes are generated using a method based on spectral density to produce neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches ($n$), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between dense and sparse areas is, i.e., is a measure of density dispersion. For a detailed description of the method see \cite{Lindstrom2011}.
 
 %We here want to generate landscapes that varies in habitat aggregation.
 % we initially used three different values of $\gamma$ and $\delta$: 1,3 and 5, and 0, 1 and 2 respectively.  This gives in total seven different landscape configurations (as landscapes with high  γ and low δ  is not possible). We produce 30 replicates of each landscape type. 
@@ -222,11 +222,12 @@ Catarina Meireles compiled data on dispersal kernels and habitat tolerances for 
 %package.
 %}
 
+\clearpage
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=6in]{../Figures/PlotWithLegendsMini_numbers.pdf}
 \end{center}
-%\caption{
+\caption{ }
 %{\bf Bold the first sentence.}  Rest of figure 2  caption.  Caption 
 %should be left justified, as specified by the options to the caption 
 %package.
@@ -234,7 +235,7 @@ Catarina Meireles compiled data on dispersal kernels and habitat tolerances for 
 %\label{Figure_label}
 \end{figure}
 
-\clearpage
+
 
 
 %%-------------------
@@ -270,28 +271,32 @@ Catarina Meireles compiled data on dispersal kernels and habitat tolerances for 
 \begin{center}
 \includegraphics[width=7in]{../Figures/homo.png}
 \end{center}
+\caption{ }
 \end{figure}
 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=7in]{../Figures/hetero.png}
 \end{center}
+\caption{ }
 \end{figure}
 
 \clearpage
 %\begin{sidewaysfigure*}
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=8in]{../Figures/DensityFigHomo.pdf}
+\centerline{\includegraphics[width=8in]{../Figures/DensityFigHomo.pdf}}
 \end{center}
+\caption{ }
 \end{figure}
 
 \clearpage
 %\begin{sidewaysfigure*}
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=8in]{../Figures/DensityFigHetero.pdf}
+\centerline{\includegraphics[width=8in]{../Figures/DensityFigHetero.pdf}}
 \end{center}
+\caption{ }
 \end{figure}
 
 %\clearpage
@@ -379,15 +384,17 @@ Catarina Meireles compiled data on dispersal kernels and habitat tolerances for 
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=7in]{../Figures/EmpModLandscapes.pdf}
+\centerline{\includegraphics[width=9in]{../Figures/Figure5_conservationActions2.pdf}}
 \end{center}
+\caption{ }
 \end{figure}
 
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=8in]{../Figures/Figure5_conservationActions.pdf}
+\centerline{\includegraphics[width=9in]{../Figures/Figure5_conservationActions.pdf}}
 \end{center}
+\caption{ }
 \end{figure}
 
 \end{document}
