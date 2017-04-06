@@ -1,67 +1,7 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{0}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-
-\bibitem[{Ara{\'{u}}jo \emph{et~al.}(2011)Ara{\'{u}}jo, Alagador, Cabeza,
-  Nogu{\'{e}}s-Bravo \& Thuiller}]{Araujo2011a}
-Ara{\'{u}}jo, Miguel~B., Alagador, Diogo, Cabeza, Mar, Nogu{\'{e}}s-Bravo,
-  David \& Thuiller, Wilfried (2011).
-\newblock {Climate change threatens European conservation areas}.
-\newblock \emph{Ecol. Lett.}, 14, 484--492.
-
-\bibitem[{Araujo \emph{et~al.}(2009)Araujo, Thuiller \& Yoccoz}]{Araujo2009}
-Araujo, M.~B., Thuiller, W. \& Yoccoz, N.~G. (2009).
-\newblock {Reopening the climate envelope reveals macroscale associations with
-  climate in European birds}.
-\newblock \emph{Proc. Natl. Acad. Sci.}, 106, E45--E46.
-
-\bibitem[{Clark \& Evans(1954)}]{Clark1954}
-Clark, Philip~J. \& Evans, Francis~C. (1954).
-\newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
-  in Populations}.
-\newblock \emph{Ecology}, 35, 445--453.
-
-\bibitem[{Liu \emph{et~al.}(2011)Liu, White \& Newell}]{Liu2011}
-Liu, Canran, White, Matt \& Newell, Graeme (2011).
-\newblock {Measuring and comparing the accuracy of species distribution models
-  with presence-absence data}.
-\newblock \emph{Ecography (Cop.).}, 34, 232--243.
-
-\bibitem[{Marmion \emph{et~al.}(2009)Marmion, Parviainen, Luoto, Heikkinen \&
-  Thuiller}]{Marmion2009}
-Marmion, Mathieu, Parviainen, Miia, Luoto, Miska, Heikkinen, Risto~K. \&
-  Thuiller, Wilfried (2009).
-\newblock {Evaluation of consensus methods in predictive species distribution
-  modelling}.
-\newblock \emph{Divers. Distrib.}, 15, 59--69.
-
-\bibitem[{Mitchell-Jones \emph{et~al.}(1999)Mitchell-Jones, Amori{\^{}},
-  Bogdanowicz, Krystufek, Reijnders, Spitzenberger, Stubbe, Thissen, Vohralik,
-  Zima \& Poyser}]{Mitchell-Jones}
-Mitchell-Jones, A~J, Amori{\^{}}, G, Bogdanowicz, W, Krystufek, B, Reijnders, P
-  J~H, Spitzenberger, E, Stubbe, M, Thissen, J B~M, Vohralik, V, Zima, J \&
-  Poyser, T{\&}ad (1999).
-\newblock \emph{{THE ATLAS OF EUROPEAN MAMMALS}}.
-\newblock Academic Press, London.
-
-\bibitem[{Thuiller \emph{et~al.}(2013)Thuiller, Georges \& Engler}]{biomod2}
-Thuiller, W, Georges, D \& Engler, R (2013).
-\newblock {biomod2: Ensemble platform for species distribution modeling}.
-\newblock \urlprefix\url{http://cran.r-project.org/package=biomod2.}
-
-\bibitem[{Turner \emph{et~al.}(2015)Turner, , Rolf \& Ege}]{spatstat}
-Turner, Adrian, , Rolf, Baddeley \& Ege, Rubak (2015).
-\newblock \emph{{Spatial Point Patterns: Methodology and Applications with
-  {\{}R{\}}}}.
-\newblock Chapman and Hall, CRC Press, London.
-\newblock
-  \urlprefix\url{http://www.crcpress.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/9781482210200/}.
-
-\bibitem[{Whitmee \& Orme(2013)}]{Whitmee2013}
-Whitmee, Sarah \& Orme, C. David~L. (2013).
-\newblock {Predicting dispersal distance in mammals: a trait-based approach}.
-\newblock \emph{J. Anim. Ecol.}, 82, 211--221.
 
 \end{thebibliography}

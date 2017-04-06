@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
@@ -6,37 +6,37 @@ Database file #1: RangeShiftMS.bib.bib
 Warning--empty institution in Stocker2013
 You've used 54 entries,
             2860 wiz_defined-function locations,
-            1078 strings with 18751 characters,
-and the built_in function-call counts, 30842 in all, are:
-= -- 2810
-> -- 2044
+            1078 strings with 18739 characters,
+and the built_in function-call counts, 30911 in all, are:
+= -- 2817
+> -- 2052
 < -- 24
-+ -- 780
-- -- 726
-* -- 2987
-:= -- 5786
++ -- 783
+- -- 729
+* -- 2999
+:= -- 5795
 add.period$ -- 161
 call.type$ -- 54
-change.case$ -- 511
+change.case$ -- 512
 chr.to.int$ -- 54
 cite$ -- 55
-duplicate$ -- 1092
+duplicate$ -- 1094
 empty$ -- 1672
-format.name$ -- 904
-if$ -- 5624
+format.name$ -- 911
+if$ -- 5636
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 54
 newline$ -- 276
 num.names$ -- 216
-pop$ -- 473
+pop$ -- 476
 preamble$ -- 1
-purify$ -- 458
+purify$ -- 459
 quote$ -- 0
-skip$ -- 654
+skip$ -- 653
 stack$ -- 0
 substring$ -- 1762
-swap$ -- 228
+swap$ -- 230
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
