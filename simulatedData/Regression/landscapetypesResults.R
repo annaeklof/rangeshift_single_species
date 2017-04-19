@@ -1,6 +1,6 @@
 # script for calculating average results for the different landscape types
 
-tab <- read.csv("ResultsWithoutMortality_new_mod.csv")
+tab <- read.csv("LongInitNoMortality/ResultsWithoutMortality_new_mod.csv")
 
 # empty table for the results
 summaryLandscapeTypes <- matrix(NA, 4,4)

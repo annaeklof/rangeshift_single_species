@@ -45,6 +45,7 @@ dataC$aValue[dataC$aValue==0.256 | dataC$aValue==0.512 | dataC$aValue==1.024]=3
 dataC$aValue[dataC$aValue==2.048 | dataC$aValue==4.096 | dataC$aValue==8.192 | dataC$aValue==16.384]=4
 
 data_AllDisp <- rbind(dataA, dataB, dataC)
+disp008<- data_all[which(data_all[,2]==2.048),]
 
 # BOXPLOTS
 # K-value and landscape type
@@ -57,11 +58,15 @@ pdf("K-landscape.pdf")
 plot(data$LandscapeType, data$KValue, ylab="K-value")
 dev.off()
 
-# Population density at different times
-p <- ggplot(data=data_all, aes(x=time, y=popDensity))+ facet_grid(aValue+Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Population density") + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
 
-ggsave(file="boxplot_density.pdf", width=14, height=18, useDingbats=FALSE)
+# Population density at different times
+p <- ggplot(data=disp008, aes(x=time, y=popDensity))+ facet_grid(aValue+Simlength~LandscapeType)
+p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Population density") + theme(axis.text = element_text(size = 12), axis.title=element_text(size=14)) 
+
+ggsave(file="boxplot_density_disp2048.pdf", width=16, height=10, useDingbats=FALSE)
+
+##################
+
 
 # Patch occupancy at different times
 p <- ggplot(data=data_all_patches, aes(x=time, y=patchesOccupied))+ facet_grid(aValue~LandscapeType)

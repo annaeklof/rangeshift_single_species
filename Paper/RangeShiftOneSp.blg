@@ -4,45 +4,45 @@ The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecology_letters2.bst
 Database file #1: RangeShiftMS.bib.bib
 Warning--empty institution in Stocker2013
-You've used 54 entries,
+You've used 58 entries,
             2860 wiz_defined-function locations,
-            1078 strings with 18739 characters,
-and the built_in function-call counts, 30911 in all, are:
-= -- 2817
-> -- 2052
+            1106 strings with 20574 characters,
+and the built_in function-call counts, 35010 in all, are:
+= -- 3103
+> -- 2532
 < -- 24
-+ -- 783
-- -- 729
-* -- 2999
-:= -- 5795
-add.period$ -- 161
-call.type$ -- 54
-change.case$ -- 512
-chr.to.int$ -- 54
-cite$ -- 55
-duplicate$ -- 1094
-empty$ -- 1672
-format.name$ -- 911
-if$ -- 5636
++ -- 964
+- -- 906
+* -- 3473
+:= -- 6589
+add.period$ -- 173
+call.type$ -- 58
+change.case$ -- 590
+chr.to.int$ -- 58
+cite$ -- 59
+duplicate$ -- 1180
+empty$ -- 1805
+format.name$ -- 1100
+if$ -- 6345
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 54
-newline$ -- 276
-num.names$ -- 216
-pop$ -- 476
+missing$ -- 59
+newline$ -- 296
+num.names$ -- 232
+pop$ -- 559
 preamble$ -- 1
-purify$ -- 459
+purify$ -- 534
 quote$ -- 0
-skip$ -- 653
+skip$ -- 701
 stack$ -- 0
-substring$ -- 1762
-swap$ -- 230
+substring$ -- 1881
+swap$ -- 250
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 480
+type$ -- 513
 warning$ -- 1
-while$ -- 255
+while$ -- 273
 width$ -- 0
-write$ -- 698
+write$ -- 749
 (There was 1 warning)

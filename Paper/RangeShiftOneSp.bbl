@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{58}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -10,6 +10,13 @@ Angert, Amy~L, Crozier, Lisa~G, Rissler, Leslie~J, Gilman, Sarah~E, Tewksbury,
   Josh~J \& Chunco, Amanda~J (2011).
 \newblock {Do species' traits predict recent shifts at expanding range edges?}
 \newblock \emph{Ecol. Lett.}, 14, 677--89.
+
+\bibitem[{Ara{\'{u}}jo \emph{et~al.}(2011)Ara{\'{u}}jo, Alagador, Cabeza,
+  Nogu{\'{e}}s-Bravo \& Thuiller}]{Araujo2011a}
+Ara{\'{u}}jo, Miguel~B., Alagador, Diogo, Cabeza, Mar, Nogu{\'{e}}s-Bravo,
+  David \& Thuiller, Wilfried (2011).
+\newblock {Climate change threatens European conservation areas}.
+\newblock \emph{Ecol. Lett.}, 14, 484--492.
 
 \bibitem[{Ara{\'{u}}jo \& Peterson(2012)}]{Araujo2012a}
 Ara{\'{u}}jo, Miguel~B. \& Peterson, A.~Townsend (2012).
@@ -135,6 +142,26 @@ Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
 \newblock {Climate change and evolutionary adaptation.}
 \newblock \emph{Nature}, 470, 479--85.
 
+\bibitem[{Jacob \emph{et~al.}(2014)Jacob, Petersen, Eggert, Alias, Christensen,
+  Bouwer, Braun, Colette, D{\'{e}}qu{\'{e}}, Georgievski, Georgopoulou, Gobiet,
+  Menut, Nikulin, Haensler, Hempelmann, Jones, Keuler, Kovats, Kr{\"{o}}ner,
+  Kotlarski, Kriegsmann, Martin, van Meijgaard, Moseley, Pfeifer, Preuschmann,
+  Radermacher, Radtke, Rechid, Rounsevell, Samuelsson, Somot, Soussana,
+  Teichmann, Valentini, Vautard, Weber \& Yiou}]{Jacob2014}
+Jacob, Daniela, Petersen, Juliane, Eggert, Bastian, Alias, Antoinette,
+  Christensen, Ole~B{\o}ssing, Bouwer, Laurens~M., Braun, Alain, Colette,
+  Augustin, D{\'{e}}qu{\'{e}}, Michel, Georgievski, Goran, Georgopoulou, Elena,
+  Gobiet, Andreas, Menut, Laurent, Nikulin, Grigory, Haensler, Andreas,
+  Hempelmann, Nils, Jones, Colin, Keuler, Klaus, Kovats, Sari, Kr{\"{o}}ner,
+  Nico, Kotlarski, Sven, Kriegsmann, Arne, Martin, Eric, van Meijgaard, Erik,
+  Moseley, Christopher, Pfeifer, Susanne, Preuschmann, Swantje, Radermacher,
+  Christine, Radtke, Kai, Rechid, Diana, Rounsevell, Mark, Samuelsson, Patrick,
+  Somot, Samuel, Soussana, Jean-Francois, Teichmann, Claas, Valentini,
+  Riccardo, Vautard, Robert, Weber, Bj{\"{o}}rn \& Yiou, Pascal (2014).
+\newblock {EURO-CORDEX: new high-resolution climate change projections for
+  European impact research}.
+\newblock \emph{Reg. Environ. Chang.}, 14, 563--578.
+
 \bibitem[{{Joern Fischer}(2006)}]{JoernFischer2006}
 {Joern Fischer}, David B.~Lindenmayer (2006).
 \newblock {Fischer, J. and D. B. Lindenmayer. Beyond fragmentation: The
@@ -205,6 +232,15 @@ Melles, S.~J., Fortin, M.-J., Lindsay, K. \& Badzinski, D. (2011).
 \newblock {Expanding northward: influence of climate change, forest
   connectivity, and population processes on a threatened species' range shift}.
 \newblock \emph{Glob. Chang. Biol.}, 17, 17--31.
+
+\bibitem[{Mitchell-Jones \emph{et~al.}(1999)Mitchell-Jones, Amori{\^{}},
+  Bogdanowicz, Krystufek, Reijnders, Spitzenberger, Stubbe, Thissen, Vohralik,
+  Zima \& Poyser}]{Mitchell-Jones}
+Mitchell-Jones, A~J, Amori{\^{}}, G, Bogdanowicz, W, Krystufek, B, Reijnders, P
+  J~H, Spitzenberger, E, Stubbe, M, Thissen, J B~M, Vohralik, V, Zima, J \&
+  Poyser, T{\&}ad (1999).
+\newblock \emph{{THE ATLAS OF EUROPEAN MAMMALS}}.
+\newblock Academic Press, London.
 
 \bibitem[{Nadarajah(2005)}]{Nadarajah2005}
 Nadarajah, Saralees (2005).
@@ -293,6 +329,14 @@ Thomas, Chris~D, Cameron, Alison, Green, Rhys~E, Bakkenes, Michel, Beaumont,
 Thomas, Chris~D., Franco, Aldina M.~A. \& Hill, Jane~K. (2006).
 \newblock {Range retractions and extinction in the face of climate warming}.
 \newblock \emph{Trends Ecol. Evol.}, 21, 415--416.
+
+\bibitem[{Thuiller \emph{et~al.}(2009)Thuiller, Lafourcade, Engler \&
+  Ara{\'{u}}jo}]{Thuiller2009a}
+Thuiller, Wilfried, Lafourcade, Bruno, Engler, Robin \& Ara{\'{u}}jo, Miguel~B.
+  (2009).
+\newblock {BIOMOD - a platform for ensemble forecasting of species
+  distributions}.
+\newblock \emph{Ecography (Cop.).}, 32, 369--373.
 
 \bibitem[{Thuiller \emph{et~al.}(2005)Thuiller, Lavorel, Ara{\'{u}}jo, Sykes \&
   Prentice}]{Thuiller2005a}
