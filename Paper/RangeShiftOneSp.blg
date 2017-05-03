@@ -1,42 +1,42 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp.aux
-The style file: ecol_let2.bst
+The style file: ecography.bst
 Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib
 Warning--missing institution in Stocker2013
 You've used 59 entries,
-            2997 wiz_defined-function locations,
-            1036 strings with 18317 characters,
-and the built_in function-call counts, 42031 in all, are:
-= -- 3222
-> -- 2566
+            2668 wiz_defined-function locations,
+            982 strings with 18034 characters,
+and the built_in function-call counts, 32586 in all, are:
+= -- 3151
+> -- 1162
 < -- 24
-+ -- 977
-- -- 918
-* -- 3592
-:= -- 6868
++ -- 548
+- -- 333
+* -- 2036
+:= -- 5427
 add.period$ -- 177
 call.type$ -- 59
-change.case$ -- 599
+change.case$ -- 369
 chr.to.int$ -- 59
 cite$ -- 60
-duplicate$ -- 2623
-empty$ -- 2576
-format.name$ -- 1115
-if$ -- 7843
+duplicate$ -- 2140
+empty$ -- 2284
+format.name$ -- 530
+if$ -- 6466
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 660
+missing$ -- 465
 newline$ -- 299
 num.names$ -- 236
-pop$ -- 1148
+pop$ -- 809
 preamble$ -- 1
-purify$ -- 542
+purify$ -- 312
 quote$ -- 0
-skip$ -- 659
+skip$ -- 909
 stack$ -- 0
 substring$ -- 2066
-swap$ -- 1564
+swap$ -- 1028
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -44,5 +44,5 @@ type$ -- 522
 warning$ -- 1
 while$ -- 287
 width$ -- 0
-write$ -- 766
+write$ -- 824
 (There was 1 warning)

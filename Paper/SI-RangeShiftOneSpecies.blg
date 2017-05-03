@@ -1,41 +1,41 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: SI-RangeShiftOneSpecies.aux
-The style file: ecol_let2.bst
+The style file: ecography.bst
 Database file #1: RangeShiftMS.bib.bib
 You've used 3 entries,
-            2997 wiz_defined-function locations,
-            647 strings with 4868 characters,
-and the built_in function-call counts, 1697 in all, are:
-= -- 141
-> -- 70
+            2668 wiz_defined-function locations,
+            591 strings with 4583 characters,
+and the built_in function-call counts, 1644 in all, are:
+= -- 151
+> -- 63
 < -- 2
-+ -- 27
-- -- 24
-* -- 132
-:= -- 281
++ -- 30
+- -- 18
+* -- 108
+:= -- 271
 add.period$ -- 9
 call.type$ -- 3
-change.case$ -- 22
+change.case$ -- 19
 chr.to.int$ -- 3
 cite$ -- 3
-duplicate$ -- 115
-empty$ -- 121
-format.name$ -- 37
+duplicate$ -- 107
+empty$ -- 114
+format.name$ -- 31
 if$ -- 323
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 26
+missing$ -- 24
 newline$ -- 19
 num.names$ -- 12
-pop$ -- 47
+pop$ -- 49
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 17
 quote$ -- 0
-skip$ -- 35
+skip$ -- 48
 stack$ -- 0
 substring$ -- 83
-swap$ -- 61
+swap$ -- 53
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -43,4 +43,4 @@ type$ -- 24
 warning$ -- 0
 while$ -- 13
 width$ -- 0
-write$ -- 41
+write$ -- 44
