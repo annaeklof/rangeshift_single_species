@@ -1,25 +1,20 @@
 \begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
 \bibitem[{Clark \& Evans(1954)}]{Clark1954}
-Clark, Philip~J. \& Evans, Francis~C. (1954).
+Clark, P.J. \& Evans, F.C. (1954).
 \newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
   in Populations}.
 \newblock \emph{Ecology}, 35, 445--453.
 
 \bibitem[{Turner \emph{et~al.}(2015)Turner, , Rolf \& Ege}]{spatstat}
-Turner, Adrian, , Rolf, Baddeley \& Ege, Rubak (2015).
+Turner, A., , Rolf, B. \& Ege, R. (2015).
 \newblock \emph{{Spatial Point Patterns: Methodology and Applications with
   {\{}R{\}}}}.
 \newblock Chapman and Hall, CRC Press, London.
-\newblock
-  \urlprefix\url{http://www.crcpress.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/9781482210200/}.
 
 \bibitem[{Whitmee \& Orme(2013)}]{Whitmee2013}
-Whitmee, Sarah \& Orme, C. David~L. (2013).
+Whitmee, S. \& Orme, C.D.L. (2013).
 \newblock {Predicting dispersal distance in mammals: a trait-based approach}.
 \newblock \emph{J. Anim. Ecol.}, 82, 211--221.
 

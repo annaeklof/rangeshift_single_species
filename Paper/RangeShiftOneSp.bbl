@@ -1,38 +1,34 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{59}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
 \bibitem[{Angert \emph{et~al.}(2011)Angert, Crozier, Rissler, Gilman, Tewksbury
   \& Chunco}]{Angert2011}
-Angert, Amy~L, Crozier, Lisa~G, Rissler, Leslie~J, Gilman, Sarah~E, Tewksbury,
-  Josh~J \& Chunco, Amanda~J (2011).
+Angert, A.L., Crozier, L.G., Rissler, L.J., Gilman, S.E., Tewksbury, J.J. \&
+  Chunco, A.J. (2011).
 \newblock {Do species' traits predict recent shifts at expanding range edges?}
 \newblock \emph{Ecol. Lett.}, 14, 677--89.
 
 \bibitem[{Ara{\'{u}}jo \emph{et~al.}(2011)Ara{\'{u}}jo, Alagador, Cabeza,
   Nogu{\'{e}}s-Bravo \& Thuiller}]{Araujo2011a}
-Ara{\'{u}}jo, Miguel~B., Alagador, Diogo, Cabeza, Mar, Nogu{\'{e}}s-Bravo,
-  David \& Thuiller, Wilfried (2011).
+Ara{\'{u}}jo, M.B., Alagador, D., Cabeza, M., Nogu{\'{e}}s-Bravo, D. \&
+  Thuiller, W. (2011).
 \newblock {Climate change threatens European conservation areas}.
 \newblock \emph{Ecol. Lett.}, 14, 484--492.
 
 \bibitem[{Ara{\'{u}}jo \& Peterson(2012)}]{Araujo2012a}
-Ara{\'{u}}jo, Miguel~B. \& Peterson, A.~Townsend (2012).
+Ara{\'{u}}jo, M.B. \& Peterson, A.T. (2012).
 \newblock {Uses and misuses of bioclimatic envelope modeling}.
 \newblock \emph{Ecology}, 93, 1527--1539.
 
 \bibitem[{Baguette \emph{et~al.}(2013)Baguette, Blanchet, Legrand, Stevens \&
   Turlure}]{Baguette2013}
-Baguette, Michel, Blanchet, Simon, Legrand, Delphine, Stevens, Virginie~M \&
-  Turlure, Camille (2013).
+Baguette, M., Blanchet, S., Legrand, D., Stevens, V.M. \& Turlure, C. (2013).
 \newblock {Individual dispersal, landscape connectivity and ecological
   networks.}
 \newblock \emph{Biol. Rev. Camb. Philos. Soc.}, 88, 310--26.
 
 \bibitem[{Benedict \& McMahon(2006)}]{Benedict2006}
-Benedict, Mark~A. \& McMahon, Edward~T. (2006).
+Benedict, M.A. \& McMahon, E.T. (2006).
 \newblock \emph{{Green Infrastructure: Linking Landscapes and Communities}}.
 \newblock Island Press, Washington D.C.
 
@@ -40,105 +36,108 @@ Benedict, Mark~A. \& McMahon, Edward~T. (2006).
   Gibbs, Lehouck, Matthysen, Mustin, Saastamoinen, Schtickzelle, Stevens,
   Vandewoestijne, Baguette, Barton, Benton, Chaput-Bardy, Clobert, Dytham,
   Hovestadt, Meier, Palmer, Turlure \& Travis}]{Bonte2012}
-Bonte, Dries, {Van Dyck}, Hans, Bullock, James~M., Coulon, Aur{\'{e}}lie,
-  Delgado, Maria, Gibbs, Melanie, Lehouck, Valerie, Matthysen, Erik, Mustin,
-  Karin, Saastamoinen, Marjo, Schtickzelle, Nicolas, Stevens, Virginie~M.,
-  Vandewoestijne, Sofie, Baguette, Michel, Barton, Kamil, Benton, Tim~G.,
-  Chaput-Bardy, Audrey, Clobert, Jean, Dytham, Calvin, Hovestadt, Thomas,
-  Meier, Christoph~M., Palmer, Steve C.~F., Turlure, Camille \& Travis, Justin
-  M.~J. (2012).
+Bonte, D., {Van Dyck}, H., Bullock, J.M., Coulon, A., Delgado, M., Gibbs, M.,
+  Lehouck, V., Matthysen, E., Mustin, K., Saastamoinen, M., Schtickzelle, N.,
+  Stevens, V.M., Vandewoestijne, S., Baguette, M., Barton, K., Benton, T.G.,
+  Chaput-Bardy, A., Clobert, J., Dytham, C., Hovestadt, T., Meier, C.M.,
+  Palmer, S.C.F., Turlure, C. \& Travis, J.M.J. (2012).
 \newblock {Costs of dispersal}.
 \newblock \emph{Biol. Rev.}, 87, 290--312.
 
 \bibitem[{Borthagaray \emph{et~al.}(2014)Borthagaray, Barreneche, Abades \&
   Arim}]{Borthagaray2014}
-Borthagaray, Ana~In{\'{e}}s, Barreneche, Juan~Manuel, Abades, Sebasti{\'{a}}n
-  \& Arim, Mat{\'{i}}as (2014).
+Borthagaray, A.I., Barreneche, J.M., Abades, S. \& Arim, M. (2014).
 \newblock {Modularity along organism dispersal gradients challenges a
   prevailing view of abrupt transitions in animal landscape perception}.
 \newblock \emph{Ecography (Cop.).}, 37, 564--571.
 
 \bibitem[{Bowler \& Benton(2005)}]{Bowler2005}
-Bowler, Diana~E. \& Benton, Tim~G. (2005).
+Bowler, D.E. \& Benton, T.G. (2005).
 \newblock {Causes and consequences of animal dispersal strategies: relating
   individual behaviour to spatial dynamics}.
 \newblock \emph{Biol. Rev.}, 80, 205--225.
 
 \bibitem[{Brose \emph{et~al.}(2005)Brose, Berlow \& Martinez}]{Brose2005a}
-Brose, U, Berlow, EL \& Martinez, ND (2005).
+Brose, U., Berlow, E. \& Martinez, N. (2005).
 \newblock {Scaling up keystone effects from simple to complex ecological
   networks}.
-\newblock \emph{Ecol. Lett.}
+\newblock \emph{Ecol. Lett.}, 8, 1317--1325.
 
 \bibitem[{Chen \emph{et~al.}(2011)Chen, Hill, Ohlem{\"{u}}ller, Roy \&
   Thomas}]{Chen2011}
-Chen, I.-Ching, Hill, Jane~K., Ohlem{\"{u}}ller, Ralf, Roy, David~B. \& Thomas,
-  Chris~D. (2011).
+Chen, I.C., Hill, J.K., Ohlem{\"{u}}ller, R., Roy, D.B. \& Thomas, C.D. (2011).
 \newblock {Rapid Range Shifts of Species Associated with High Levels of Climate
   Warming}.
 \newblock \emph{Science (80-. ).}, 333, 1024--1026.
 
 \bibitem[{Clark \& Evans(1954)}]{Clark1954}
-Clark, Philip~J. \& Evans, Francis~C. (1954).
+Clark, P.J. \& Evans, F.C. (1954).
 \newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
   in Populations}.
 \newblock \emph{Ecology}, 35, 445--453.
 
 \bibitem[{De'ath \& Fabricius(2000)}]{Death2000}
-De'ath, Glenn \& Fabricius, Katharina~E. (2000).
+De'ath, G. \& Fabricius, K.E. (2000).
 \newblock {Classification and regression trees: a powerful yet simple technique
   for ecological data analysis}.
 \newblock \emph{Ecology}, 81, 3178--3192.
 
 \bibitem[{Doerr \emph{et~al.}(2011)Doerr, Barrett \& Doerr}]{Doerr2011}
-Doerr, Veronica A.~J., Barrett, Tom \& Doerr, Erik~D. (2011).
+Doerr, V.A.J., Barrett, T. \& Doerr, E.D. (2011).
 \newblock {Connectivity, dispersal behaviour and conservation under climate
   change: a response to Hodgson et al.}
 \newblock \emph{J. Appl. Ecol.}, 48, 143--147.
 
 \bibitem[{Ehrl{\'{e}}n \& Morris(2015)}]{Ehrlen2015}
-Ehrl{\'{e}}n, Johan \& Morris, William~F (2015).
+Ehrl{\'{e}}n, J. \& Morris, W.F. (2015).
 \newblock {Predicting changes in the distribution and abundance of species
   under environmental change.}
 \newblock \emph{Ecol. Lett.}, 18, 303--14.
 
 \bibitem[{Fahrig(2003)}]{Fahrig2003}
-Fahrig, Lenore (2003).
+Fahrig, L. (2003).
 \newblock {Effects of Habitat Fragmentation on Biodiversity}.
 \newblock \emph{Annu. Rev. Ecol. Syst.}, 34, 487--515.
 
 \bibitem[{Gillson \emph{et~al.}(2013)Gillson, Dawson, Jack \&
   McGeoch}]{Gillson2013a}
-Gillson, Lindsey, Dawson, Terence~P., Jack, Sam \& McGeoch, Melodie~A. (2013).
+Gillson, L., Dawson, T.P., Jack, S. \& McGeoch, M.A. (2013).
 \newblock {Accommodating climate change contingencies in conservation
   strategy}.
 \newblock \emph{Trends Ecol. Evol.}, 28, 135--142.
 
 \bibitem[{Guisan \& Zimmermann(2000)}]{Guisan2000}
-Guisan, Antoine \& Zimmermann, Niklaus~E. (2000).
+Guisan, A. \& Zimmermann, N.E. (2000).
 \newblock {Predictive habitat distribution models in ecology}.
+\newblock \emph{Ecol. Modell.}, 135, 147--186.
 
 \bibitem[{Hanski(2011)}]{Hanski2011}
-Hanski, Ilkka (2011).
+Hanski, I. (2011).
 \newblock {Habitat Loss, the Dynamics of Biodiversity, and a Perspective on
   Conservation}.
 \newblock \emph{Ambio}, 40, 248--255.
 
 \bibitem[{Hawkes(2009)}]{Hawkes2009}
-Hawkes, Colin (2009).
+Hawkes, C. (2009).
 \newblock {Linking movement behaviour, dispersal and population processes: is
   individual variation a key?}
 \newblock \emph{J. Anim. Ecol.}, 78, 894--906.
 
+\bibitem[{Hellmann \emph{et~al.}(2008)Hellmann, Byers, Bierwagen \&
+  Dukes}]{Hellmann2008}
+Hellmann, J.J., Byers, J.E., Bierwagen, B.G. \& Dukes, J.S. (2008).
+\newblock {Five Potential Consequences of Climate Change for Invasive Species}.
+\newblock \emph{Conserv. Biol.}, 22, 534--543.
+
 \bibitem[{Hill \emph{et~al.}(2001)Hill, Collingham, Thomas, Blakeley, Fox, Moss
   \& Huntley}]{Hill2001}
-Hill, J.k., Collingham, Y.c., Thomas, C.d., Blakeley, D.s., Fox, R., Moss, D.
-  \& Huntley, B. (2001).
+Hill, J., Collingham, Y., Thomas, C., Blakeley, D., Fox, R., Moss, D. \&
+  Huntley, B. (2001).
 \newblock {Impacts of landscape structure on butterfly range expansion}.
 \newblock \emph{Ecol. Lett.}, 4, 313--321.
 
 \bibitem[{Hoffmann \& Sgr{\`{o}}(2011)}]{Hoffmann2011}
-Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
+Hoffmann, A.A. \& Sgr{\`{o}}, C.M. (2011).
 \newblock {Climate change and evolutionary adaptation.}
 \newblock \emph{Nature}, 470, 479--85.
 
@@ -148,87 +147,85 @@ Hoffmann, Ary~A \& Sgr{\`{o}}, Carla~M (2011).
   Kotlarski, Kriegsmann, Martin, van Meijgaard, Moseley, Pfeifer, Preuschmann,
   Radermacher, Radtke, Rechid, Rounsevell, Samuelsson, Somot, Soussana,
   Teichmann, Valentini, Vautard, Weber \& Yiou}]{Jacob2014}
-Jacob, Daniela, Petersen, Juliane, Eggert, Bastian, Alias, Antoinette,
-  Christensen, Ole~B{\o}ssing, Bouwer, Laurens~M., Braun, Alain, Colette,
-  Augustin, D{\'{e}}qu{\'{e}}, Michel, Georgievski, Goran, Georgopoulou, Elena,
-  Gobiet, Andreas, Menut, Laurent, Nikulin, Grigory, Haensler, Andreas,
-  Hempelmann, Nils, Jones, Colin, Keuler, Klaus, Kovats, Sari, Kr{\"{o}}ner,
-  Nico, Kotlarski, Sven, Kriegsmann, Arne, Martin, Eric, van Meijgaard, Erik,
-  Moseley, Christopher, Pfeifer, Susanne, Preuschmann, Swantje, Radermacher,
-  Christine, Radtke, Kai, Rechid, Diana, Rounsevell, Mark, Samuelsson, Patrick,
-  Somot, Samuel, Soussana, Jean-Francois, Teichmann, Claas, Valentini,
-  Riccardo, Vautard, Robert, Weber, Bj{\"{o}}rn \& Yiou, Pascal (2014).
+Jacob, D., Petersen, J., Eggert, B., Alias, A., Christensen, O.B., Bouwer,
+  L.M., Braun, A., Colette, A., D{\'{e}}qu{\'{e}}, M., Georgievski, G.,
+  Georgopoulou, E., Gobiet, A., Menut, L., Nikulin, G., Haensler, A.,
+  Hempelmann, N., Jones, C., Keuler, K., Kovats, S., Kr{\"{o}}ner, N.,
+  Kotlarski, S., Kriegsmann, A., Martin, E., van Meijgaard, E., Moseley, C.,
+  Pfeifer, S., Preuschmann, S., Radermacher, C., Radtke, K., Rechid, D.,
+  Rounsevell, M., Samuelsson, P., Somot, S., Soussana, J.F., Teichmann, C.,
+  Valentini, R., Vautard, R., Weber, B. \& Yiou, P. (2014).
 \newblock {EURO-CORDEX: new high-resolution climate change projections for
   European impact research}.
 \newblock \emph{Reg. Environ. Chang.}, 14, 563--578.
 
 \bibitem[{{Joern Fischer}(2006)}]{JoernFischer2006}
-{Joern Fischer}, David B.~Lindenmayer (2006).
+{Joern Fischer}, D.B.L. (2006).
 \newblock {Fischer, J. and D. B. Lindenmayer. Beyond fragmentation: The
   continuum model for fauna research and conservation in human-modified
   landscapes. Oikos}.
 \newblock \emph{Oikos}, 112, 473 -- 480.
 
 \bibitem[{Lenoir \& Svenning(2015)}]{Lenoir2015}
-Lenoir, J. \& Svenning, J.~C. (2015).
+Lenoir, J. \& Svenning, J.C. (2015).
 \newblock {Climate-related range shifts - a global multidimensional synthesis
   and new research directions}.
-\newblock \emph{Ecography (Cop.).}, 38.
+\newblock \emph{Ecography (Cop.).}, 38, 15--28.
 
 \bibitem[{Lindenmayer \& Fischer(2013)}]{Lindenmayer2013}
-Lindenmayer, David~B \& Fischer, Joern (2013).
+Lindenmayer, D.B. \& Fischer, J. (2013).
 \newblock \emph{{Habitat fragmentation and landscape change: an ecological and
   conservation synthesis}}.
 \newblock Island Press, Washington D.C.
 
 \bibitem[{Lindstr{\"{o}}m \emph{et~al.}(2011)Lindstr{\"{o}}m, H{\aa}kansson \&
   Wennergren}]{Lindstrom2011}
-Lindstr{\"{o}}m, Tom, H{\aa}kansson, Nina \& Wennergren, Uno (2011).
+Lindstr{\"{o}}m, T., H{\aa}kansson, N. \& Wennergren, U. (2011).
 \newblock {The shape of the spatial kernel and its implications for biological
   invasions in patchy environments.}
 \newblock \emph{Proc. Biol. Sci.}, 278, 1564--71.
 
 \bibitem[{Lindstr{\"{o}}m \emph{et~al.}(2009)Lindstr{\"{o}}m, Sisson,
   N{\"{o}}remark, Jonsson \& Wennergren}]{Lindstrom2009}
-Lindstr{\"{o}}m, Tom, Sisson, Scott~A., N{\"{o}}remark, Maria, Jonsson, Annie
-  \& Wennergren, Uno (2009).
+Lindstr{\"{o}}m, T., Sisson, S.A., N{\"{o}}remark, M., Jonsson, A. \&
+  Wennergren, U. (2009).
 \newblock {Estimation of distance related probability of animal movements
   between holdings and implications for disease spread modeling}.
 \newblock \emph{Prev. Vet. Med.}, 91, 85--94.
 
 \bibitem[{Loarie \emph{et~al.}(2009)Loarie, Duffy, Hamilton, Asner, Field \&
   Ackerly}]{Loarie2009}
-Loarie, Scott~R., Duffy, Philip~B., Hamilton, Healy, Asner, Gregory~P., Field,
-  Christopher~B. \& Ackerly, David~D. (2009).
+Loarie, S.R., Duffy, P.B., Hamilton, H., Asner, G.P., Field, C.B. \& Ackerly,
+  D.D. (2009).
 \newblock {The velocity of climate change}.
 \newblock \emph{Nature}, 462, 1052--1055.
 
 \bibitem[{L{\"{o}}gdberg \& Wennergren(2012)}]{Logdberg2012}
-L{\"{o}}gdberg, Frida \& Wennergren, Uno (2012).
+L{\"{o}}gdberg, F. \& Wennergren, U. (2012).
 \newblock {Spectral color, synchrony, and extinction risk}.
 \newblock \emph{Theor. Ecol.}, 5, 545--554.
 
 \bibitem[{Maclean \& Wilson(2011)}]{Maclean2011}
-Maclean, Ilya M.~D. \& Wilson, Robert~J. (2011).
+Maclean, I.M.D. \& Wilson, R.J. (2011).
 \newblock {Recent ecological responses to climate change support predictions of
   high extinction risk}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 108, 12337--12342.
 
 \bibitem[{Martin \& Fahrig(2016)}]{Martin2016}
-Martin, Amanda~E. \& Fahrig, Lenore (2016).
+Martin, A.E. \& Fahrig, L. (2016).
 \newblock {Reconciling contradictory relationships between mobility and
   extinction risk in human-altered landscapes}.
-\newblock \emph{Funct. Ecol.}, n/a--n/a.
+\newblock \emph{Funct. Ecol.}, 30, 1558 -- 1567.
 
 \bibitem[{Melbourne \& Hastings(2008)}]{Melbourne2008}
-Melbourne, Brett~A. \& Hastings, Alan (2008).
+Melbourne, B.A. \& Hastings, A. (2008).
 \newblock {Extinction risk depends strongly on factors contributing to
   stochasticity}.
 \newblock \emph{Nature}, 454, 100--103.
 
 \bibitem[{Melles \emph{et~al.}(2011)Melles, Fortin, Lindsay \&
   Badzinski}]{Melles2011}
-Melles, S.~J., Fortin, M.-J., Lindsay, K. \& Badzinski, D. (2011).
+Melles, S.J., Fortin, M.J., Lindsay, K. \& Badzinski, D. (2011).
 \newblock {Expanding northward: influence of climate change, forest
   connectivity, and population processes on a threatened species' range shift}.
 \newblock \emph{Glob. Chang. Biol.}, 17, 17--31.
@@ -236,54 +233,53 @@ Melles, S.~J., Fortin, M.-J., Lindsay, K. \& Badzinski, D. (2011).
 \bibitem[{Mitchell-Jones \emph{et~al.}(1999)Mitchell-Jones, Amori{\^{}},
   Bogdanowicz, Krystufek, Reijnders, Spitzenberger, Stubbe, Thissen, Vohralik,
   Zima \& Poyser}]{Mitchell-Jones}
-Mitchell-Jones, A~J, Amori{\^{}}, G, Bogdanowicz, W, Krystufek, B, Reijnders, P
-  J~H, Spitzenberger, E, Stubbe, M, Thissen, J B~M, Vohralik, V, Zima, J \&
-  Poyser, T{\&}ad (1999).
+Mitchell-Jones, A.J., Amori{\^{}}, G., Bogdanowicz, W., Krystufek, B.,
+  Reijnders, P.J.H., Spitzenberger, E., Stubbe, M., Thissen, J.B.M., Vohralik,
+  V., Zima, J. \& Poyser, T. (1999).
 \newblock \emph{{THE ATLAS OF EUROPEAN MAMMALS}}.
 \newblock Academic Press, London.
 
 \bibitem[{Nadarajah(2005)}]{Nadarajah2005}
-Nadarajah, Saralees (2005).
+Nadarajah, S. (2005).
 \newblock {A generalized normal distribution}.
 \newblock \emph{J. Appl. Stat.}, 32, 685--694.
 
 \bibitem[{Parmesan \& Yohe(2003)}]{Parmesan2003}
-Parmesan, Camille \& Yohe, Gary (2003).
+Parmesan, C. \& Yohe, G. (2003).
 \newblock {A globally coherent fingerprint of climate change impacts across
   natural systems.}
 \newblock \emph{Nature}, 421, 37--42.
 
 \bibitem[{Peterson \emph{et~al.}(2001)Peterson, S{\'{a}}nchez-Cordero,
   Sober{\'{o}}n, Bartley, Buddemeier \& Navarro-Sig{\"{u}}enza}]{Peterson2001}
-Peterson, A.Townsend, S{\'{a}}nchez-Cordero, Victor, Sober{\'{o}}n, Jorge,
-  Bartley, Jeremy, Buddemeier, Robert~W \& Navarro-Sig{\"{u}}enza, Adolfo~G
-  (2001).
+Peterson, A., S{\'{a}}nchez-Cordero, V., Sober{\'{o}}n, J., Bartley, J.,
+  Buddemeier, R.W. \& Navarro-Sig{\"{u}}enza, A.G. (2001).
 \newblock {Effects of global climate change on geographic distributions of
   Mexican Cracidae}.
 \newblock \emph{Ecol. Modell.}, 144, 21--30.
 
 \bibitem[{Pielke(2005)}]{Pielke2005}
-Pielke, Roger~A (2005).
+Pielke, R.A. (2005).
 \newblock {Atmospheric science. Land use and climate change.}
 \newblock \emph{Science}, 310, 1625--6.
 
 \bibitem[{Schloss \emph{et~al.}(2012)Schloss, Nu{\~{n}}ez \&
   Lawler}]{Schloss2012a}
-Schloss, Carrie~A., Nu{\~{n}}ez, Tristan~A. \& Lawler, Joshua~J. (2012).
+Schloss, C.A., Nu{\~{n}}ez, T.A. \& Lawler, J.J. (2012).
 \newblock {Dispersal will limit ability of mammals to track climate change in
   the Western Hemisphere}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109, 8606--8611.
 
 \bibitem[{Sentis \emph{et~al.}(2015)Sentis, Morisson \& Boukal}]{Sentis2015}
-Sentis, Arnaud, Morisson, Julie \& Boukal, David~S. (2015).
+Sentis, A., Morisson, J. \& Boukal, D.S. (2015).
 \newblock {Thermal acclimation modulates the impacts of temperature and
   enrichment on trophic interaction strengths and population dynamics}.
 \newblock \emph{Glob. Chang. Biol.}, 21, 3290--3298.
 
 \bibitem[{Stocker \emph{et~al.}(2013)Stocker, Qin, Plattner, Tignor, Allen,
   Boschung \& Midgley}]{Stocker2013}
-Stocker, T.~F, Qin, D, Plattner, G.~K, Tignor, M., Allen, S.~K, Boschung, J \&
-  Midgley, B. M.~(2013). (2013).
+Stocker, T.F., Qin, D., Plattner, G.K., Tignor, M., Allen, S.K., Boschung, J.
+  \& Midgley, B.M.. (2013).
 \newblock {IPCC, 2013: climate change 2013: the physical science basis.
   Contribution of working group I to the fifth assessment report of the
   intergovernmental panel on climate change.}
@@ -292,23 +288,22 @@ Stocker, T.~F, Qin, D, Plattner, G.~K, Tignor, M., Allen, S.~K, Boschung, J \&
 \bibitem[{Sunday \emph{et~al.}(2015)Sunday, Pecl, Frusher, Hobday, Hill,
   Holbrook, Edgar, Stuart-Smith, Barrett, Wernberg, Watson, Smale, Fulton,
   Slawinski, Feng, Radford, Thompson \& Bates}]{Sunday2015}
-Sunday, Jennifer~M, Pecl, Gretta~T, Frusher, Stewart, Hobday, Alistair~J, Hill,
-  Nicole, Holbrook, Neil~J, Edgar, Graham~J, Stuart-Smith, Rick, Barrett,
-  Neville, Wernberg, Thomas, Watson, Reg~A, Smale, Dan~A, Fulton, Elizabeth~A,
-  Slawinski, Dirk, Feng, Ming, Radford, Ben~T, Thompson, Peter~A \& Bates,
-  Amanda~E (2015).
+Sunday, J.M., Pecl, G.T., Frusher, S., Hobday, A.J., Hill, N., Holbrook, N.J.,
+  Edgar, G.J., Stuart-Smith, R., Barrett, N., Wernberg, T., Watson, R.A.,
+  Smale, D.A., Fulton, E.A., Slawinski, D., Feng, M., Radford, B.T., Thompson,
+  P.A. \& Bates, A.E. (2015).
 \newblock {Species traits and climate velocity explain geographic range shifts
   in an ocean-warming hotspot.}
 \newblock \emph{Ecol. Lett.}, 18, 944--53.
 
 \bibitem[{Taylor \emph{et~al.}(1993)Taylor, Fahrig, Henein \&
   Merriam}]{Taylor1993}
-Taylor, Philip~D., Fahrig, Lenore, Henein, Kringen \& Merriam, Gray (1993).
+Taylor, P.D., Fahrig, L., Henein, K. \& Merriam, G. (1993).
 \newblock {Connectivity Is a Vital Element of Landscape Structure}.
-\newblock \emph{Oikos}, 68, 571.
+\newblock \emph{Oikos}, 68, 571--573.
 
 \bibitem[{Thomas(2010)}]{Thomas2010}
-Thomas, Chris~D. (2010).
+Thomas, C.D. (2010).
 \newblock {Climate, climate change and range boundaries}.
 \newblock \emph{Divers. Distrib.}, 16, 488--495.
 
@@ -316,98 +311,91 @@ Thomas, Chris~D. (2010).
   Collingham, Erasmus, {De Siqueira}, Grainger, Hannah, Hughes, Huntley, {Van
   Jaarsveld}, Midgley, Miles, Ortega-Huerta, Peterson, Phillips \&
   Williams}]{Thomas2004}
-Thomas, Chris~D, Cameron, Alison, Green, Rhys~E, Bakkenes, Michel, Beaumont,
-  Linda~J, Collingham, Yvonne~C, Erasmus, Barend F~N, {De Siqueira},
-  Marinez~Ferreira, Grainger, Alan, Hannah, Lee, Hughes, Lesley, Huntley,
-  Brian, {Van Jaarsveld}, Albert~S, Midgley, Guy~F, Miles, Lera, Ortega-Huerta,
-  Miguel~A, Peterson, A~Townsend, Phillips, Oliver~L \& Williams, Stephen~E
-  (2004).
+Thomas, C.D., Cameron, A., Green, R.E., Bakkenes, M., Beaumont, L.J.,
+  Collingham, Y.C., Erasmus, B.F.N., {De Siqueira}, M.F., Grainger, A., Hannah,
+  L., Hughes, L., Huntley, B., {Van Jaarsveld}, A.S., Midgley, G.F., Miles, L.,
+  Ortega-Huerta, M.A., Peterson, A.T., Phillips, O.L. \& Williams, S.E. (2004).
 \newblock {Extinction risk from climate change.}
 \newblock \emph{Nature}, 427, 145--148.
 
 \bibitem[{Thomas \emph{et~al.}(2006)Thomas, Franco \& Hill}]{Thomas2006a}
-Thomas, Chris~D., Franco, Aldina M.~A. \& Hill, Jane~K. (2006).
+Thomas, C.D., Franco, A.M.A. \& Hill, J.K. (2006).
 \newblock {Range retractions and extinction in the face of climate warming}.
 \newblock \emph{Trends Ecol. Evol.}, 21, 415--416.
 
 \bibitem[{Thuiller \emph{et~al.}(2009)Thuiller, Lafourcade, Engler \&
   Ara{\'{u}}jo}]{Thuiller2009a}
-Thuiller, Wilfried, Lafourcade, Bruno, Engler, Robin \& Ara{\'{u}}jo, Miguel~B.
-  (2009).
+Thuiller, W., Lafourcade, B., Engler, R. \& Ara{\'{u}}jo, M.B. (2009).
 \newblock {BIOMOD - a platform for ensemble forecasting of species
   distributions}.
 \newblock \emph{Ecography (Cop.).}, 32, 369--373.
 
 \bibitem[{Thuiller \emph{et~al.}(2005)Thuiller, Lavorel, Ara{\'{u}}jo, Sykes \&
   Prentice}]{Thuiller2005a}
-Thuiller, Wilfried, Lavorel, Sandra, Ara{\'{u}}jo, Miguel~B., Sykes, Martin~T.
-  \& Prentice, I.~Colin (2005).
+Thuiller, W., Lavorel, S., Ara{\'{u}}jo, M.B., Sykes, M.T. \& Prentice, I.C.
+  (2005).
 \newblock {Climate change threats to plant diversity in Europe}.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 102, 8245--8250.
 
 \bibitem[{Thuiller \emph{et~al.}(2013)Thuiller, M{\"{u}}nkem{\"{u}}ller,
   Lavergne, Mouillot, Mouquet, Schiffers \& Gravel}]{Thuiller2013}
-Thuiller, Wilfried, M{\"{u}}nkem{\"{u}}ller, Tamara, Lavergne, S{\'{e}}bastien,
-  Mouillot, David, Mouquet, Nicolas, Schiffers, Katja \& Gravel, Dominique
-  (2013).
+Thuiller, W., M{\"{u}}nkem{\"{u}}ller, T., Lavergne, S., Mouillot, D., Mouquet,
+  N., Schiffers, K. \& Gravel, D. (2013).
 \newblock {A road map for integrating eco-evolutionary processes into
   biodiversity models.}
-\newblock \emph{Ecol. Lett.}, 16 Suppl 1, 94--105.
+\newblock \emph{Ecol. Lett.}, 16, 94--105.
 
 \bibitem[{Travis \emph{et~al.}(2013)Travis, Delgado, Bocedi, Baguette,
   Barto{\'{n}}, Bonte, Boulangeat, Hodgson, Kubisch, Penteriani, Saastamoinen,
   Stevens \& Bullock}]{Travis2013}
-Travis, Justin M.~J., Delgado, Maria, Bocedi, Greta, Baguette, Michel,
-  Barto{\'{n}}, Kamil, Bonte, Dries, Boulangeat, Isabelle, Hodgson, Jenny~A.,
-  Kubisch, Alexander, Penteriani, Vincenzo, Saastamoinen, Marjo, Stevens,
-  Virginie~M. \& Bullock, James~M. (2013).
+Travis, J.M.J., Delgado, M., Bocedi, G., Baguette, M., Barto{\'{n}}, K., Bonte,
+  D., Boulangeat, I., Hodgson, J.A., Kubisch, A., Penteriani, V., Saastamoinen,
+  M., Stevens, V.M. \& Bullock, J.M. (2013).
 \newblock {Dispersal and species' responses to climate change}.
-\newblock \emph{Oikos}, no--no.
+\newblock \emph{Oikos}, 122, 1532--1540.
 
 \bibitem[{Villard \& Metzger(2014)}]{Villard2014}
-Villard, Marc-Andr{\'{e}} \& Metzger, Jean~Paul (2014).
+Villard, M.A. \& Metzger, J.P. (2014).
 \newblock {REVIEW: Beyond the fragmentation debate: a conceptual model to
   predict when habitat configuration really matters}.
 \newblock \emph{J. Appl. Ecol.}, 51, 309--318.
 
 \bibitem[{Villard \emph{et~al.}(1999)Villard, Trzcinski \&
   Merriam}]{Villard1999}
-Villard, Marc-Andre, Trzcinski, M.~Kurtis \& Merriam, Gray (1999).
+Villard, M.A., Trzcinski, M.K. \& Merriam, G. (1999).
 \newblock {Fragmentation Effects on Forest Birds: Relative Influence of
   Woodland Cover and Configuration on Landscape Occupancy}.
 \newblock \emph{Conserv. Biol.}, 13, 774--783.
 
 \bibitem[{Walther \emph{et~al.}(2002)Walther, Post, Convey, Menzel, Parmesan,
   Beebee, Fromentin, Hoegh-Guldberg \& Bairlein}]{Walther2002}
-Walther, Gian-Reto, Post, Eric, Convey, Peter, Menzel, Annette, Parmesan,
-  Camille, Beebee, Trevor J~C, Fromentin, Jean-Marc, Hoegh-Guldberg, Ove \&
-  Bairlein, Franz (2002).
+Walther, G.R., Post, E., Convey, P., Menzel, A., Parmesan, C., Beebee, T.J.C.,
+  Fromentin, J.M., Hoegh-Guldberg, O. \& Bairlein, F. (2002).
 \newblock {Ecological responses to recent climate change.}
 \newblock \emph{Nature}, 416, 389--95.
 
 \bibitem[{Wang \emph{et~al.}(2014)Wang, Blanchet \& Koper}]{Wang2014}
-Wang, Xianli, Blanchet, F.~Guillaume \& Koper, Nicola (2014).
+Wang, X., Blanchet, F.G. \& Koper, N. (2014).
 \newblock {Measuring habitat fragmentation: An evaluation of landscape pattern
   metrics}.
 \newblock \emph{Methods Ecol. Evol.}, 5, 634--646.
 
 \bibitem[{Whitmee \& Orme(2013)}]{Whitmee2013}
-Whitmee, Sarah \& Orme, C. David~L. (2013).
+Whitmee, S. \& Orme, C.D.L. (2013).
 \newblock {Predicting dispersal distance in mammals: a trait-based approach}.
 \newblock \emph{J. Anim. Ecol.}, 82, 211--221.
 
 \bibitem[{Wiens \emph{et~al.}(2009)Wiens, Stralberg, Jongsomjit, Howell \&
   Snyder}]{Wiens2009}
-Wiens, John~A, Stralberg, Diana, Jongsomjit, Dennis, Howell, Christine~A \&
-  Snyder, Mark~A (2009).
+Wiens, J.A., Stralberg, D., Jongsomjit, D., Howell, C.A. \& Snyder, M.A.
+  (2009).
 \newblock {Niches, models, and climate change: assessing the assumptions and
   uncertainties.}
-\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106 Suppl, 19729--36.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106, 19729--36.
 
 \bibitem[{Zurell \emph{et~al.}(2009)Zurell, Jeltsch, Dormann \&
   Schr{\"{o}}der}]{Zurell2009}
-Zurell, Damaris, Jeltsch, Florian, Dormann, Carsten~F. \& Schr{\"{o}}der, Boris
-  (2009).
+Zurell, D., Jeltsch, F., Dormann, C.F. \& Schr{\"{o}}der, B. (2009).
 \newblock {Static species distribution models in dynamically changing systems:
   how good can predictions really be?}
 \newblock \emph{Ecography (Cop.).}, 32, 733--744.
@@ -415,11 +403,10 @@ Zurell, Damaris, Jeltsch, Florian, Dormann, Carsten~F. \& Schr{\"{o}}der, Boris
 \bibitem[{Zurell \emph{et~al.}(2016)Zurell, Thuiller, Pagel, {S Cabral},
   M{\"{u}}nkem{\"{u}}ller, Gravel, Dullinger, Normand, Schiffers, Moore \&
   Zimmermann}]{Zurell2016}
-Zurell, Damaris, Thuiller, Wilfried, Pagel, J{\"{o}}rn, {S Cabral}, Juliano,
-  M{\"{u}}nkem{\"{u}}ller, Tamara, Gravel, Dominique, Dullinger, Stefan,
-  Normand, Signe, Schiffers, Katja~H, Moore, Kara~A \& Zimmermann, Niklaus~E
-  (2016).
+Zurell, D., Thuiller, W., Pagel, J., {S Cabral}, J., M{\"{u}}nkem{\"{u}}ller,
+  T., Gravel, D., Dullinger, S., Normand, S., Schiffers, K.H., Moore, K.A. \&
+  Zimmermann, N.E. (2016).
 \newblock {Benchmarking novel approaches for modelling species range dynamics.}
-\newblock \emph{Glob. Chang. Biol.}
+\newblock \emph{Glob. Chang. Biol.}, 22, 2651--2664.
 
 \end{thebibliography}
