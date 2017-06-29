@@ -95,7 +95,7 @@ else {
 Res[1,13]<-perc
   
 # plot the landscapes
-pdf(paste("../SummaryFigures/LandscapePlots/Single/",filename,"_plot",Res[1,12],".pdf"))
+pdf(paste("../SummaryFigures/LandscapePlots/Single/",filename,"_rep=",replicate,"_plot",Res[1,12],".pdf"))
 plot(land_simple, pch=16) 
 grid()  
 dev.off()

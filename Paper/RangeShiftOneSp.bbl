@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Angert et~al.(2011)}]{Angert2011}
@@ -38,12 +38,6 @@ Borthagaray, A.~I. et~al. 2014.
   prevailing view of abrupt transitions in animal landscape perception}.
 \newblock -- Ecography (Cop.). 37: 564--571.
 
-\bibitem[{Bowler and Benton(2005)}]{Bowler2005}
-Bowler, D.~E. and Benton, T.~G. 2005.
-\newblock {Causes and consequences of animal dispersal strategies: relating
-  individual behaviour to spatial dynamics}.
-\newblock -- Biol. Rev. 80: 205--225.
-
 \bibitem[{Brose et~al.(2005)}]{Brose2005a}
 Brose, U. et~al. 2005.
 \newblock {Scaling up keystone effects from simple to complex ecological
@@ -55,6 +49,12 @@ Chen, I.-C. et~al. 2011.
 \newblock {Rapid Range Shifts of Species Associated with High Levels of Climate
   Warming}.
 \newblock -- Science (80-. ). 333: 1024--1026.
+
+\bibitem[{Chivers et~al.(2017)}]{Chivers2017}
+Chivers, W.~J. et~al. 2017.
+\newblock {Mismatch between marine plankton range movements and the velocity of
+  climate change.}
+\newblock -- Nat. Commun. 8: 14434.
 
 \bibitem[{Clark and Evans(1954)}]{Clark1954}
 Clark, P.~J. and Evans, F.~C. 1954.
@@ -102,12 +102,6 @@ Hanski, I. 2011.
   Conservation}.
 \newblock -- Ambio 40: 248--255.
 
-\bibitem[{Hawkes(2009)}]{Hawkes2009}
-Hawkes, C. 2009.
-\newblock {Linking movement behaviour, dispersal and population processes: is
-  individual variation a key?}
-\newblock -- J. Anim. Ecol. 78: 894--906.
-
 \bibitem[{Hellmann et~al.(2008)}]{Hellmann2008}
 Hellmann, J.~J. et~al. 2008.
 \newblock {Five Potential Consequences of Climate Change for Invasive Species}.
@@ -122,12 +116,6 @@ Hill, J. et~al. 2001.
 Hoffmann, A.~A. and Sgr{\`{o}}, C.~M. 2011.
 \newblock {Climate change and evolutionary adaptation.}
 \newblock -- Nature 470: 479--85.
-
-\bibitem[{Jacob et~al.(2014)}]{Jacob2014}
-Jacob, D. et~al. 2014.
-\newblock {EURO-CORDEX: new high-resolution climate change projections for
-  European impact research}.
-\newblock -- Reg. Environ. Chang. 14: 563--578.
 
 \bibitem[{{Joern Fischer}(2006)}]{JoernFischer2006}
 {Joern Fischer}, D. B.~L. 2006.
@@ -194,16 +182,6 @@ Melles, S.~J. et~al. 2011.
   connectivity, and population processes on a threatened species' range shift}.
 \newblock -- Glob. Chang. Biol. 17: 17--31.
 
-\bibitem[{Mitchell-Jones et~al.(1999)}]{Mitchell-Jones}
-Mitchell-Jones, A.~J. et~al. 1999.
-\newblock {THE ATLAS OF EUROPEAN MAMMALS}.
-\newblock -- Academic Press, London.
-
-\bibitem[{Nadarajah(2005)}]{Nadarajah2005}
-Nadarajah, S. 2005.
-\newblock {A generalized normal distribution}.
-\newblock -- J. Appl. Stat. 32: 685--694.
-
 \bibitem[{Parmesan and Yohe(2003)}]{Parmesan2003}
 Parmesan, C. and Yohe, G. 2003.
 \newblock {A globally coherent fingerprint of climate change impacts across
@@ -220,6 +198,11 @@ Peterson, A. et~al. 2001.
 Pielke, R.~A. 2005.
 \newblock {Atmospheric science. Land use and climate change.}
 \newblock -- Science 310: 1625--6.
+
+\bibitem[{Pocock et~al.(2012)}]{Pocock2012}
+Pocock, M. J.~O. et~al. 2012.
+\newblock {The Robustness and Restoration of a Network of Ecological Networks}.
+\newblock -- Science (80-. ). 335: 973--977.
 
 \bibitem[{Schloss et~al.(2012)}]{Schloss2012a}
 Schloss, C.~A. et~al. 2012.
@@ -270,12 +253,6 @@ Thomas, C.~D. et~al. 2006.
 Thuiller, W. et~al. 2005.
 \newblock {Climate change threats to plant diversity in Europe}.
 \newblock -- Proc. Natl. Acad. Sci. U. S. A. 102: 8245--8250.
-
-\bibitem[{Thuiller et~al.(2009)}]{Thuiller2009a}
-Thuiller, W. et~al. 2009.
-\newblock {BIOMOD - a platform for ensemble forecasting of species
-  distributions}.
-\newblock -- Ecography (Cop.). 32: 369--373.
 
 \bibitem[{Thuiller et~al.(2013)}]{Thuiller2013}
 Thuiller, W. et~al. 2013.

@@ -4,45 +4,45 @@ The top-level auxiliary file: RangeShiftOneSp.aux
 The style file: ecography.bst
 Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib
 Warning--missing institution in Stocker2013
-You've used 59 entries,
+You've used 55 entries,
             2668 wiz_defined-function locations,
-            982 strings with 18034 characters,
-and the built_in function-call counts, 32586 in all, are:
-= -- 3151
-> -- 1162
-< -- 24
-+ -- 548
-- -- 333
-* -- 2036
-:= -- 5427
-add.period$ -- 177
-call.type$ -- 59
-change.case$ -- 369
-chr.to.int$ -- 59
-cite$ -- 60
-duplicate$ -- 2140
-empty$ -- 2284
-format.name$ -- 530
-if$ -- 6466
+            960 strings with 16508 characters,
+and the built_in function-call counts, 30562 in all, are:
+= -- 2958
+> -- 1100
+< -- 21
++ -- 520
+- -- 315
+* -- 1915
+:= -- 5089
+add.period$ -- 165
+call.type$ -- 55
+change.case$ -- 345
+chr.to.int$ -- 55
+cite$ -- 56
+duplicate$ -- 2004
+empty$ -- 2132
+format.name$ -- 502
+if$ -- 6064
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 465
-newline$ -- 299
-num.names$ -- 236
-pop$ -- 809
+missing$ -- 435
+newline$ -- 279
+num.names$ -- 220
+pop$ -- 758
 preamble$ -- 1
-purify$ -- 312
+purify$ -- 291
 quote$ -- 0
-skip$ -- 909
+skip$ -- 851
 stack$ -- 0
-substring$ -- 2066
-swap$ -- 1028
+substring$ -- 1937
+swap$ -- 965
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 522
+type$ -- 489
 warning$ -- 1
-while$ -- 287
+while$ -- 268
 width$ -- 0
-write$ -- 824
+write$ -- 769
 (There was 1 warning)
