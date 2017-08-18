@@ -54,18 +54,35 @@ orcid.org/0000-0003-2721-0051\\
 %\noindent {\bf Key words:} 
 %climate change, dispersal, landscape configuration, point pattern, range shift, speed of climate change\\
 
-\noindent {\bf Type of paper:} 
-Original research 
+
+\noindent{\bf Details}
+\begin{itemize}
+\item Article type: Original research
+\item Abstract word count: 248
+\item Main text word count: 4967 % No abstract, references, table or figure legends
+\end{itemize}
 
 \clearpage
-\begin{abstract}
+%\begin{abstract}
 %\section*{Abstract} 
-\noindent
-Ongoing climate change is currently modifying the geographical location of areas that are climatically suitable for species. Understanding a species' ability to successfully shift its geographical range would allow us to assess extinction risks and predict future community compositions. Here we model how a species' ability to track a directional shift in climatic conditions is affected by: i) species' dispersal abilities; ii) speed of climatic shift; and iii) spatial arrangement of the habitat. We compare modeled the dispersal kernels and theoretical landscapes to dispersal kernels and landscapes of a set of European mammal species and find that they coincide. Our modeling framework includes within- and between-patch population dynamics and uses ecologically realistic habitat distributions and dispersal scenarios, and, as such, is an improvement of classical range shift models. 
+%\noindent
+%Ongoing climate change is currently modifying the geographical location of areas that are climatically suitable for species. Understanding a species' ability to successfully shift its geographical range would allow us to assess extinction risks and predict future community compositions. Here we model how a species' ability to track a directional shift in climatic conditions is affected by: i) species' dispersal abilities; ii) speed of climatic shift; and iii) spatial arrangement of the habitat. We compare modeled the dispersal kernels and theoretical landscapes to dispersal kernels and landscapes of a set of European mammal species and find that they coincide. Our modeling framework includes within- and between-patch population dynamics and uses ecologically realistic habitat distributions and dispersal scenarios, and, as such, is an improvement of classical range shift models. 
+%
+%In landscapes with a homogeneous distribution of habitats, all but the least dispersive species will be able to range shift. However, species with wide dispersal kernels will have lower population densities after range shift. In heterogeneous landscapes species' ability to range shift is far more variable and heavily dependent on the habitat configuration. The theoretical landscapes we generate capture most of the variation in landscapes experienced by the four European mammals we use as example species, but a few of the empirical landscapes show substantially more or less aggregation. Our analyses points out the importance of taking the interplay of species dispersal and the landscape configuration into account when estimating future climate impact on species. These results link ecologically important attributes of both species and their landscapes to outcomes of species range shift, and thereby long-term persistence of ecological communities. 
+%\end{abstract}
 
-In landscapes with a homogeneous distribution of habitats, all but the least dispersive species will be able to range shift. However, species with wide dispersal kernels will have lower population densities after range shift. In heterogeneous landscapes species' ability to range shift is far more variable and heavily dependent on the habitat configuration. The theoretical landscapes we generate capture most of the variation in landscapes experienced by the four European mammals we use as example species, but a few of the empirical landscapes show substantially more or less aggregation. Our analyses points out the importance of taking the interplay of species dispersal and the landscape configuration into account when estimating future climate impact on species. These results link ecologically important attributes of both species and their landscapes to outcomes of species range shift, and thereby long-term persistence of ecological communities. 
+\begin{abstract}
+\noindent{\bf Aim:} Ongoing climate change is currently modifying the geographical location of areas that are climatically suitable for species. Understanding a species' ability to successfully shift its geographical range would allow us to assess extinction risks and predict future community compositions.
+
+\noindent{\bf Location:} 
+Europe 
+
+\noindent{\bf Methods:}  We model how a species' ability to track a directional shift in climatic conditions is affected by: i) species' dispersal abilities; ii) speed of climatic shift; and iii) spatial arrangement of the habitat. Our modeling framework includes within- and between-patch population dynamics and uses ecologically realistic habitat distributions and dispersal scenarios (verified with data from a set of  European mammal species), and, as such, is an improvement of classical range shift models. 
+
+\noindent{\bf Results:}  In landscapes with a homogeneous distribution of suitable habitats, all but the least dispersive species will be able to range shift. However, species with wide dispersal kernels will have lower population densities after range shift. In heterogeneous landscapes species' ability to range shift is far more variable and heavily dependent on the habitat configuration. This means that landscape configuration in combination with the speed of climate change and species dispersal abilities give rise to non-linear effects on population sizes and survival after a climatic shift.
+
+\noindent{\bf Main conclusions:}  Our analyses point out the importance of taking the interplay of species dispersal and the landscape configuration into account when estimating future climate impact on species. These results link ecologically important attributes of both species and their landscapes to outcomes of species range shift, and thereby long-term persistence of ecological communities. 
 \end{abstract}
-
 \clearpage
 
 \section*{Introduction}
@@ -84,14 +101,14 @@ Predicting biodiversity scenarios under climate change has so far largely relied
 To reliably predict range dynamics in the face of climate change, we need to understand the joint impact of species dispersal, habitat configuration in landscapes, and the speed of climatic shift on species' abilities to colonize and survive in new climatically suitable areas. Simulations of virtual landscapes/species can be highly informative but typically face several limitations. They typically focus on population presence/absence, rather than measuring population growth and abundance and therefore often lack ecological realism. To address this shortcoming here we develop a modeling framework with three key advantages over previous models: 1) explicitly including population dynamics in the model; 2) evaluating different types of habitat configuration within landscapes; and 3) using data on dispersal kernels and speed of climate change for real species and landscapes.  To ensure that the parameters used in our model are ecologically realistic, we compared them to empirical data.
 
 
-\section*{Materials and Methods}
+\section*{Methods}
 
-We modeled how species' ability to track a directional shift in climatic conditions was affected by: i) spatial arrangement of suitable habitats in the landscape; ii) characteristics of species' dispersal abilities; and iii) speed of the climatic shift. We explored the effect these factors have on the range-shifting population in terms of patch occupancy and changes in global density. As a last step we used empirical data from a data set of European mammals to evaluate the realism of our modeling work.
+We modeled how species' ability to track a directional shift in climatic conditions was jointly affected by: i) spatial arrangement of suitable habitats in the landscape; ii) characteristics of species' dispersal abilities; and iii) speed of the climatic shift. We explored the effect these factors have on the range-shifting population in terms of patch occupancy and changes in global density. As a last step we used empirical data from a data set of European mammals to evaluate the realism of our modeling work.
 
 \subsection*{Landscape generation}
 We started of by producing a set of artificial landscapes varying in their configuration of suitable habitat patches. We specifically wanted to analyze landscapes with clear differences in habitat aggregation. To this extent we followed a recently developed methodology \citep{Lindstrom2011}, where the landscapes are generated using a method based on spectral density to produce neutral point pattern landscapes (NPPL). The NPPLs are primarily defined by three parameters: the number of patches ($n$), a continuity parameter ($\gamma$) and a contrast parameter ($\delta$). The continuity parameter determines the spatial autocorrelation over multiple scales, i.e., if areas with similar patch density are located close to or far from each other. The contrast parameter defines how large the difference between areas with dense or sparse habitat distribution is, i.e., is a measure of density dispersion. For a detailed description of the method see \cite{Lindstrom2011}.
 
-We here varied $\gamma$ but kept $\delta$ constant. The combinations we used were [$\gamma$=0, $\delta$= 3] and [$\gamma$=2, $\delta$= 3] as those represent landscapes with a clear difference in habitat aggregation (XXX REFER TO A FIG!). We hereafter refer to those combinations as homogeneous and heterogeneous landscapes respectively. The number of habitat patches distributed in each landscape was 1000.
+We here varied $\gamma$ but kept $\delta$ constant. The combinations we used were [$\gamma$=0, $\delta$= 3] and [$\gamma$=2, $\delta$= 3] as those represent landscapes with a clear difference in habitat aggregation. We hereafter refer to those combinations as homogeneous and heterogeneous landscapes respectively. The number of habitat patches distributed in each landscape was 1000.
 
 \subsection*{Population dynamics}
 In each habitat patch the population dynamics were described by a modified Ricker equation
@@ -147,6 +164,7 @@ In order to further disentangle the role of the different variables (dispersal k
 
 \subsection*{Empirical data} 
 In order to evaluate the ecological relevance of our model we analyzed empirical data on i) species dispersals and ii) distribution of suitable habitats within landscapes and compared this to the parameters used in the modeling frame work.
+
 
 \subsubsection*{Dispersal for European mammals} 
 The empirical data on species dispersal was for eight mammals found in Europe \citep{Whitmee2013}.  We used the species’ natal dispersal distances to calculate their respective dispersal kernels (see Appendix 1). The mammals were grey-sided vole (\textit{Myodes rufocanus}), Siberian flying squirrel (\textit{Pteromys volans}), European hare (\textit{Lepus europaeus}), chamois (\textit{Rupicapra rupicapra}), Pyrenean chamois (\textit{Rupicapra pyrenaica}), elk (\textit{Alces alces}), brown bear (\textit{Ursus arctos}) and wolverine (\textit{Gulo gulo}). 
