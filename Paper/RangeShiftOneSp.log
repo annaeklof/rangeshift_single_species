@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  18 AUG 2017 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  21 AUG 2017 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,12 +400,7 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
  [28] [29] [30] [31]
-[32]) [33]
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-
+[32] [33]) [34]
 Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
@@ -415,121 +410,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-[34
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
+[35
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[35]
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[36]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[36] [37] <../Figures/PlotWithLegendsMini.pdf, id=138, 289.08pt x 289.08pt>
+[37] [38] <../Figures/PlotWithLegendsMini.pdf, id=141, 289.08pt x 289.08pt>
 File: ../Figures/PlotWithLegendsMini.pdf Graphic file (type pdf)
 
 <use ../Figures/PlotWithLegendsMini.pdf>
 Package pdftex.def Info: ../Figures/PlotWithLegendsMini.pdf used on input line 
-263.
+265.
 (pdftex.def)             Requested size: 433.62pt x 433.64098pt.
- [38
+ [39
 
- <../Figures/PlotWithLegendsMini.pdf>] <../Figures/homo.png, id=147, 693.3102pt
+ <../Figures/PlotWithLegendsMini.pdf>] <../Figures/homo.png, id=150, 693.3102pt
  x 286.671pt>
 File: ../Figures/homo.png Graphic file (type png)
 
 <use ../Figures/homo.png>
-Package pdftex.def Info: ../Figures/homo.png used on input line 308.
+Package pdftex.def Info: ../Figures/homo.png used on input line 310.
 (pdftex.def)             Requested size: 505.89pt x 209.18059pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 308--309
- [] 
- []
-
-[39
-
- <../Figures/homo.png>]
-<../Figures/hetero.png, id=153, 685.1196pt x 286.671pt>
-File: ../Figures/hetero.png Graphic file (type png)
-
-<use ../Figures/hetero.png>
-Package pdftex.def Info: ../Figures/hetero.png used on input line 316.
-(pdftex.def)             Requested size: 505.89pt x 211.68266pt.
-
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 316--317
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 310--311
  [] 
  []
 
 [40
 
+ <../Figures/homo.png>]
+<../Figures/hetero.png, id=156, 685.1196pt x 286.671pt>
+File: ../Figures/hetero.png Graphic file (type png)
+
+<use ../Figures/hetero.png>
+Package pdftex.def Info: ../Figures/hetero.png used on input line 318.
+(pdftex.def)             Requested size: 505.89pt x 211.68266pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 318--319
+ [] 
+ []
+
+[41
+
  <../Figures/hetero.png>]
-<../Figures/DensityFigHomo.pdf, id=158, 845.1575pt x 597.23125pt>
+<../Figures/DensityFigHomo.pdf, id=161, 845.1575pt x 597.23125pt>
 File: ../Figures/DensityFigHomo.pdf Graphic file (type pdf)
 
 <use ../Figures/DensityFigHomo.pdf>
-Package pdftex.def Info: ../Figures/DensityFigHomo.pdf used on input line 326.
-(pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
- [41
-
- <../Figures/DensityFigHomo.pdf>]
-<../Figures/DensityFigHetero.pdf, id=409, 845.1575pt x 597.23125pt>
-File: ../Figures/DensityFigHetero.pdf Graphic file (type pdf)
-
-<use ../Figures/DensityFigHetero.pdf>
-Package pdftex.def Info: ../Figures/DensityFigHetero.pdf used on input line 336
-.
+Package pdftex.def Info: ../Figures/DensityFigHomo.pdf used on input line 328.
 (pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
  [42
 
+ <../Figures/DensityFigHomo.pdf>]
+<../Figures/DensityFigHetero.pdf, id=412, 845.1575pt x 597.23125pt>
+File: ../Figures/DensityFigHetero.pdf Graphic file (type pdf)
+
+<use ../Figures/DensityFigHetero.pdf>
+Package pdftex.def Info: ../Figures/DensityFigHetero.pdf used on input line 338
+.
+(pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
+ [43
+
  <../Figures/DensityFigHetero.pdf>]
-Overfull \hbox (31.48242pt too wide) in paragraph at lines 353--393
+Overfull \hbox (31.48242pt too wide) in paragraph at lines 355--395
  [][] 
  []
 
 
-Overfull \hbox (5.34178pt too wide) in paragraph at lines 397--419
+Overfull \hbox (5.34178pt too wide) in paragraph at lines 399--421
  [][] 
  []
 
 
-<../Figures/Figure5_conservationActions2.pdf, id=515, 845.1575pt x 597.23125pt>
+<../Figures/Figure5_conservationActions2.pdf, id=519, 845.1575pt x 597.23125pt>
 File: ../Figures/Figure5_conservationActions2.pdf Graphic file (type pdf)
 <use ../Figures/Figure5_conservationActions2.pdf>
 Package pdftex.def Info: ../Figures/Figure5_conservationActions2.pdf used on in
-put line 427.
+put line 429.
 (pdftex.def)             Requested size: 867.23999pt x 612.84946pt.
 
 
-LaTeX Warning: Float too large for page by 67.34157pt on input line 431.
+LaTeX Warning: Float too large for page by 67.34157pt on input line 433.
 
 
-<../Figures/Fig7_SummaryFigureConservationActions22.pdf, id=516, 845.1575pt x 5
+<../Figures/Fig7_SummaryFigureConservationActions22.pdf, id=520, 845.1575pt x 5
 97.23125pt>
 File: ../Figures/Fig7_SummaryFigureConservationActions22.pdf Graphic file (type
  pdf)
  <use ../Figures/Fig7_SummaryFigureConservationActions22.pdf>
 Package pdftex.def Info: ../Figures/Fig7_SummaryFigureConservationActions22.pdf
- used on input line 436.
+ used on input line 438.
 (pdftex.def)             Requested size: 650.43pt x 459.64165pt.
 
-[43] [44 <../Figures/Figure5_conservationActions2.pdf>] [45 <../Figures/Fig7_Su
+[44] [45 <../Figures/Figure5_conservationActions2.pdf>] [46 <../Figures/Fig7_Su
 mmaryFigureConservationActions22.pdf>] (./RangeShiftOneSp.aux) ) 
 Here is how much of TeX's memory you used:
- 5079 strings out of 493315
- 75366 string characters out of 6137904
- 144425 words of memory out of 5000000
- 8444 multiletter control sequences out of 15000+600000
+ 5084 strings out of 493315
+ 75406 string characters out of 6137904
+ 146544 words of memory out of 5000000
+ 8449 multiletter control sequences out of 15000+600000
  13965 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,10n,40p,1891b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -552,10 +552,10 @@ st/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2013/texmf-dist
 fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on RangeShiftOneSp.pdf (45 pages, 1636964 bytes).
+Output written on RangeShiftOneSp.pdf (46 pages, 1646397 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
- 503 compressed objects within 6 object streams
+ 736 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
