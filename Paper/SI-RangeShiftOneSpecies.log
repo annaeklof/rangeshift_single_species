@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  3 MAY 2017 17:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  22 AUG 2017 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,45 +296,67 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [2] [3]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [2]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [3] [4] [5]
 (./SI-RangeShiftOneSpecies.bbl
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-) [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+) [6
 
 ]
-<../Figures/v83_0_matrixpic.pdf, id=26, 867.24pt x 867.24pt>
+<../Figures/v83_0_matrixpic.pdf, id=33, 867.24pt x 867.24pt>
 File: ../Figures/v83_0_matrixpic.pdf Graphic file (type pdf)
 
 <use ../Figures/v83_0_matrixpic.pdf>
-Package pdftex.def Info: ../Figures/v83_0_matrixpic.pdf used on input line 100.
-
+Package pdftex.def Info: ../Figures/v83_0_matrixpic.pdf used on input line 99.
 (pdftex.def)             Requested size: 170.71652pt x 170.70569pt.
 
-<../Figures/v83_0_pnorm.pdf, id=27, 867.24pt x 867.24pt>
+<../Figures/v83_0_pnorm.pdf, id=34, 867.24pt x 867.24pt>
 File: ../Figures/v83_0_pnorm.pdf Graphic file (type pdf)
 
 <use ../Figures/v83_0_pnorm.pdf>
-Package pdftex.def Info: ../Figures/v83_0_pnorm.pdf used on input line 106.
+Package pdftex.def Info: ../Figures/v83_0_pnorm.pdf used on input line 105.
 (pdftex.def)             Requested size: 202.01474pt x 202.01497pt.
- [5 <../Figures/v83_0_matrixpic.pdf> <../Figures/v83_0_pnorm.pdf>]
-<../Figures/Boxplot_clarkevans.pdf, id=42, 722.7pt x 867.24pt>
+ [7 <../Figures/v83_0_matrixpic.pdf> <../Figures/v83_0_pnorm.pdf>]
+<../Figures/Boxplot_clarkevans.pdf, id=50, 722.7pt x 867.24pt>
 File: ../Figures/Boxplot_clarkevans.pdf Graphic file (type pdf)
 
 <use ../Figures/Boxplot_clarkevans.pdf>
 Package pdftex.def Info: ../Figures/Boxplot_clarkevans.pdf used on input line 1
-19.
+18.
 (pdftex.def)             Requested size: 199.16928pt x 239.0012pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -343,27 +365,27 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<../Figures/boxplot_density_MOD.pdf, id=43, 1011.78pt x 1300.86pt>
+<../Figures/boxplot_density_MOD.pdf, id=51, 1011.78pt x 1300.86pt>
 File: ../Figures/boxplot_density_MOD.pdf Graphic file (type pdf)
 
 <use ../Figures/boxplot_density_MOD.pdf>
 Package pdftex.def Info: ../Figures/boxplot_density_MOD.pdf used on input line 
-126.
+125.
 (pdftex.def)             Requested size: 483.69684pt x 621.90468pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 126--127
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 48.89679pt on input line 129.
+LaTeX Warning: Float too large for page by 48.89679pt on input line 128.
 
-[6 <../Figures/Boxplot_clarkevans.pdf>] [7 <../Figures/boxplot_density_MOD.pdf>
+[8 <../Figures/Boxplot_clarkevans.pdf>] [9 <../Figures/boxplot_density_MOD.pdf>
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [8
+ [10
 
 
 
@@ -373,13 +395,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4303 strings out of 493315
- 62842 string characters out of 6137904
- 125080 words of memory out of 5000000
- 7689 multiletter control sequences out of 15000+600000
- 12736 words of font info for 49 fonts, out of 8000000 for 9000
+ 4318 strings out of 493315
+ 63108 string characters out of 6137904
+ 129222 words of memory out of 5000000
+ 7703 multiletter control sequences out of 15000+600000
+ 13043 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,8n,40p,1907b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,3049b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -387,14 +409,15 @@ usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SI-RangeShiftOneSpecies.pdf (8 pages, 202393 bytes).
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on SI-RangeShiftOneSpecies.pdf (10 pages, 216945 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 332 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

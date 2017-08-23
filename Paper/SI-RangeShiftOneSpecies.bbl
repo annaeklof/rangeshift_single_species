@@ -1,11 +1,33 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Ara{\'{u}}jo et~al.(2011)}]{Araujo2011a}
+Ara{\'{u}}jo, M.~B. et~al. 2011.
+\newblock {Climate change threatens European conservation areas}.
+\newblock -- Ecol. Lett. 14: 484--492.
 
 \bibitem[{Clark and Evans(1954)}]{Clark1954}
 Clark, P.~J. and Evans, F.~C. 1954.
 \newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
   in Populations}.
 \newblock -- Ecology 35: 445--453.
+
+\bibitem[{Jacob et~al.(2014)}]{Jacob2014}
+Jacob, D. et~al. 2014.
+\newblock {EURO-CORDEX: new high-resolution climate change projections for
+  European impact research}.
+\newblock -- Reg. Environ. Chang. 14: 563--578.
+
+\bibitem[{Mitchell-Jones et~al.(1999)}]{Mitchell-Jones}
+Mitchell-Jones, A.~J. et~al. 1999.
+\newblock {THE ATLAS OF EUROPEAN MAMMALS}.
+\newblock -- Academic Press, London.
+
+\bibitem[{Thuiller et~al.(2009)}]{Thuiller2009a}
+Thuiller, W. et~al. 2009.
+\newblock {BIOMOD - a platform for ensemble forecasting of species
+  distributions}.
+\newblock -- Ecography (Cop.). 32: 369--373.
 
 \bibitem[{Turner et~al.(2015)}]{spatstat}
 Turner, A. et~al. 2015.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  21 AUG 2017 11:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.11)  22 AUG 2017 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,32 +469,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-Missing character: There is no â in font bchr7t!
-Missing character: There is no € in font bchr7t!
-Missing character: There is no ™ in font bchr7t!
 [1
 
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./LiU_p
-rimary_black.png>] [2] 
+rimary_black.png>] 
 AED: lastpage setting LastPage
 (./CoverLetter2.aux) ) 
 Here is how much of TeX's memory you used:
  4348 strings out of 493315
  57610 string characters out of 6137904
- 141092 words of memory out of 5000000
+ 142092 words of memory out of 5000000
  7745 multiletter control sequences out of 15000+600000
  11136 words of font info for 29 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,45p,736b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,699b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/
 8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pf
 b>
-Output written on CoverLetter2.pdf (2 pages, 44927 bytes).
+Output written on CoverLetter2.pdf (1 page, 43025 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

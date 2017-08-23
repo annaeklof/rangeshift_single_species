@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: SI-RangeShiftOneSpecies.aux
 The style file: ecography.bst
 Database file #1: RangeShiftMS.bib.bib
-You've used 3 entries,
+You've used 7 entries,
             2668 wiz_defined-function locations,
-            591 strings with 4583 characters,
-and the built_in function-call counts, 1644 in all, are:
-= -- 151
-> -- 63
+            623 strings with 6312 characters,
+and the built_in function-call counts, 3802 in all, are:
+= -- 355
+> -- 147
 < -- 2
-+ -- 30
-- -- 18
-* -- 108
-:= -- 271
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 19
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 107
-empty$ -- 114
-format.name$ -- 31
-if$ -- 323
++ -- 70
+- -- 42
+* -- 236
+:= -- 642
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 251
+empty$ -- 266
+format.name$ -- 67
+if$ -- 753
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 19
-num.names$ -- 12
-pop$ -- 49
+missing$ -- 56
+newline$ -- 39
+num.names$ -- 28
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 37
 quote$ -- 0
-skip$ -- 48
+skip$ -- 113
 stack$ -- 0
-substring$ -- 83
-swap$ -- 53
+substring$ -- 202
+swap$ -- 117
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 57
 warning$ -- 0
-while$ -- 13
+while$ -- 31
 width$ -- 0
-write$ -- 44
+write$ -- 99

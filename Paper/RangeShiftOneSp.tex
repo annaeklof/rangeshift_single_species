@@ -54,10 +54,12 @@ orcid.org/0000-0003-2721-0051\\
 %\noindent {\bf Key words:} 
 %climate change, dispersal, landscape configuration, point pattern, range shift, speed of climate change\\
 
+\clearpage
 
 \noindent{\bf Details}
 \begin{itemize}
-\item Article type: Original research
+\item Article type: Biodiversity research
+\item Running head: Conditions for successful range shift
 \item Abstract word count: 248
 \item Main text word count: 4967 % No abstract, references, table or figure legends
 \end{itemize}
@@ -167,14 +169,14 @@ In order to evaluate the ecological relevance of our model we analyzed empirical
 
 
 \subsubsection*{Dispersal for European mammals} 
-The empirical data on species dispersal was for eight mammals found in Europe \citep{Whitmee2013}.  We used the species’ natal dispersal distances to calculate their respective dispersal kernels (see Appendix 1). The mammals were grey-sided vole (\textit{Myodes rufocanus}), Siberian flying squirrel (\textit{Pteromys volans}), European hare (\textit{Lepus europaeus}), chamois (\textit{Rupicapra rupicapra}), Pyrenean chamois (\textit{Rupicapra pyrenaica}), elk (\textit{Alces alces}), brown bear (\textit{Ursus arctos}) and wolverine (\textit{Gulo gulo}). 
+The empirical data on species dispersal was for eight mammals found in Europe \citep{Whitmee2013}.  We used the species’ natal dispersal distances to calculate their respective dispersal kernels (see SI Appendix 1). The mammals were grey-sided vole (\textit{Myodes rufocanus}), Siberian flying squirrel (\textit{Pteromys volans}), European hare (\textit{Lepus europaeus}), chamois (\textit{Rupicapra rupicapra}), Pyrenean chamois (\textit{Rupicapra pyrenaica}), elk (\textit{Alces alces}), brown bear (\textit{Ursus arctos}) and wolverine (\textit{Gulo gulo}). 
 
 \subsubsection*{Data on empirical landscapes} 
-Empirical data on the distribution of habitats suitable for set of European mammals were used to control if the modeled landscapes had ecological realism. We wanted to look at the configuration of suitable habitats as they are distributed today, and also how the distribution of suitable habitats likely will look in the future after some expected climate change has taken place. To produce this data we constructed species distribution models (SDMs) for the species using baseline climate data from 1961-1990, and predicted suitable climate conditions in 2071-2100 at approx. 50km resolution, using techniques from  \cite{Araujo2011a}. Landscape structure was calculated by classifying 1km grid-cells as suitable or unsuitable based on the predominant land cover type extracted from the CORINE 2000 inventory, and species habitat preferences taken from the IUCN’s Habitat Classification Scheme (http://www.iucnredlist.org/). For a detailed description, see Appendix 1. 
+Empirical data on the distribution of habitats suitable for set of European mammals were used to control if the modeled landscapes had ecological realism. We wanted to look at the configuration of suitable habitats as they are distributed today, and also how the distribution of suitable habitats likely will look in the future after some expected climate change has taken place. To produce this data we constructed species distribution models (SDMs) for the species using baseline climate data from 1961-1990, and predicted suitable climate conditions in 2071-2100 at approx. 50km resolution, using techniques from  \cite{Araujo2011a}. Landscape structure was calculated by classifying 1km grid-cells as suitable or unsuitable based on the predominant land cover type extracted from the CORINE 2000 inventory, and species habitat preferences taken from the IUCN’s Habitat Classification Scheme (http://www.iucnredlist.org/). For a detailed description, see SI, Appendix 1. 
 
 The four species were selected for this paper as they showed a range of dispersal abilities, their models were highly accurate (ensemble SDMs had mean AUC>0.8 and TSS>0.6), suitable climate space became available outside their range which could be colonised, and because visual inspection showed that their current warm range margins closely aligned with climate conditions predicted suitable in the 1961-1990 period. The latter criterion means that the cells that can be colonised in the future are adjacent or very close to currently occupied cells. Note that this is not the case for all species as they can undergo total range contractions instead. This was actually the case for four of the mammals, in the set of eight used for dispersal data, and therefor they could not be used in this analysis.
 
-In order to compare the range of landscapes generated against the empirical landscapes, we calculated the Clark and Evans aggregation index \citep{Clark1954} using the R-package {\em spatstat} for both generated and empirical landscapes. The Clark and Evans index is a measure of clustering of a spatial point pattern based on the distances of each habitat patch (point) to its nearest neighbor. The average distance is compared with the expected mean distance from all habitat patches to their nearest neighbors in the same area, assuming a completely random distribution. A value > 1 means that the habitat pattern has a tendency towards regularity, while values < 1 indicate a clustered pattern.  See Appendix 1, for detailed information.
+In order to compare the range of landscapes generated against the empirical landscapes, we calculated the Clark and Evans aggregation index \citep{Clark1954} using the R-package {\em spatstat} for both generated and empirical landscapes. The Clark and Evans index is a measure of clustering of a spatial point pattern based on the distances of each habitat patch (point) to its nearest neighbor. The average distance is compared with the expected mean distance from all habitat patches to their nearest neighbors in the same area, assuming a completely random distribution. A value > 1 means that the habitat pattern has a tendency towards regularity, while values < 1 indicate a clustered pattern.  See SI, Appendix 1, for detailed information.
 
 
 \section*{Results}
@@ -194,7 +196,7 @@ The regression tree analysis confirmed that the species dispersal ability was th
 
 We calculated dispersal kernels for the eight European mammals in order to evaluate the ecological realism of our simulated species' kernels. The $a$-values (Eq. 2) for the empirical species ranged from 0.0015 (\textit{Myodes rufocanus}) to 2.23 ({\em Ursus arctos}) showed that the parameters used to model species dispersal in the simulations were well represented by the empirical data (Fig. 1).
 
-The analysis of the empirical landscapes where the species were expected to range shift into due to climate change showed a large variation in how the suitable habitat were distributed. The Clark-Evans aggregation index for the distribution of suitable habitat in the empirical landscapes ranged from 0.31 -- 1.50 (average value 0.84), and the corresponding values for the theoretical landscapes were 0.56 -- 1.18 (average 0.83) (Appendix 1, Fig. A2). The spectrum of range shift outcomes simulated in the theoretical landscapes corresponds to the vast majority of landscapes observed for the four European mammal species’ future ranges. In the empirical landscapes there are a considerable amount of grid cells  (darker colored grid-cells in Fig. 6) where there is likely to be great deal of uncertainty in range-shift success for the example species, depending on the exact habitat configuration. 
+The analysis of the empirical landscapes where the species were expected to range shift into due to climate change showed a large variation in how the suitable habitat were distributed. The Clark-Evans aggregation index for the distribution of suitable habitat in the empirical landscapes ranged from 0.31 -- 1.50 (average value 0.84), and the corresponding values for the theoretical landscapes were 0.56 -- 1.18 (average 0.83) (SI Appendix 1, Fig. S1.2). The spectrum of range shift outcomes simulated in the theoretical landscapes corresponds to the vast majority of landscapes observed for the four European mammal species’ future ranges. In the empirical landscapes there are a considerable amount of grid cells  (darker colored grid-cells in Fig. 6) where there is likely to be great deal of uncertainty in range-shift success for the example species, depending on the exact habitat configuration. 
 
 \section*{Discussion}
 
@@ -241,6 +243,15 @@ This research was funded by the ERA-Net BiodivERsA, part of the 2011 BiodivERsA 
 
  
 \clearpage
+
+\section*{Author contribution}
+AEk and UW originally formulated the ideas presented in this article. J\r{A} coded the theoretical model and preformed the simulations. J\r{A} and AEk preformed the analyses of the simulated data. RE and AEs obtained the empirical species data and preformed the  analyses of them. J\r{A} and AEk wrote the first draft of the manuscript and all authors contributed extensively to the preparation of the final version.
+
+\section*{Biosketch}
+Jonatan \r{A}revall is a PhD student at Link\"{o}ping University, particularly interested in examining interactions between population dynamics, landscape characteristics and species’ dispersal behavior, and how these together can affect population distributions. He is also interested in applying these results to increase the efficiency of green infrastructure projects in order to accommodate biodiversity in the future.
+
+\clearpage
+
 \section*{Figure legends}
 
 {\bf Figure 1.} Shows dispersal kernels used in the model (colored lines) and the dispersal kernels for eight European mammal species (dotted lines). The mammals are from bottom to top {\em Clethrionomys rufocanus} , {\em Pteromys volans}, {\em Rupicapra rupicapra} and {\em Lepus europaeus} (lines are overlapping), {\em Rupicapra pyreica}, {\em  Alces alces}, {\em Gulo gulo}, and finally {\em Ursus arctos}. The x-axis show distances as landscape units (50km). \\
