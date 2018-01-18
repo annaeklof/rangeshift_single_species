@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: RangeShiftOneSp_REV1.aux
+The style file: ecollett.bst
+Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib
+Warning--missing institution in Stocker2013
+You've used 55 entries,
+            2997 wiz_defined-function locations,
+            1014 strings with 16800 characters,
+and the built_in function-call counts, 37601 in all, are:
+= -- 2951
+> -- 2142
+< -- 21
++ -- 817
+- -- 762
+* -- 3178
+:= -- 6126
+add.period$ -- 165
+call.type$ -- 55
+change.case$ -- 528
+chr.to.int$ -- 55
+cite$ -- 56
+duplicate$ -- 2390
+empty$ -- 2372
+format.name$ -- 949
+if$ -- 7041
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 584
+newline$ -- 279
+num.names$ -- 220
+pop$ -- 1008
+preamble$ -- 1
+purify$ -- 474
+quote$ -- 0
+skip$ -- 612
+stack$ -- 0
+substring$ -- 1937
+swap$ -- 1403
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 489
+warning$ -- 1
+while$ -- 268
+width$ -- 0
+write$ -- 715
+(There was 1 warning)
