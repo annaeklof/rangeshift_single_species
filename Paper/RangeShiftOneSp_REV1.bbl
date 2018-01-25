@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{52}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Angert \emph{et~al.}(2011)Angert, Crozier, Rissler, Gilman, Tewksbury
@@ -7,13 +7,6 @@ Angert, A.L., Crozier, L.G., Rissler, L.J., Gilman, S.E., Tewksbury, J.J. \&
   Chunco, A.J. (2011).
 \newblock {Do species' traits predict recent shifts at expanding range edges?}
 \newblock \emph{Ecol. Lett.}, 14, 677--89.
-
-\bibitem[{Ara{\'{u}}jo \emph{et~al.}(2011)Ara{\'{u}}jo, Alagador, Cabeza,
-  Nogu{\'{e}}s-Bravo \& Thuiller}]{Araujo2011a}
-Ara{\'{u}}jo, M.B., Alagador, D., Cabeza, M., Nogu{\'{e}}s-Bravo, D. \&
-  Thuiller, W. (2011).
-\newblock {Climate change threatens European conservation areas}.
-\newblock \emph{Ecol. Lett.}, 14, 484--492.
 
 \bibitem[{Ara{\'{u}}jo \& Peterson(2012)}]{Araujo2012a}
 Ara{\'{u}}jo, M.B. \& Peterson, A.T. (2012).
@@ -70,12 +63,6 @@ Chivers, W.J., Walne, A.W. \& Hays, G.C. (2017).
   climate change.}
 \newblock \emph{Nat. Commun.}, 8, 14434.
 
-\bibitem[{Clark \& Evans(1954)}]{Clark1954}
-Clark, P.J. \& Evans, F.C. (1954).
-\newblock {Distance to Nearest Neighbor as a Measure of Spatial Relationships
-  in Populations}.
-\newblock \emph{Ecology}, 35, 445--453.
-
 \bibitem[{De'ath \& Fabricius(2000)}]{Death2000}
 De'ath, G. \& Fabricius, K.E. (2000).
 \newblock {Classification and regression trees: a powerful yet simple technique
@@ -122,13 +109,6 @@ Hanski, I. (2011).
 Hellmann, J.J., Byers, J.E., Bierwagen, B.G. \& Dukes, J.S. (2008).
 \newblock {Five Potential Consequences of Climate Change for Invasive Species}.
 \newblock \emph{Conserv. Biol.}, 22, 534--543.
-
-\bibitem[{Hill \emph{et~al.}(2001)Hill, Collingham, Thomas, Blakeley, Fox, Moss
-  \& Huntley}]{Hill2001}
-Hill, J., Collingham, Y., Thomas, C., Blakeley, D., Fox, R., Moss, D. \&
-  Huntley, B. (2001).
-\newblock {Impacts of landscape structure on butterfly range expansion}.
-\newblock \emph{Ecol. Lett.}, 4, 313--321.
 
 \bibitem[{Hoffmann \& Sgr{\`{o}}(2011)}]{Hoffmann2011}
 Hoffmann, A.A. \& Sgr{\`{o}}, C.M. (2011).
@@ -212,6 +192,14 @@ Parmesan, C. \& Yohe, G. (2003).
   natural systems.}
 \newblock \emph{Nature}, 421, 37--42.
 
+\bibitem[{P{\'{e}}rez-Garc{\'{i}}a \emph{et~al.}(2017)P{\'{e}}rez-Garc{\'{i}}a,
+  Thorne \& Dom{\'{i}}nguez-Lozano}]{Perez-Garcia2017}
+P{\'{e}}rez-Garc{\'{i}}a, N., Thorne, J.H. \& Dom{\'{i}}nguez-Lozano, F.
+  (2017).
+\newblock {The mid-distance dispersal optimum, evidence from a mixed-model
+  climate vulnerability analysis of an edaphic endemic shrub}.
+\newblock \emph{Divers. Distrib.}, 23, 771--782.
+
 \bibitem[{Peterson \emph{et~al.}(2001)Peterson, S{\'{a}}nchez-Cordero,
   Sober{\'{o}}n, Bartley, Buddemeier \& Navarro-Sig{\"{u}}enza}]{Peterson2001}
 Peterson, A., S{\'{a}}nchez-Cordero, V., Sober{\'{o}}n, J., Bartley, J.,
@@ -224,11 +212,6 @@ Peterson, A., S{\'{a}}nchez-Cordero, V., Sober{\'{o}}n, J., Bartley, J.,
 Pielke, R.A. (2005).
 \newblock {Atmospheric science. Land use and climate change.}
 \newblock \emph{Science}, 310, 1625--6.
-
-\bibitem[{Pocock \emph{et~al.}(2012)Pocock, Evans \& Memmott}]{Pocock2012}
-Pocock, M.J.O., Evans, D.M. \& Memmott, J. (2012).
-\newblock {The Robustness and Restoration of a Network of Ecological Networks}.
-\newblock \emph{Science (80-. ).}, 335, 973--977.
 
 \bibitem[{Schloss \emph{et~al.}(2012)Schloss, Nu{\~{n}}ez \&
   Lawler}]{Schloss2012a}
