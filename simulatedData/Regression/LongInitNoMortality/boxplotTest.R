@@ -47,76 +47,79 @@ dataC$aValue[dataC$aValue==2.048 | dataC$aValue==4.096 | dataC$aValue==8.192 | d
 data_AllDisp <- rbind(dataA, dataB, dataC)
 disp008<- data_all[which(data_all[,2]==2.048),]
 
-# BOXPLOTS
-# K-value and landscape type
-pdf("K-pop.pdf")
-plot(data$KValue, data$PopulationAtShiftEnd, ylab="Population density")
-points(data$KValue, data$PopulationAtShiftStart, ylab="Population density", col="blue")
-dev.off()
-
-pdf("K-landscape.pdf")
-plot(data$LandscapeType, data$KValue, ylab="K-value")
-dev.off()
-
-
-# Population density at different times
-p <- ggplot(data=disp008, aes(x=time, y=popDensity))+ facet_grid(aValue+Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Population density") + theme(axis.text = element_text(size = 12), axis.title=element_text(size=14)) 
-
-ggsave(file="boxplot_density_disp2048.pdf", width=16, height=10, useDingbats=FALSE)
-
-##################
-
-
-# Patch occupancy at different times
-p <- ggplot(data=data_all_patches, aes(x=time, y=patchesOccupied))+ facet_grid(aValue~LandscapeType)
-p <- p + geom_boxplot(color= c("darkblue", "darkred", "darkblue"), fill=c("white", "white", "white"),  outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Occupied habitat patches") + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) + ggtitle("Number of patches occupied")
-
-ggsave(file="boxplot_patches.pdf", width=16, height=10, useDingbats=FALSE)
-
-# Population density at shift start
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtShiftStart))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_densityShiftStart.pdf", width=20, height=8, useDingbats=FALSE)
-
-# Population density at shift end
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtShiftEnd))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_densityShiftEnd.pdf", width=20, height=8, useDingbats=FALSE)
-
-# Population density at simulation end
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtSimEnd))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_densitySimEnd.pdf", width=20, height=8, useDingbats=FALSE)
-
-# Patches at shift start
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtShiftStart))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_patchesShiftStart.pdf", width=20, height=8, useDingbats=FALSE)
-
-# Patches at shift end
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtShiftEnd))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_patchesShiftEnd.pdf", width=20, height=8, useDingbats=FALSE)
-
-# Patches at simulation end
-p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtSimEnd))+ facet_grid(Simlength~LandscapeType)
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplot_patchesSimEnd.pdf", width=20, height=8, useDingbats=FALSE)
-
-
-
-
-# New boxplots
-p <- ggplot(data=data, aes(factor(LandscapeType), data$PopulationAtShiftEnd/data$PopulationAtShiftStart))#+ facet_grid(Simlength~aValue)
-#boxplots
-p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Number of traits",y = "Overlap")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
-ggsave(file="boxplots_landscapes.pdf", width=20, height=8, useDingbats=FALSE)
+# # BOXPLOTS
+# # K-value and landscape type
+# pdf("K-pop.pdf")
+# plot(data$KValue, data$PopulationAtShiftEnd, ylab="Population density")
+# points(data$KValue, data$PopulationAtShiftStart, ylab="Population density", col="blue")
+# dev.off()
+# 
+# pdf("K-landscape.pdf")
+# plot(data$LandscapeType, data$KValue, ylab="K-value")
+# dev.off()
+# 
+# 
+# # Population density at different times
+# p <- ggplot(data=disp008, aes(x=time, y=popDensity))+ facet_grid(aValue+Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Population density") + theme(axis.text = element_text(size = 12), axis.title=element_text(size=14)) 
+# 
+# ggsave(file="boxplot_density_disp2048.pdf", width=16, height=10, useDingbats=FALSE)
+# 
+# ##################
+# 
+# 
+# # Patch occupancy at different times
+# p <- ggplot(data=data_all_patches, aes(x=time, y=patchesOccupied))+ facet_grid(aValue~LandscapeType)
+# p <- p + geom_boxplot(color= c("darkblue", "darkred", "darkblue"), fill=c("white", "white", "white"),  outlier.colour = "black", outlier.size = 1) +  labs(x="Time in simulation", y = "Occupied habitat patches") + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) + ggtitle("Number of patches occupied")
+# 
+# ggsave(file="boxplot_patches.pdf", width=16, height=10, useDingbats=FALSE)
+# 
+# # Population density at shift start
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtShiftStart))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_densityShiftStart.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# # Population density at shift end
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtShiftEnd))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_densityShiftEnd.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# # Population density at simulation end
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PopulationAtSimEnd))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_densitySimEnd.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# # Patches at shift start
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtShiftStart))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_patchesShiftStart.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# # Patches at shift end
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtShiftEnd))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_patchesShiftEnd.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# # Patches at simulation end
+# p <- ggplot(data=data_new, aes(factor(aValue), data_new$PatchesAtSimEnd))+ facet_grid(Simlength~LandscapeType)
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Time in simulation",y = "Population density")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplot_patchesSimEnd.pdf", width=20, height=8, useDingbats=FALSE)
+# 
+# 
+# 
+# 
+# # New boxplots
+# p <- ggplot(data=data, aes(factor(LandscapeType), data$PopulationAtShiftEnd/data$PopulationAtShiftStart))#+ facet_grid(Simlength~aValue)
+# #boxplots
+# p <- p + geom_boxplot(outlier.colour = "black", outlier.size = 1, fill="grey")  +  labs(x="Number of traits",y = "Overlap")+theme_bw() + theme(axis.text = element_text(size = 14), axis.title=element_text(size=16)) 
+# ggsave(file="boxplots_landscapes.pdf", width=20, height=8, useDingbats=FALSE)
 
 
 # mean density
 landscape <- c("2", "6A", "6B", "6C")
-speed <- c(20,80,160)
+# original:
+#speed <- c(20,80,160) # this is the number of time steps the climatic shift is happening over -> lower number = faster speed
+# reordered
+speed <- c(160,80,20) # this is the number of time steps the climatic shift is happening over -> lower number = faster speed
 dispersal <- c(0.008, 0.064, 0.256, 2.048)
 ResultAll <- matrix(NA,4,12)
 ResultAll_median <- matrix(NA,4,12)
@@ -151,8 +154,10 @@ for(i in 1:length(landscape)){
     new_set <- part$fraction
    # print(new_set)
   #  readline(prompt="Press [enter] to continue")
-    
+    print(y)
     Res[j,y] <- mean(new_set)
+    print(Res)
+    
     Res_median[j,y] <- median(new_set)
     Res_sd[j,y] <- sd(new_set)
     
@@ -186,7 +191,10 @@ colnames(ResultAll)<- c("2_A", "2_B", "2_C", "6A_A", "6A_B", "6A_C", "6B_A", "6B
 rownames(ResultAll)<- c("L", "M1", "M2", "H")
 write.csv(round(ResultAll, 2), "ResultAll_mean_ShiftEnd.csv")
 
-colnames(ResultAll_median)<- c("2_A", "2_B", "2_C", "6A_A", "6A_B", "6A_C", "6B_A", "6B_B", "6B_C", "6C_A", "6C_B", "6C_C")
+colnames(ResultAll_median)<- c("2_A", "2_B", "2_C", "6A_A", "6A_B", "6A_C", "6B_A", "6B_B", "6B_C", "6C_A", "6C_B", "6C_C") ###original one, probably speeds are named in wrong order
+
+#colnames(ResultAll_median)<- c("2_f", "2_m", "2_s", "6A_f", "6A_m", "6A_s", "6B_f", "6B_m", "6B_s", "6C_f", "6C_m", "6C_s")
+
 rownames(ResultAll_median)<- c("L", "M1", "M2", "H")
 write.csv(round(ResultAll_median,2), "ResultAll_median_ShiftEnd.csv")
 
@@ -198,7 +206,8 @@ pdf("image.pdf")
 image(ResultAll, axes=FALSE, lwd=0)
 
 mtext(text=c("L", "M1", "M2", "H"), side=1, line=0.3, at=c(0,0.35,0.7,1), las=1, cex=1.2)
-mtext(text=c("2_A", "2_B", "2_C", "6A_A", "6A_B", "6A_C", "6B_A", "6B_B", "6B_C", "6C_A", "6C_B", "6C_C"), side=2, line=0.3, at=c(seq(0, 1, length.out = 12)), las=1, cex=1.2)
+#mtext(text=c("2_f", "2_m", "2_s", "6A_f", "6A_m", "6A_s", "6B_f", "6B_m", "6B_s", "6C_f", "6C_m", "6C_s"), side=2, line=0.3, at=c(seq(0, 1, length.out = 12)), las=1, cex=1.2)
+mtext(text=c("2_A", "2_B", "2_C", "6A_A", "6A_B", "6A_C", "6B_A", "6B_B", "6B_C", "6C_A", "6C_B", "6C_C"), side=2, line=0.3, at=c(seq(0, 1, length.out = 12)), las=1, cex=1.2)  # original one, probably speeds are named in wrong order
 
 dev.off()
 

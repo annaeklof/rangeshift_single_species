@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{56}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Angert \emph{et~al.}(2011)Angert, Crozier, Rissler, Gilman, Tewksbury
@@ -75,6 +75,13 @@ Doerr, V.A.J., Barrett, T. \& Doerr, E.D. (2011).
   change: a response to Hodgson et al.}
 \newblock \emph{J. Appl. Ecol.}, 48, 143--147.
 
+\bibitem[{Donaldson \emph{et~al.}(2017)Donaldson, Wilson \&
+  Maclean}]{Donaldson2017}
+Donaldson, L., Wilson, R.J. \& Maclean, I.M.D. (2017).
+\newblock {Old concepts, new challenges: adapting landscape-scale conservation
+  to the twenty-first century}.
+\newblock \emph{Biodivers. Conserv.}, 26, 527--552.
+
 \bibitem[{Ehrl{\'{e}}n \& Morris(2015)}]{Ehrlen2015}
 Ehrl{\'{e}}n, J. \& Morris, W.F. (2015).
 \newblock {Predicting changes in the distribution and abundance of species
@@ -109,6 +116,13 @@ Hanski, I. (2011).
 Hellmann, J.J., Byers, J.E., Bierwagen, B.G. \& Dukes, J.S. (2008).
 \newblock {Five Potential Consequences of Climate Change for Invasive Species}.
 \newblock \emph{Conserv. Biol.}, 22, 534--543.
+
+\bibitem[{Hodgson \emph{et~al.}(2012)Hodgson, Thomas, Dytham, Travis \&
+  Cornell}]{Hodgson2012}
+Hodgson, J.A., Thomas, C.D., Dytham, C., Travis, J.M.J. \& Cornell, S.J.
+  (2012).
+\newblock {The Speed of Range Shifts in Fragmented Landscapes}.
+\newblock \emph{PLoS One}, 7, e47141.
 
 \bibitem[{Hoffmann \& Sgr{\`{o}}(2011)}]{Hoffmann2011}
 Hoffmann, A.A. \& Sgr{\`{o}}, C.M. (2011).
@@ -173,6 +187,12 @@ Martin, A.E. \& Fahrig, L. (2016).
   extinction risk in human-altered landscapes}.
 \newblock \emph{Funct. Ecol.}, 30, 1558 -- 1567.
 
+\bibitem[{McCarthy \emph{et~al.}(2011)McCarthy, Thompson, Moore \&
+  Possingham}]{McCarthy2011}
+McCarthy, M.A., Thompson, C.J., Moore, A.L. \& Possingham, H.P. (2011).
+\newblock {Designing nature reserves in the face of uncertainty}.
+\newblock \emph{Ecol. Lett.}, 14, 470--475.
+
 \bibitem[{Melbourne \& Hastings(2008)}]{Melbourne2008}
 Melbourne, B.A. \& Hastings, A. (2008).
 \newblock {Extinction risk depends strongly on factors contributing to
@@ -185,6 +205,11 @@ Melles, S.J., Fortin, M.J., Lindsay, K. \& Badzinski, D. (2011).
 \newblock {Expanding northward: influence of climate change, forest
   connectivity, and population processes on a threatened species' range shift}.
 \newblock \emph{Glob. Chang. Biol.}, 17, 17--31.
+
+\bibitem[{Nathan(2006)}]{Nathan2006}
+Nathan, R. (2006).
+\newblock {Long-distance dispersal of plants.}
+\newblock \emph{Science}, 313, 786--8.
 
 \bibitem[{Parmesan \& Yohe(2003)}]{Parmesan2003}
 Parmesan, C. \& Yohe, G. (2003).
