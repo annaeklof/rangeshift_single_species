@@ -218,6 +218,7 @@ dev.off()
 
 # correlation plot
 col4 <- colorRampPalette(c("darkred", "red","lightblue", "darkblue"))
+#col4 <- colorRampPalette(c("grey"))
 pdf("corrplot_simEnd.pdf")
 adjRes <- ResultAll_median#mean(ResultAll)
 corrplot(adjRes, is.corr=FALSE, tl.col="black", col=col4(20), cl.lim=c(0,2))

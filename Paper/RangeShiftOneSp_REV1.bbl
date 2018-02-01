@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{63}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Angert \emph{et~al.}(2011)Angert, Crozier, Rissler, Gilman, Tewksbury
@@ -62,6 +62,13 @@ Chivers, W.J., Walne, A.W. \& Hays, G.C. (2017).
 \newblock {Mismatch between marine plankton range movements and the velocity of
   climate change.}
 \newblock \emph{Nat. Commun.}, 8, 14434.
+
+\bibitem[{Collingham \emph{et~al.}(1996)Collingham, Hill \&
+  Huntley}]{Collingham1996}
+Collingham, Y.C., Hill, M.O. \& Huntley, B. (1996).
+\newblock {The migration of sessile organisms: a simulation model with
+  measurable parameters}.
+\newblock \emph{J. Veg. Sci.}, 7, 831--846.
 
 \bibitem[{De'ath \& Fabricius(2000)}]{Death2000}
 De'ath, G. \& Fabricius, K.E. (2000).
@@ -128,6 +135,13 @@ Hodgson, J.A., Thomas, C.D., Dytham, C., Travis, J.M.J. \& Cornell, S.J.
 Hoffmann, A.A. \& Sgr{\`{o}}, C.M. (2011).
 \newblock {Climate change and evolutionary adaptation.}
 \newblock \emph{Nature}, 470, 479--85.
+
+\bibitem[{Hovestadt \emph{et~al.}(2001)Hovestadt, Messner \&
+  Poethke}]{Hovestadt2001}
+Hovestadt, T., Messner, S. \& Poethke, H.J. (2001).
+\newblock {Evolution of reduced dispersal mortality and 'fat-tailed' dispersal
+  kernels in autocorrelated landscapes.}
+\newblock \emph{Proceedings. Biol. Sci.}, 268, 385--91.
 
 \bibitem[{{Joern Fischer}(2006)}]{JoernFischer2006}
 {Joern Fischer}, D.B.L. (2006).
@@ -206,6 +220,14 @@ Melles, S.J., Fortin, M.J., Lindsay, K. \& Badzinski, D. (2011).
   connectivity, and population processes on a threatened species' range shift}.
 \newblock \emph{Glob. Chang. Biol.}, 17, 17--31.
 
+\bibitem[{Midgley \emph{et~al.}(2010)Midgley, Davies, Albert, Altwegg, Hannah,
+  Hughes, O'Halloran, Seo, Thorne \& Thuiller}]{Midgley2010}
+Midgley, G.F., Davies, I.D., Albert, C.H., Altwegg, R., Hannah, L., Hughes,
+  G.O., O'Halloran, L.R., Seo, C., Thorne, J.H. \& Thuiller, W. (2010).
+\newblock {BioMove - an integrated platform simulating the dynamic response of
+  species to environmental change}.
+\newblock \emph{Ecography (Cop.).}, 33, 612----616.
+
 \bibitem[{Nathan(2006)}]{Nathan2006}
 Nathan, R. (2006).
 \newblock {Long-distance dispersal of plants.}
@@ -233,10 +255,22 @@ Peterson, A., S{\'{a}}nchez-Cordero, V., Sober{\'{o}}n, J., Bartley, J.,
   Mexican Cracidae}.
 \newblock \emph{Ecol. Modell.}, 144, 21--30.
 
+\bibitem[{Phillips \emph{et~al.}(2008)Phillips, Williams, Midgley \&
+  Archer}]{Phillips2008}
+Phillips, S.J., Williams, P., Midgley, G. \& Archer, A. (2008).
+\newblock {OPTIMIZING DISPERSAL CORRIDORS FOR THE CAPE PROTEACEAE USING NETWORK
+  FLOW}.
+\newblock \emph{Ecol. Appl.}, 18, 1200--1211.
+
 \bibitem[{Pielke(2005)}]{Pielke2005}
 Pielke, R.A. (2005).
 \newblock {Atmospheric science. Land use and climate change.}
 \newblock \emph{Science}, 310, 1625--6.
+
+\bibitem[{Ricker(1954)}]{Ricker1954}
+Ricker, W.E. (1954).
+\newblock {Stock and Recruitment}.
+\newblock \emph{J. Fish. Res. Board Canada}, 11, 559--623.
 
 \bibitem[{Schloss \emph{et~al.}(2012)Schloss, Nu{\~{n}}ez \&
   Lawler}]{Schloss2012a}
@@ -244,6 +278,11 @@ Schloss, C.A., Nu{\~{n}}ez, T.A. \& Lawler, J.J. (2012).
 \newblock {Dispersal will limit ability of mammals to track climate change in
   the Western Hemisphere}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109, 8606--8611.
+
+\bibitem[{Schumaker(2013)}]{Schumaker2013}
+Schumaker, N. (2013).
+\newblock {HexSim (Version 2.4)}.
+\newblock Tech. rep.
 
 \bibitem[{Sentis \emph{et~al.}(2015)Sentis, Morisson \& Boukal}]{Sentis2015}
 Sentis, A., Morisson, J. \& Boukal, D.S. (2015).
@@ -360,6 +399,14 @@ Wiens, J.A., Stralberg, D., Jongsomjit, D., Howell, C.A. \& Snyder, M.A.
 \newblock {Niches, models, and climate change: assessing the assumptions and
   uncertainties.}
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106, 19729--36.
+
+\bibitem[{Williams \emph{et~al.}(2005)Williams, Hannah, Andelman, Midgley,
+  Ara{\'{u}}jo, Hughes, Manne, Martinez-Meyer \& Pearson}]{Williams2005}
+Williams, P., Hannah, L., Andelman, S., Midgley, G.F., Ara{\'{u}}jo, M.B.,
+  Hughes, G., Manne, L., Martinez-Meyer, E. \& Pearson, R. (2005).
+\newblock {Planning for Climate Change: Identifying Minimum-Dispersal Corridors
+  for the Cape Proteaceae}.
+\newblock \emph{Conserv. Biol.}, 19, 1063--1074.
 
 \bibitem[{Zurell \emph{et~al.}(2009)Zurell, Jeltsch, Dormann \&
   Schr{\"{o}}der}]{Zurell2009}

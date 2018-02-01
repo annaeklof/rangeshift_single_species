@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JAN 2018 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 FEB 2018 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,125 +384,132 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [15] [16] [17] [18] [19] [20]
-Overfull \hbox (27.75316pt too wide) in paragraph at lines 217--218
-\OT1/cmr/m/n/12 TAT AG-GRE-GA-TION FOR SPECIES WITH CER-TAIN DIS-PER-SAL KER-NE
-LS/ABILTIES.
- []
-
+[21]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ¦ in font cmr12!
-[21] [22] [23] [24] (./RangeShiftOneSp_REV1.bbl [25]
+ [22] [23] [24] (./RangeShiftOneSp_REV1.bbl [25] [26]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
- [26] [27] [28] [29]
-[30] [31] [32]) [33]
+ [27] [28] [29]
+[30] [31] [32] [33]) [34]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [34
+ [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-[35
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+[36
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-[36]
+[37]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[37] [38] <../Figures/homo.png, id=141, 693.3102pt x 286.671pt>
+[38]
+<../Figures/PlotWithLegendsMini_4mammals.pdf, id=141, 289.08pt x 289.08pt>
+File: ../Figures/PlotWithLegendsMini_4mammals.pdf Graphic file (type pdf)
+
+<use ../Figures/PlotWithLegendsMini_4mammals.pdf>
+Package pdftex.def Info: ../Figures/PlotWithLegendsMini_4mammals.pdf used on in
+put line 251.
+(pdftex.def)             Requested size: 433.62pt x 433.64098pt.
+ [39
+
+ <../Figures/PlotWithLegendsMini_4mammals.pdf>] <../Figures/homo.png, id=162, 6
+93.3102pt x 286.671pt>
 File: ../Figures/homo.png Graphic file (type png)
 
 <use ../Figures/homo.png>
-Package pdftex.def Info: ../Figures/homo.png used on input line 305.
+Package pdftex.def Info: ../Figures/homo.png used on input line 295.
 (pdftex.def)             Requested size: 505.89pt x 209.18059pt.
 
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 305--306
- [] 
- []
-
-[39
-
- <../Figures/homo.png>]
-<../Figures/hetero.png, id=147, 685.1196pt x 286.671pt>
-File: ../Figures/hetero.png Graphic file (type png)
-
-<use ../Figures/hetero.png>
-Package pdftex.def Info: ../Figures/hetero.png used on input line 313.
-(pdftex.def)             Requested size: 505.89pt x 211.68266pt.
-
-Overfull \hbox (50.64592pt too wide) in paragraph at lines 313--314
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 295--296
  [] 
  []
 
 [40
 
+ <../Figures/homo.png>]
+<../Figures/hetero.png, id=168, 685.1196pt x 286.671pt>
+File: ../Figures/hetero.png Graphic file (type png)
+
+<use ../Figures/hetero.png>
+Package pdftex.def Info: ../Figures/hetero.png used on input line 303.
+(pdftex.def)             Requested size: 505.89pt x 211.68266pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 303--304
+ [] 
+ []
+
+[41
+
  <../Figures/hetero.png>]
-<../Figures/DensityFigHomo.pdf, id=152, 845.1575pt x 597.23125pt>
+<../Figures/DensityFigHomo.pdf, id=173, 845.1575pt x 597.23125pt>
 File: ../Figures/DensityFigHomo.pdf Graphic file (type pdf)
 
 <use ../Figures/DensityFigHomo.pdf>
-Package pdftex.def Info: ../Figures/DensityFigHomo.pdf used on input line 323.
-(pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
- [41
-
- <../Figures/DensityFigHomo.pdf>]
-<../Figures/DensityFigHetero.pdf, id=403, 845.1575pt x 597.23125pt>
-File: ../Figures/DensityFigHetero.pdf Graphic file (type pdf)
-
-<use ../Figures/DensityFigHetero.pdf>
-Package pdftex.def Info: ../Figures/DensityFigHetero.pdf used on input line 333
-.
+Package pdftex.def Info: ../Figures/DensityFigHomo.pdf used on input line 313.
 (pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
  [42
 
+ <../Figures/DensityFigHomo.pdf>]
+<../Figures/DensityFigHetero.pdf, id=424, 845.1575pt x 597.23125pt>
+File: ../Figures/DensityFigHetero.pdf Graphic file (type pdf)
+
+<use ../Figures/DensityFigHetero.pdf>
+Package pdftex.def Info: ../Figures/DensityFigHetero.pdf used on input line 323
+.
+(pdftex.def)             Requested size: 578.15999pt x 408.56326pt.
+ [43
+
  <../Figures/DensityFigHetero.pdf>]
-Overfull \hbox (31.48242pt too wide) in paragraph at lines 350--390
+Overfull \hbox (31.48242pt too wide) in paragraph at lines 340--380
  [][] 
  []
 
 
-Overfull \hbox (5.34178pt too wide) in paragraph at lines 394--416
+Overfull \hbox (5.34178pt too wide) in paragraph at lines 384--406
  [][] 
  []
 
-[43] (./RangeShiftOneSp_REV1.aux) ) 
+[44] (./RangeShiftOneSp_REV1.aux) ) 
 Here is how much of TeX's memory you used:
- 5071 strings out of 493089
- 74884 string characters out of 6134842
- 146674 words of memory out of 5000000
- 8472 multiletter control sequences out of 15000+600000
+ 5097 strings out of 493089
+ 75530 string characters out of 6134842
+ 147184 words of memory out of 5000000
+ 8497 multiletter control sequences out of 15000+600000
  13965 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,40p,2446b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,40p,2715b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
@@ -522,10 +529,10 @@ cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on RangeShiftOneSp_REV1.pdf (43 pages, 630534 bytes).
+Output written on RangeShiftOneSp_REV1.pdf (44 pages, 683182 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
+ 594 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

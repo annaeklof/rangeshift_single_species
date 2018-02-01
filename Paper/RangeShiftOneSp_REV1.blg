@@ -3,46 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RangeShiftOneSp_REV1.aux
 The style file: ecollett.bst
 Database file #1: ../../../../bibtexFiles/RangeShiftMS.bib
+Warning--missing institution in Schumaker2013
 Warning--missing institution in Stocker2013
-You've used 56 entries,
+You've used 63 entries,
             2997 wiz_defined-function locations,
-            1024 strings with 17059 characters,
-and the built_in function-call counts, 37927 in all, are:
-= -- 2982
-> -- 2136
-< -- 21
-+ -- 815
-- -- 759
-* -- 3194
-:= -- 6183
-add.period$ -- 168
-call.type$ -- 56
-change.case$ -- 532
-chr.to.int$ -- 56
-cite$ -- 57
-duplicate$ -- 2421
-empty$ -- 2407
-format.name$ -- 945
-if$ -- 7106
+            1072 strings with 18567 characters,
+and the built_in function-call counts, 42570 in all, are:
+= -- 3344
+> -- 2398
+< -- 23
++ -- 915
+- -- 852
+* -- 3581
+:= -- 6946
+add.period$ -- 189
+call.type$ -- 63
+change.case$ -- 599
+chr.to.int$ -- 63
+cite$ -- 65
+duplicate$ -- 2718
+empty$ -- 2699
+format.name$ -- 1055
+if$ -- 7969
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 589
-newline$ -- 284
-num.names$ -- 224
-pop$ -- 1013
+missing$ -- 662
+newline$ -- 319
+num.names$ -- 252
+pop$ -- 1141
 preamble$ -- 1
-purify$ -- 477
+purify$ -- 536
 quote$ -- 0
-skip$ -- 624
+skip$ -- 702
 stack$ -- 0
-substring$ -- 1960
-swap$ -- 1416
+substring$ -- 2200
+swap$ -- 1590
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 498
-warning$ -- 1
-while$ -- 272
+type$ -- 561
+warning$ -- 2
+while$ -- 305
 width$ -- 0
-write$ -- 728
-(There was 1 warning)
+write$ -- 818
+(There were 2 warnings)
