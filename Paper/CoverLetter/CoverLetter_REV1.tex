@@ -1,0 +1,65 @@
+\documentclass[11pt,stdletter,letterpaper]{newlfm}
+\usepackage{charter}
+\usepackage{graphicx}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newsavebox{\Luiuc}
+\sbox{\Luiuc}{
+  \parbox[b]{3.75in}{%
+    \vspace{0.5in}%
+    \includegraphics[scale=0.5]{LiU_primary_black.png}\\
+                   % {\footnotesize \textsc{Department of Physics, Chemistry \& Biology, \\Group of Theoretical Biology}}
+	}
+}
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newsavebox{\Sigx}
+\sbox{\Sigx}{}
+\signature{\usebox{\Sigx}}%
+
+\newlfmP{headermarginskip=10pt}
+\newlfmP{sigsize=20pt}
+\newlfmP{dateskipafter=10pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+\lthUiuc
+
+\namefrom{Anna Ekl\"of}
+\addrfrom{$\,$\\Department of Physics, Chemistry \& Biology\\Link\"oping University\\581 83 Link\"oping , SWEDEN}
+\phonefrom{+46 13 28 26 84}
+\emailfrom{anna.eklof@liu.se}
+
+\addrto{}
+
+
+\newcommand{\mytitle}{\emph{Conditions for successful range shifts under climate change -- the role of species dispersal and landscape configuration }}
+\newcommand{\myjournal}{\emph{Diversity and Distributions}}
+
+\begin{document}
+\begin{newlfm}
+Dear Prof. Franklin,\\
+
+My co-authors and I are pleased to submit an updated version of manuscript \mytitle for publication in \myjournal. 
+
+
+Thank you very much for handling our manuscript, and we are particularly grateful for the subject editor taking time to give detailed feedback. We were extremely pleased to see
+that the Referees appreciated our work, and we were very pleased with the quality of the
+comments. We think that the suggestions made by the Referee and the Editor helped us strengthen
+our contribution. All the comments were useful and well-thought, and we have taken
+them all into considerations. Please see our point-by-point response to the Referees
+suggestions.
+
+Because of this, we hope that you will agree that our manuscript merits publication in \myjournal. We look forward to your response.
+
+
+
+\flushright {Best Regards,}
+\end{newlfm}
+\end{document}
+
+

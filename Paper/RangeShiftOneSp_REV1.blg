@@ -7,43 +7,43 @@ Warning--missing institution in Schumaker2013
 Warning--missing institution in Stocker2013
 You've used 63 entries,
             2997 wiz_defined-function locations,
-            1072 strings with 18567 characters,
-and the built_in function-call counts, 42570 in all, are:
+            1069 strings with 18481 characters,
+and the built_in function-call counts, 42432 in all, are:
 = -- 3344
-> -- 2398
-< -- 23
-+ -- 915
-- -- 852
-* -- 3581
-:= -- 6946
+> -- 2374
+< -- 24
++ -- 906
+- -- 843
+* -- 3562
+:= -- 6921
 add.period$ -- 189
 call.type$ -- 63
-change.case$ -- 599
+change.case$ -- 596
 chr.to.int$ -- 63
 cite$ -- 65
-duplicate$ -- 2718
-empty$ -- 2699
-format.name$ -- 1055
-if$ -- 7969
+duplicate$ -- 2711
+empty$ -- 2696
+format.name$ -- 1048
+if$ -- 7947
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 662
+missing$ -- 659
 newline$ -- 319
 num.names$ -- 252
-pop$ -- 1141
+pop$ -- 1135
 preamble$ -- 1
-purify$ -- 536
+purify$ -- 533
 quote$ -- 0
 skip$ -- 702
 stack$ -- 0
-substring$ -- 2200
-swap$ -- 1590
+substring$ -- 2207
+swap$ -- 1583
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 561
 warning$ -- 2
-while$ -- 305
+while$ -- 306
 width$ -- 0
 write$ -- 818
 (There were 2 warnings)
