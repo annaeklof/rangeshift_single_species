@@ -1,0 +1,59 @@
+\documentclass[11pt,stdletter,letterpaper]{newlfm}
+\usepackage{charter}
+\usepackage{graphicx}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newsavebox{\Luiuc}
+\sbox{\Luiuc}{
+  \parbox[b]{3.75in}{%
+    \vspace{0.5in}%
+    \includegraphics[scale=0.5]{LiU_primary_black.png}\\
+                   % {\footnotesize \textsc{Department of Physics, Chemistry \& Biology, \\Group of Theoretical Biology}}
+	}
+}
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newsavebox{\Sigx}
+\sbox{\Sigx}{}
+\signature{\usebox{\Sigx}}%
+
+\newlfmP{headermarginskip=10pt}
+\newlfmP{sigsize=20pt}
+\newlfmP{dateskipafter=10pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+\lthUiuc
+
+\namefrom{Anna Ekl\"of}
+\addrfrom{$\,$\\Department of Physics, Chemistry \& Biology\\Link\"oping University\\581 83 Link\"oping , SWEDEN}
+\phonefrom{+46 13 28 26 84}
+\emailfrom{anna.eklof@liu.se}
+
+\addrto{}
+
+
+\newcommand{\mytitle}{\emph{Conditions for successful range shifts under climate change -- the role of species dispersal and landscape configuration }}
+\newcommand{\myjournal}{\emph{Diversity and Distributions}}
+
+\begin{document}
+\begin{newlfm}
+Dear Prof. Franklin,\\
+
+Thank you very much for handling our manuscript. My co-authors and I are pleased to submit an updated version of manuscript \mytitle for publication in \myjournal. 
+
+ We have now addressd all the minor, but utterly important, comments that the Referees pointed out. We attach point-by-point response to the Referees suggestions.
+
+We hope that you agree that our manuscript merits publication in \myjournal and we look forward to your response.
+
+
+
+\flushright {Best Regards,}
+\end{newlfm}
+\end{document}
+
+
