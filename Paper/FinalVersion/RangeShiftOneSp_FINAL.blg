@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: RangeShiftOneSp_FINAL.aux
+The style file: ecography.bst
+Database file #1: RangeShiftMS.bib
+Warning--missing institution in Schumaker2013
+Warning--missing institution in Stocker2013
+You've used 63 entries,
+            2668 wiz_defined-function locations,
+            1015 strings with 18177 characters,
+and the built_in function-call counts, 34722 in all, are:
+= -- 3360
+> -- 1235
+< -- 24
++ -- 582
+- -- 354
+* -- 2158
+:= -- 5802
+add.period$ -- 189
+call.type$ -- 63
+change.case$ -- 394
+chr.to.int$ -- 63
+cite$ -- 65
+duplicate$ -- 2285
+empty$ -- 2429
+format.name$ -- 559
+if$ -- 6883
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 496
+newline$ -- 319
+num.names$ -- 252
+pop$ -- 857
+preamble$ -- 1
+purify$ -- 331
+quote$ -- 0
+skip$ -- 969
+stack$ -- 0
+substring$ -- 2207
+swap$ -- 1095
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 561
+warning$ -- 2
+while$ -- 306
+width$ -- 0
+write$ -- 879
+(There were 2 warnings)
